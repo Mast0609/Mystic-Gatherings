@@ -145,6 +145,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "DropSlotsT1"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -6,6 +6,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -27,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.mysticgatherings.world.inventory.Tier1RitualCircleGUIMenu;
+import net.mcreator.mysticgatherings.procedures.DropSlotsT1Procedure;
 import net.mcreator.mysticgatherings.block.entity.Tier1RitualCircleBlockEntity;
 
 import io.netty.buffer.Unpooled;
@@ -54,6 +56,13 @@ public class Tier1RitualCircleBlock extends Block implements EntityBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return box(-8, 0, -8, 24, 2, 24);
+	}
+
+	@Override
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
+		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+		DropSlotsT1Procedure.execute(entity);
+		return retval;
 	}
 
 	@Override
