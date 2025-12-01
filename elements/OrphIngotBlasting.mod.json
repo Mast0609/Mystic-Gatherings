@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "mysticgatherings",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:RawOrph"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawOrph"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:OrphIngot"
+    },
+    "name": "orph_ingot_blasting",
+    "namespace": "mod"
+  }
+}

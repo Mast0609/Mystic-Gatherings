@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "mysticgatherings",
+  "category": "misc",
+  "experience": 2,
+  "cookingtime": 400,
+  "ingredient": "mystic_gatherings:raw_orph",
+  "result": {
+    "id": "mystic_gatherings:orph_ingot"
+  }
+}

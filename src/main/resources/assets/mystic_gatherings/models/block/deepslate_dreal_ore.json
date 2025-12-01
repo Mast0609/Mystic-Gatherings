@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mystic_gatherings:block/deepslatedrealore",
+    "particle": "mystic_gatherings:block/deepslatedrealore"
+  },
+  "render_type": "solid"
+}

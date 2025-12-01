@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mysticgatherings",
+  "category": "misc",
+  "ingredients": [
+    "mystic_gatherings:oxidized_dreal_block"
+  ],
+  "result": {
+    "id": "mystic_gatherings:dreal_ingot",
+    "count": 9
+  }
+}

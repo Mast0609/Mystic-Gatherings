@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 9,
+    "group": "mysticgatherings",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:DrealBlock"
+      },
+      {
+        "value": "CUSTOM:WeatheredDrealBlock"
+      },
+      {
+        "value": "CUSTOM:OxidizedDrealBlock"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WeatheredDrealBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DrealIngot"
+    },
+    "name": "dreal_ingot_crafting_wea",
+    "namespace": "mod"
+  }
+}

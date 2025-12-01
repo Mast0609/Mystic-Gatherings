@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mysticgatherings",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": "minecraft:paper",
+    "b": "minecraft:sponge"
+  },
+  "result": {
+    "id": "mystic_gatherings:polishing_cloth",
+    "count": 4
+  }
+}

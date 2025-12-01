@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mysticgatherings",
+  "category": "misc",
+  "ingredients": [
+    "mystic_gatherings:raw_mystia",
+    "mystic_gatherings:polishing_cloth"
+  ],
+  "result": {
+    "id": "mystic_gatherings:polished_mystia",
+    "count": 1
+  }
+}

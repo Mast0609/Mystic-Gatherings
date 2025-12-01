@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "mysticgatherings",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:RawDreal"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.0,
+    "cookingTime": 150,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawDreal"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:DrealIngot"
+    },
+    "name": "dreal_ingot_blasting",
+    "namespace": "mod"
+  }
+}

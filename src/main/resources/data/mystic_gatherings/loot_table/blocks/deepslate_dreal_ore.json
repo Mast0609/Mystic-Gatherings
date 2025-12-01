@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mystic_gatherings:blocks/deepslate_dreal_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mystic_gatherings:raw_dreal",
+          "functions": [
+            {
+              "count": 3,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

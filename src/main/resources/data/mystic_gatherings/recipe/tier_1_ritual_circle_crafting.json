@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mysticgatherings",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": "mystic_gatherings:dreal_ingot",
+    "b": "minecraft:diamond",
+    "c": "mystic_gatherings:orph_ingot",
+    "d": "mystic_gatherings:polished_mystia"
+  },
+  "result": {
+    "id": "mystic_gatherings:tier_1_ritual_circle",
+    "count": 1
+  }
+}

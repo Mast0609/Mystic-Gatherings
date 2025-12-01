@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "mysticgatherings",
+  "category": "misc",
+  "experience": 2,
+  "cookingtime": 300,
+  "ingredient": "mystic_gatherings:raw_dreal",
+  "result": {
+    "id": "mystic_gatherings:dreal_ingot"
+  }
+}

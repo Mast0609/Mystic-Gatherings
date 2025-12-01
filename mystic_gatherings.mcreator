@@ -1,0 +1,1089 @@
+{
+  "mod_elements": [
+    {
+      "name": "RawOrph",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_orph",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/raw_orph.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/raw_orph.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/RawOrphItem.java"
+        ]
+      },
+      "path": "~/Orph Ore"
+    },
+    {
+      "name": "StoneOrphOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_orph_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/StoneOrphOreBlock.java",
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/stone_orph_ore_biome_modifier.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/stone_orph_ore.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/stone_orph_ore.json",
+          "src/main/resources/assets/mystic_gatherings/items/stone_orph_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/stone_orph_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/stone_orph_ore.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/stone_orph_ore.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stone_orph_ore.json"
+        ]
+      },
+      "path": "~/Orph Ore"
+    },
+    {
+      "name": "MysticGatherings",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystic_gatherings",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Orph Ore"
+    },
+    {
+      "name": "OrphIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/orph_ingot.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_ingot.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/OrphIngotItem.java"
+        ]
+      },
+      "path": "~/Orph Ore"
+    },
+    {
+      "name": "OrphIngotBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_ingot_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/orph_ingot_blasting.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/orph_ingot_blasting.json"
+        ]
+      },
+      "path": "~/Orph Ore"
+    },
+    {
+      "name": "OrphBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/orph_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/orph_block.json",
+          "src/main/resources/assets/mystic_gatherings/items/orph_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_block.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/OrphBlockBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/orph_block.json"
+        ]
+      },
+      "path": "~/Orph Ore"
+    },
+    {
+      "name": "OrphBlockCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/orph_block_crafting.json",
+          "src/main/resources/data/mystic_gatherings/recipe/orph_block_crafting.json"
+        ]
+      },
+      "path": "~/Orph Ore"
+    },
+    {
+      "name": "OrphIngotCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_ingot_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/orph_ingot_crafting.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/orph_ingot_crafting.json"
+        ]
+      },
+      "path": "~/Orph Ore"
+    },
+    {
+      "name": "DeepslateOrphOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_orph_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/deepslate_orph_ore_biome_modifier.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/deepslate_orph_ore.json",
+          "src/main/resources/assets/mystic_gatherings/items/deepslate_orph_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/deepslate_orph_ore.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/deepslate_orph_ore.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/DeepslateOrphOreBlock.java",
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/deepslate_orph_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/deepslate_orph_ore.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/deepslate_orph_ore.json"
+        ]
+      },
+      "path": "~/Orph Ore"
+    },
+    {
+      "name": "RawDreal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_dreal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/RawDrealItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/raw_dreal.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/raw_dreal.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "DrealIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/dreal_ingot.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_ingot.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/DrealIngotItem.java"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "StoneDrealOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_dreal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/stone_dreal_ore.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/stone_dreal_ore.json",
+          "src/main/resources/assets/mystic_gatherings/items/stone_dreal_ore.json",
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/stone_dreal_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/StoneDrealOreBlock.java",
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/stone_dreal_ore.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/stone_dreal_ore.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stone_dreal_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/stone_dreal_ore.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "DeepslateDrealOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_dreal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/deepslate_dreal_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/deepslate_dreal_ore.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/deepslate_dreal_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/deepslate_dreal_ore.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/DeepslateDrealOreBlock.java",
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/deepslate_dreal_ore_biome_modifier.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/deepslate_dreal_ore.json",
+          "src/main/resources/assets/mystic_gatherings/items/deepslate_dreal_ore.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/deepslate_dreal_ore.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "DrealBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/items/dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_block.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/DrealBlockBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/dreal_block.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/dreal_block.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "WeatheredDrealBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_dreal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/weathered_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/weathered_dreal_block.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/weathered_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/weathered_dreal_block.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/WeatheredDrealBlockBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/weathered_dreal_block.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "OxidizedDrealBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_dreal_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/OxidizedDrealBlockBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/oxidized_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/oxidized_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/oxidized_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/oxidized_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/items/oxidized_dreal_block.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "OrphIngotSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_ingot_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/orph_ingot_smelting.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/orph_ingot_smelting.json"
+        ]
+      },
+      "path": "~/Orph Ore"
+    },
+    {
+      "name": "DrealIngotSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_ingot_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/dreal_ingot_smelting.json",
+          "src/main/resources/data/mystic_gatherings/recipe/dreal_ingot_smelting.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "DrealIngotBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_ingot_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/dreal_ingot_blasting.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/dreal_ingot_blasting.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "DrealIngotCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_ingot_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/dreal_ingot_crafting.json",
+          "src/main/resources/data/mystic_gatherings/recipe/dreal_ingot_crafting_reg.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "DrealIngotCrafting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_ingot_crafting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/dreal_ingot_crafting_2.json",
+          "src/main/resources/data/mystic_gatherings/recipe/dreal_ingot_crafting_wea.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "DrealIngotCrafting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_ingot_crafting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/dreal_ingot_crafting_3.json",
+          "src/main/resources/data/mystic_gatherings/recipe/dreal_ingot_crafting_oxi.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "DrealBlockCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/dreal_block_crafting.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/dreal_block_crafting.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "WaxedDrealBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_dreal_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/WaxedDrealBlockBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/waxed_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/waxed_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/waxed_dreal_block.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/waxed_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/waxed_dreal_block.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "WaxedWeatheredDrealBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_weathered_dreal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/waxed_weathered_dreal_block.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/waxed_weathered_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/waxed_weathered_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/waxed_weathered_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/items/waxed_weathered_dreal_block.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/WaxedWeatheredDrealBlockBlock.java"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "WaxedOxidizedDrealBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waxed_oxidized_dreal_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/WaxedOxidizedDrealBlockBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/waxed_oxidized_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/waxed_oxidized_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/waxed_oxidized_dreal_block.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/waxed_oxidized_dreal_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/waxed_oxidized_dreal_block.json"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "RegToWeathered",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reg_to_weathered",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/RegToWeatheredProcedure.java"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "WeatheredToOxidized",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_to_oxidized",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/WeatheredToOxidizedProcedure.java"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "OxidizedToWeathered",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxidized_to_weathered",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/OxidizedToWeatheredProcedure.java"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "WeatheredToReg",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_to_reg",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/WeatheredToRegProcedure.java"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "WaxReg",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wax_reg",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/WaxRegProcedure.java"
+        ]
+      },
+      "path": "~/Dreal Ore"
+    },
+    {
+      "name": "RawMystia",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_mystia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/raw_mystia.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/RawMystiaItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/raw_mystia.json"
+        ]
+      },
+      "path": "~/Mystia Gem"
+    },
+    {
+      "name": "MystiaOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystia_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/mystia_ore.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/mystia_ore.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/MystiaOreBlock.java",
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/mystia_ore_biome_modifier.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/mystia_ore.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/mystia_ore.json"
+        ]
+      },
+      "path": "~/Mystia Gem"
+    },
+    {
+      "name": "PolishingCloth",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polishing_cloth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/polishing_cloth.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/PolishingClothItem.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/polishing_cloth.json"
+        ]
+      },
+      "path": "~/Mystia Gem"
+    },
+    {
+      "name": "PolishedMystia",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_mystia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_mystia.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/PolishedMystiaItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/polished_mystia.json"
+        ]
+      },
+      "path": "~/Mystia Gem"
+    },
+    {
+      "name": "PolishingClothCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polishing_cloth_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/polishing_cloth_crafting.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/polishing_cloth_crafting.json"
+        ]
+      },
+      "path": "~/Mystia Gem"
+    },
+    {
+      "name": "RawMystiaPolishing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_mystia_polishing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/raw_mystia_polishing.json",
+          "src/main/resources/data/mystic_gatherings/recipe/raw_mystia_polishing.json"
+        ]
+      },
+      "path": "~/Mystia Gem"
+    },
+    {
+      "name": "MystiaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystia_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/mystia_block.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/MystiaBlockBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/mystia_block.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/mystia_block.json",
+          "src/main/resources/assets/mystic_gatherings/items/mystia_block.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/mystia_block.json"
+        ]
+      },
+      "path": "~/Mystia Gem"
+    },
+    {
+      "name": "MystiaBlockCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystia_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/mystia_block_crafting.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/mystia_block_crafting.json"
+        ]
+      },
+      "path": "~/Mystia Gem"
+    },
+    {
+      "name": "PolishedMystiaCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_mystia_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/polished_mystia_crafting.json",
+          "src/main/resources/data/mystic_gatherings/recipe/polished_mystia_crafting.json"
+        ]
+      },
+      "path": "~/Mystia Gem"
+    },
+    {
+      "name": "Tier1RitualCircle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1_ritual_circle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/Tier1RitualCircleBlock.java",
+          "src/main/java/net/mcreator/mysticgatherings/block/entity/Tier1RitualCircleBlockEntity.java",
+          "src/main/resources/assets/mystic_gatherings/items/tier_1_ritual_circle.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/tier_1_ritual_circle.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/tier_1_ritual_circle.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/tier_1_ritual_circle.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/tier_1_ritual_circle.json"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "Tier2RitualCircle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_2_ritual_circle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/tier_2_ritual_circle.json",
+          "src/main/resources/assets/mystic_gatherings/items/tier_2_ritual_circle.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/tier_2_ritual_circle.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/Tier2RitualCircleBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/tier_2_ritual_circle.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/tier_2_ritual_circle.json"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual"
+    },
+    {
+      "name": "Tier1RitualCircleGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1_ritual_circle_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/client/gui/Tier1RitualCircleGUIScreen.java",
+          "src/main/java/net/mcreator/mysticgatherings/world/inventory/Tier1RitualCircleGUIMenu.java",
+          "src/main/java/net/mcreator/mysticgatherings/network/Tier1RitualCircleGUISlotMessage.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "ItemTakenFromOutputSlotT1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_taken_from_output_slot_t_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/ItemTakenFromOutputSlotT1Procedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "RitualCircleT2Conditions",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ritual_circle_t_2_conditions",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/RitualCircleT2ConditionsProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual/Recipes"
+    },
+    {
+      "name": "RecipesT1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_t_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/RecipesT1Procedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "DropSlotsT1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_slots_t_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/DropSlotsT1Procedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "Tier1RitualCircleCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1_ritual_circle_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/tier_1_ritual_circle_crafting.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/tier_1_ritual_circle_crafting.json"
+        ]
+      },
+      "path": "~/Ritual Circles"
+    },
+    {
+      "name": "AgriumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agrium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/agrium_ingot.json",
+          "src/main/resources/assets/mystic_gatherings/items/agrium_ingot.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/AgriumIngotItem.java"
+        ]
+      },
+      "path": "~/Alloys"
+    },
+    {
+      "name": "CaldonIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caldon_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/CaldonIngotItem.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/caldon_ingot.json",
+          "src/main/resources/assets/mystic_gatherings/items/caldon_ingot.json"
+        ]
+      },
+      "path": "~/Alloys"
+    },
+    {
+      "name": "AbarashIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abarash_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/abarash_ingot.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/AbarashIngotItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/abarash_ingot.json"
+        ]
+      },
+      "path": "~/Alloys"
+    },
+    {
+      "name": "VeritaIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verita_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/VeritaIngotItem.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/verita_ingot.json",
+          "src/main/resources/assets/mystic_gatherings/items/verita_ingot.json"
+        ]
+      },
+      "path": "~/Alloys"
+    },
+    {
+      "name": "BradishIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bradish_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/BradishIngotItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/bradish_ingot.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bradish_ingot.json"
+        ]
+      },
+      "path": "~/Alloys"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MystiaBlock",
+      "~CUSTOM:MystiaOre",
+      "~CUSTOM:WaxedOxidizedDrealBlock",
+      "~CUSTOM:WaxedWeatheredDrealBlock",
+      "~CUSTOM:WaxedDrealBlock",
+      "~CUSTOM:OxidizedDrealBlock",
+      "~CUSTOM:WeatheredDrealBlock",
+      "~CUSTOM:DrealBlock",
+      "~CUSTOM:DeepslateDrealOre",
+      "~CUSTOM:StoneDrealOre",
+      "~CUSTOM:DeepslateOrphOre",
+      "~CUSTOM:OrphBlock",
+      "~CUSTOM:StoneOrphOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:MystiaBlock",
+      "~CUSTOM:MystiaOre",
+      "~CUSTOM:WaxedOxidizedDrealBlock",
+      "~CUSTOM:WaxedWeatheredDrealBlock",
+      "~CUSTOM:WaxedDrealBlock",
+      "~CUSTOM:OxidizedDrealBlock",
+      "~CUSTOM:WeatheredDrealBlock",
+      "~CUSTOM:DrealBlock",
+      "~CUSTOM:DeepslateDrealOre",
+      "~CUSTOM:StoneDrealOre",
+      "~CUSTOM:DeepslateOrphOre",
+      "~CUSTOM:OrphBlock",
+      "~CUSTOM:StoneOrphOre"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:PolishingCloth"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.mystic_gatherings.raw_orph": "Raw Orph",
+      "item.mystic_gatherings.stone_orph_ore": "Stone Orph Ore",
+      "item_group.mystic_gatherings.mystic_gatherings": "Mystic Gatherings",
+      "item.mystic_gatherings.orph_block": "Orph Block",
+      "item.mystic_gatherings.deepslate_orph_ore": "Deepslate Orph Ore",
+      "item.mystic_gatherings.raw_dreal": "Raw Dreal",
+      "item.mystic_gatherings.stone_dreal_ore": "Stone Dreal Ore",
+      "item.mystic_gatherings.deepslate_dreal_ore": "Deepslate Dreal Ore",
+      "item.mystic_gatherings.dreal_block": "Dreal Block",
+      "item.mystic_gatherings.weathered_dreal_block": "Weathered Dreal Block",
+      "item.mystic_gatherings.oxidized_dreal_block": "Oxidized Dreal Block",
+      "item.mystic_gatherings.waxed_dreal_block": "Waxed Dreal Block",
+      "item.mystic_gatherings.waxed_weathered_dreal_block": "Waxed Weathered Dreal Block",
+      "item.mystic_gatherings.waxed_oxidized_dreal_block": "Waxed Oxidized Dreal Block",
+      "item.mystic_gatherings.raw_mystia": "Raw Mystia",
+      "item.mystic_gatherings.mystia_ore": "Mystia Ore",
+      "item.mystic_gatherings.polishing_cloth": "Polishing Cloth",
+      "item.mystic_gatherings.mystia_block": "Mystia Block",
+      "item.mystic_gatherings.tier_1_ritual_circle": "Tier 1 Ritual Circle",
+      "item.mystic_gatherings.tier_2_ritual_circle": "Tier 2 Ritual Circle",
+      "item.mystic_gatherings.orph_ingot": "Orph Ingot",
+      "item.mystic_gatherings.dreal_ingot": "Dreal Ingot",
+      "item.mystic_gatherings.polished_mystia": "Polished Mystia",
+      "item.mystic_gatherings.agrium_ingot": "Agrium Ingot",
+      "item.mystic_gatherings.caldon_ingot": "Caldon Ingot",
+      "item.mystic_gatherings.abarash_ingot": "Abarash Ingot",
+      "item.mystic_gatherings.verita_ingot": "Verita Ingot",
+      "item.mystic_gatherings.bradish_ingot": "Bradish Ingot"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/mysticgatherings/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModMenus.java",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModScreens.java",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModBlocks.java",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModBlockEntities.java",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModItems.java",
+      "src/main/java/net/mcreator/mysticgatherings/MysticGatheringsMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Orph Ore",
+        "children": []
+      },
+      {
+        "name": "Dreal Ore",
+        "children": []
+      },
+      {
+        "name": "Mystia Gem",
+        "children": []
+      },
+      {
+        "name": "Ritual Circles",
+        "children": [
+          {
+            "name": "T1 Ritual",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "T2 Ritual",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Alloys",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mystic_gatherings",
+    "modName": "Mystic Gatherings",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.mysticgatherings"
+  },
+  "mcreatorVersion": 202500345720
+}

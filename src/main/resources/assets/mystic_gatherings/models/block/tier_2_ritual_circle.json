@@ -1,0 +1,9 @@
+{
+  "parent": "mystic_gatherings:custom/ritual_circle",
+  "textures": {
+    "all": "mystic_gatherings:block/ritualcircletier2",
+    "particle": "mystic_gatherings:block/ritualcircletier2",
+    "0": "mystic_gatherings:block/ritualcircletier2"
+  },
+  "render_type": "cutout"
+}

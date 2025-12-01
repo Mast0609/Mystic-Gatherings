@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "mysticgatherings",
+  "category": "misc",
+  "experience": 2,
+  "cookingtime": 150,
+  "ingredient": "mystic_gatherings:raw_dreal",
+  "result": {
+    "id": "mystic_gatherings:dreal_ingot"
+  }
+}

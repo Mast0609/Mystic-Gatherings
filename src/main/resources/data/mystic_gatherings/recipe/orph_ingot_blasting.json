@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "mysticgatherings",
+  "category": "misc",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": "mystic_gatherings:raw_orph",
+  "result": {
+    "id": "mystic_gatherings:orph_ingot"
+  }
+}
