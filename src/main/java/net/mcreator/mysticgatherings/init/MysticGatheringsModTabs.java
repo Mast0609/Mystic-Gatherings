@@ -53,19 +53,7 @@ public class MysticGatheringsModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(MysticGatheringsModItems.RAW_ORPH.get());
-			tabData.accept(MysticGatheringsModItems.ORPH_INGOT.get());
-			tabData.accept(MysticGatheringsModItems.RAW_DREAL.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_INGOT.get());
-			tabData.accept(MysticGatheringsModItems.RAW_MYSTIA.get());
-			tabData.accept(MysticGatheringsModItems.POLISHED_MYSTIA.get());
-			tabData.accept(MysticGatheringsModItems.AGRIUM_INGOT.get());
-			tabData.accept(MysticGatheringsModItems.CALDON_INGOT.get());
-			tabData.accept(MysticGatheringsModItems.ABARASH_INGOT.get());
-			tabData.accept(MysticGatheringsModItems.VERITA_INGOT.get());
-			tabData.accept(MysticGatheringsModItems.BRADISH_INGOT.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.STONE_ORPH_ORE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DEEPSLATE_ORPH_ORE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.STONE_DREAL_ORE.get().asItem());
@@ -85,6 +73,18 @@ public class MysticGatheringsModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(MysticGatheringsModItems.RAW_ORPH.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_INGOT.get());
+			tabData.accept(MysticGatheringsModItems.RAW_DREAL.get());
+			tabData.accept(MysticGatheringsModItems.DREAL_INGOT.get());
+			tabData.accept(MysticGatheringsModItems.AGRIUM_INGOT.get());
+			tabData.accept(MysticGatheringsModItems.BRADISH_INGOT.get());
+			tabData.accept(MysticGatheringsModItems.VERITA_INGOT.get());
+			tabData.accept(MysticGatheringsModItems.CALDON_INGOT.get());
+			tabData.accept(MysticGatheringsModItems.ABARASH_INGOT.get());
+			tabData.accept(MysticGatheringsModItems.RAW_MYSTIA.get());
+			tabData.accept(MysticGatheringsModItems.POLISHED_MYSTIA.get());
 		}
 	}
 }

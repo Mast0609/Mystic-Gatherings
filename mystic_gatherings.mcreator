@@ -984,7 +984,21 @@
       "~CUSTOM:PolishingCloth"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "MATERIALS": [
+      "RawOrph",
+      "OrphIngot",
+      "RawDreal",
+      "DrealIngot",
+      "AgriumIngot",
+      "BradishIngot",
+      "VeritaIngot",
+      "CaldonIngot",
+      "AbarashIngot",
+      "RawMystia",
+      "PolishedMystia"
+    ]
+  },
   "language_map": {
     "en_us": {
       "item.mystic_gatherings.raw_orph": "Raw Orph",
@@ -1066,6 +1080,10 @@
       },
       {
         "name": "Alloys",
+        "children": []
+      },
+      {
+        "name": "Hello dear",
         "children": []
       }
     ]
