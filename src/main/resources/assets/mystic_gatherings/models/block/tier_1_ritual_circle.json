@@ -1,9 +1,9 @@
 {
   "parent": "mystic_gatherings:custom/t1circle",
   "textures": {
-    "all": "mystic_gatherings:block/tier1ritualcircle",
-    "particle": "mystic_gatherings:block/tier1ritualcircle",
-    "missing": "mystic_gatherings:block/tier1ritualcircle"
+    "all": "mystic_gatherings:block/t1circle",
+    "particle": "mystic_gatherings:block/t1circle",
+    "missing": "mystic_gatherings:block/t1circle"
   },
   "render_type": "cutout"
 }

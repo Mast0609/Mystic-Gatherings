@@ -3,7 +3,7 @@
     "default": {
       "name": "default",
       "map": {
-        "missing": "tier1ritualcircle"
+        "missing": "t1circle"
       }
     }
   }

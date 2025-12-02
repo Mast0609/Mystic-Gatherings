@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "tier1ritualcircle",
+    "texture": "t1circle",
     "textureTop": "ritualcirclet1top",
     "textureLeft": "ritualcirclet1side",
     "textureFront": "ritualcirclet1side",
@@ -10,12 +10,12 @@
     "textureBack": "ritualcirclet1side",
     "renderType": 2,
     "customModelName": "t1circle:default",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "tier1ritualcircle",
+    "itemTexture": "t1circle",
     "particleTexture": "",
     "blockSetType": "OAK",
     "pottedPlant": {
@@ -33,7 +33,7 @@
         "my": 0.0,
         "mz": -8.0,
         "Mx": 24.0,
-        "My": 2.0,
+        "My": 1.0,
         "Mz": 24.0,
         "subtract": false
       }

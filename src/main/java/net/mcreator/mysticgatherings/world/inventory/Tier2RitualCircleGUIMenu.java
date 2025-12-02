@@ -27,7 +27,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.mysticgatherings.procedures.RecipesT1Procedure;
 import net.mcreator.mysticgatherings.procedures.DropSlotsT1Procedure;
-import net.mcreator.mysticgatherings.network.Tier1RitualCircleGUISlotMessage;
+import net.mcreator.mysticgatherings.network.Tier2RitualCircleGUISlotMessage;
 import net.mcreator.mysticgatherings.init.MysticGatheringsModMenus;
 
 import java.util.function.Supplier;
@@ -36,7 +36,7 @@ import java.util.HashMap;
 import java.util.Collections;
 
 @EventBusSubscriber
-public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements MysticGatheringsModMenus.MenuAccessor {
+public class Tier2RitualCircleGUIMenu extends AbstractContainerMenu implements MysticGatheringsModMenus.MenuAccessor {
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
@@ -56,8 +56,8 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public Tier1RitualCircleGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(MysticGatheringsModMenus.TIER_1_RITUAL_CIRCLE_GUI.get(), id);
+	public Tier2RitualCircleGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(MysticGatheringsModMenus.TIER_2_RITUAL_CIRCLE_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(5);
@@ -99,23 +99,23 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 		}
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 158, 109) {
 			private final int slot = 1;
-			private int x = Tier1RitualCircleGUIMenu.this.x;
-			private int y = Tier1RitualCircleGUIMenu.this.y;
+			private int x = Tier2RitualCircleGUIMenu.this.x;
+			private int y = Tier2RitualCircleGUIMenu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 224, 109) {
 			private final int slot = 2;
-			private int x = Tier1RitualCircleGUIMenu.this.x;
-			private int y = Tier1RitualCircleGUIMenu.this.y;
+			private int x = Tier2RitualCircleGUIMenu.this.x;
+			private int y = Tier2RitualCircleGUIMenu.this.y;
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 191, 85) {
 			private final int slot = 3;
-			private int x = Tier1RitualCircleGUIMenu.this.x;
-			private int y = Tier1RitualCircleGUIMenu.this.y;
+			private int x = Tier2RitualCircleGUIMenu.this.x;
+			private int y = Tier2RitualCircleGUIMenu.this.y;
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 289, 85) {
 			private final int slot = 4;
-			private int x = Tier1RitualCircleGUIMenu.this.x;
-			private int y = Tier1RitualCircleGUIMenu.this.y;
+			private int x = Tier2RitualCircleGUIMenu.this.x;
+			private int y = Tier2RitualCircleGUIMenu.this.y;
 
 			@Override
 			public void onTake(Player entity, ItemStack stack) {
@@ -128,10 +128,10 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 				return false;
 			}
 		}));
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 191, 44) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 191, 45) {
 			private final int slot = 0;
-			private int x = Tier1RitualCircleGUIMenu.this.x;
-			private int y = Tier1RitualCircleGUIMenu.this.y;
+			private int x = Tier2RitualCircleGUIMenu.this.x;
+			private int y = Tier2RitualCircleGUIMenu.this.y;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -269,8 +269,8 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 
 	private void slotChanged(int slotid, int ctype, int meta) {
 		if (this.world != null && this.world.isClientSide()) {
-			ClientPacketDistributor.sendToServer(new Tier1RitualCircleGUISlotMessage(slotid, x, y, z, ctype, meta));
-			Tier1RitualCircleGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
+			ClientPacketDistributor.sendToServer(new Tier2RitualCircleGUISlotMessage(slotid, x, y, z, ctype, meta));
+			Tier2RitualCircleGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 
@@ -287,7 +287,7 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 	@SubscribeEvent
 	public static void onPlayerTick(PlayerTickEvent.Post event) {
 		Player entity = event.getEntity();
-		if (entity.containerMenu instanceof Tier1RitualCircleGUIMenu menu) {
+		if (entity.containerMenu instanceof Tier2RitualCircleGUIMenu menu) {
 			Level world = menu.world;
 			double x = menu.x;
 			double y = menu.y;

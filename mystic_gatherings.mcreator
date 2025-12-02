@@ -945,6 +945,121 @@
         ]
       },
       "path": "~/Alloys"
+    },
+    {
+      "name": "Tier2RitualCircleGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_2_ritual_circle_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/client/gui/Tier2RitualCircleGUIScreen.java",
+          "src/main/java/net/mcreator/mysticgatherings/world/inventory/Tier2RitualCircleGUIMenu.java",
+          "src/main/java/net/mcreator/mysticgatherings/network/Tier2RitualCircleGUISlotMessage.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual"
+    },
+    {
+      "name": "AgriumIngotConditions",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agrium_ingot_conditions",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/AgriumIngotConditionsProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual/Recipes"
+    },
+    {
+      "name": "BradishIngotConditions",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bradish_ingot_conditions",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/BradishIngotConditionsProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual/Recipes"
+    },
+    {
+      "name": "VeritaIngotConditions",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verita_ingot_conditions",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/VeritaIngotConditionsProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual/Recipes"
+    },
+    {
+      "name": "CaldonIngotConditions",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caldon_ingot_conditions",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/CaldonIngotConditionsProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual/Recipes"
+    },
+    {
+      "name": "AbarashIngotConditions",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abarash_ingot_conditions",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/AbarashIngotConditionsProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual/Recipes"
     }
   ],
   "variable_elements": [],
