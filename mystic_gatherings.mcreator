@@ -1060,6 +1060,29 @@
         ]
       },
       "path": "~/Ritual Circles/T1 Ritual/Recipes"
+    },
+    {
+      "name": "OrphArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/OrphArmorItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/orph_armor_chestplate.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_armor_helmet.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_armor_leggings.json",
+          "src/main/resources/assets/mystic_gatherings/items/orph_armor_boots.json",
+          "src/main/java/net/mcreator/mysticgatherings/client/renderer/item/OrphArmorArmor.java",
+          "src/main/resources/assets/mystic_gatherings/equipment/orph_armor.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_armor_chestplate.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_armor_boots.json",
+          "src/main/resources/assets/mystic_gatherings/items/orph_armor_leggings.json",
+          "src/main/resources/assets/mystic_gatherings/items/orph_armor_helmet.json"
+        ]
+      },
+      "path": "~/Orph Ore"
     }
   ],
   "variable_elements": [],
@@ -1097,6 +1120,21 @@
     ],
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:PolishingCloth"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:OrphArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:OrphArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:OrphArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:OrphArmor.boots"
+    ],
+    "ITEMS:mystic_gatherings:orph_armor_repair_items": [
+      "~CUSTOM:OrphIngot"
     ]
   },
   "tab_element_order": {
@@ -1143,7 +1181,11 @@
       "item.mystic_gatherings.caldon_ingot": "Caldon Ingot",
       "item.mystic_gatherings.abarash_ingot": "Abarash Ingot",
       "item.mystic_gatherings.verita_ingot": "Verita Ingot",
-      "item.mystic_gatherings.bradish_ingot": "Bradish Ingot"
+      "item.mystic_gatherings.bradish_ingot": "Bradish Ingot",
+      "item.mystic_gatherings.orph_armor_chestplate": "Orph Chestplate",
+      "item.mystic_gatherings.orph_armor_leggings": "Orph Leggings",
+      "item.mystic_gatherings.orph_armor_boots": "Orph Boots",
+      "item.mystic_gatherings.orph_armor_helmet": "Orph Helmet"
     }
   },
   "metadata": {

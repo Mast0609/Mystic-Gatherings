@@ -49,6 +49,10 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModItems.ABARASH_INGOT.get());
 				tabData.accept(MysticGatheringsModItems.VERITA_INGOT.get());
 				tabData.accept(MysticGatheringsModItems.BRADISH_INGOT.get());
+				tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_HELMET.get());
+				tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_CHESTPLATE.get());
+				tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_LEGGINGS.get());
+				tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_BOOTS.get());
 			}).build());
 
 	@SubscribeEvent
@@ -73,6 +77,11 @@ public class MysticGatheringsModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_HELMET.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_CHESTPLATE.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_LEGGINGS.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(MysticGatheringsModItems.RAW_ORPH.get());
 			tabData.accept(MysticGatheringsModItems.ORPH_INGOT.get());

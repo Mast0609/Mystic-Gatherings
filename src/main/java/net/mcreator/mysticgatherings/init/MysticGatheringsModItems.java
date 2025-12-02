@@ -46,6 +46,10 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> ABARASH_INGOT;
 	public static final DeferredItem<Item> VERITA_INGOT;
 	public static final DeferredItem<Item> BRADISH_INGOT;
+	public static final DeferredItem<Item> ORPH_ARMOR_HELMET;
+	public static final DeferredItem<Item> ORPH_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> ORPH_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> ORPH_ARMOR_BOOTS;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -74,6 +78,10 @@ public class MysticGatheringsModItems {
 		ABARASH_INGOT = register("abarash_ingot", AbarashIngotItem::new);
 		VERITA_INGOT = register("verita_ingot", VeritaIngotItem::new);
 		BRADISH_INGOT = register("bradish_ingot", BradishIngotItem::new);
+		ORPH_ARMOR_HELMET = register("orph_armor_helmet", OrphArmorItem.Helmet::new);
+		ORPH_ARMOR_CHESTPLATE = register("orph_armor_chestplate", OrphArmorItem.Chestplate::new);
+		ORPH_ARMOR_LEGGINGS = register("orph_armor_leggings", OrphArmorItem.Leggings::new);
+		ORPH_ARMOR_BOOTS = register("orph_armor_boots", OrphArmorItem.Boots::new);
 	}
 
 	// Start of user code block custom items
