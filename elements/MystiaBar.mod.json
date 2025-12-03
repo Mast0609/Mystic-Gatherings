@@ -10,11 +10,12 @@
           "sprite": "mystiabarspritesheet.png",
           "spritesCount": 11,
           "spriteIndex": {
-            "fixedValue": 0.0
+            "fixedValue": 0.0,
+            "name": "MystiaBarSpriteUpdate"
           },
           "anchorPoint": "TOP_CENTER",
-          "x": 114,
-          "y": 8,
+          "x": 113,
+          "y": 5,
           "locked": false
         }
       }
@@ -22,11 +23,11 @@
     "baseTexture": "",
     "overlayTarget": "Ingame",
     "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
+      "sx": 3,
+      "sy": 3,
+      "ox": 1,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

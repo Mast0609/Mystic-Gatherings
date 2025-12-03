@@ -130,11 +130,14 @@ public class MysticGatheringsModVariables {
 			return instance;
 		}, instance -> instance.save(new CompoundTag(), ctx.levelOrThrow().registryAccess())));
 		boolean _syncDirty = false;
+		public double mystiaRegenTimer = 0.0;
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
+			mystiaRegenTimer = nbt.getDoubleOr("mystiaRegenTimer", 0);
 		}
 
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
+			nbt.putDouble("mystiaRegenTimer", mystiaRegenTimer);
 			return nbt;
 		}
 
@@ -161,14 +164,11 @@ public class MysticGatheringsModVariables {
 			return instance;
 		}, instance -> instance.save(new CompoundTag(), ctx.levelOrThrow().registryAccess())));
 		boolean _syncDirty = false;
-		public double mystiaRegenTimer = 0;
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			mystiaRegenTimer = nbt.getDoubleOr("mystiaRegenTimer", 0);
 		}
 
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			nbt.putDouble("mystiaRegenTimer", mystiaRegenTimer);
 			return nbt;
 		}
 

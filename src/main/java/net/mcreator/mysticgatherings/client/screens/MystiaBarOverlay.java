@@ -10,9 +10,12 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.Minecraft;
+
+import net.mcreator.mysticgatherings.procedures.MystiaBarSpriteUpdateProcedure;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class MystiaBarOverlay {
@@ -33,7 +36,8 @@ public class MystiaBarOverlay {
 		}
 		if (true) {
 
-			event.getGuiGraphics().blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/mystiabarspritesheet.png"), w / 2 + -99, 8, 0, 0, 201, 5, 2211, 5);
+			event.getGuiGraphics().blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/mystiabarspritesheet.png"), w / 2 + -100, 5,
+					Mth.clamp((int) MystiaBarSpriteUpdateProcedure.execute(entity) * 201, 0, 2010), 0, 201, 5, 2211, 5);
 
 		}
 	}

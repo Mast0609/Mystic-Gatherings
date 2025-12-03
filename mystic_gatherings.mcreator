@@ -1138,6 +1138,90 @@
         ]
       },
       "path": "~/MystiaSystem"
+    },
+    {
+      "name": "MystiaBarSpriteUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystia_bar_sprite_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/MystiaBarSpriteUpdateProcedure.java"
+        ]
+      },
+      "path": "~/MystiaSystem"
+    },
+    {
+      "name": "MystiaReset1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystia_reset_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/MystiaReset1Procedure.java"
+        ]
+      },
+      "path": "~/MystiaSystem/Commands"
+    },
+    {
+      "name": "MystiaReset",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystia_reset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/command/MystiaResetCommand.java"
+        ]
+      },
+      "path": "~/MystiaSystem/Commands"
+    },
+    {
+      "name": "MystiaReset100",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystia_reset_100",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/command/MystiaReset100Command.java"
+        ]
+      },
+      "path": "~/MystiaSystem/Commands"
+    },
+    {
+      "name": "MystiaReset1001",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystia_reset_1001",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/MystiaReset1001Procedure.java"
+        ]
+      },
+      "path": "~/MystiaSystem/Commands"
     }
   ],
   "variable_elements": [
@@ -1150,8 +1234,8 @@
     {
       "name": "mystiaRegenTimer",
       "type": "number",
-      "scope": "map",
-      "value": "0"
+      "scope": "world",
+      "value": "0.0"
     },
     {
       "name": "maxPlayerMystia",
@@ -1316,7 +1400,12 @@
       },
       {
         "name": "MystiaSystem",
-        "children": []
+        "children": [
+          {
+            "name": "Commands",
+            "children": []
+          }
+        ]
       }
     ]
   },

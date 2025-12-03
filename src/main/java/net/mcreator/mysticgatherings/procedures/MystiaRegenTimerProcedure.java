@@ -23,7 +23,7 @@ public class MystiaRegenTimerProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world) {
-		MysticGatheringsModVariables.MapVariables.get(world).mystiaRegenTimer = MysticGatheringsModVariables.MapVariables.get(world).mystiaRegenTimer + 1;
-		MysticGatheringsModVariables.MapVariables.get(world).markSyncDirty();
+		MysticGatheringsModVariables.WorldVariables.get(world).mystiaRegenTimer = MysticGatheringsModVariables.WorldVariables.get(world).mystiaRegenTimer + 1;
+		MysticGatheringsModVariables.WorldVariables.get(world).markSyncDirty();
 	}
 }
