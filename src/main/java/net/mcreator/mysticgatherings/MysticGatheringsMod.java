@@ -20,6 +20,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.mysticgatherings.network.MysticGatheringsModVariables;
 import net.mcreator.mysticgatherings.init.MysticGatheringsModTabs;
 import net.mcreator.mysticgatherings.init.MysticGatheringsModMenus;
 import net.mcreator.mysticgatherings.init.MysticGatheringsModItems;
@@ -53,6 +54,7 @@ public class MysticGatheringsMod {
 		MysticGatheringsModBlockEntities.REGISTRY.register(modEventBus);
 		MysticGatheringsModItems.REGISTRY.register(modEventBus);
 		MysticGatheringsModTabs.REGISTRY.register(modEventBus);
+		MysticGatheringsModVariables.ATTACHMENT_TYPES.register(modEventBus);
 		MysticGatheringsModMenus.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
