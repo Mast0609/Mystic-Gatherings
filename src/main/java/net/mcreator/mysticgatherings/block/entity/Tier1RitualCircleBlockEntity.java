@@ -28,7 +28,7 @@ import java.util.stream.IntStream;
 import io.netty.buffer.Unpooled;
 
 public class Tier1RitualCircleBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.withSize(5, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.withSize(6, ItemStack.EMPTY);
 
 	public Tier1RitualCircleBlockEntity(BlockPos position, BlockState state) {
 		super(MysticGatheringsModBlockEntities.TIER_1_RITUAL_CIRCLE.get(), position, state);

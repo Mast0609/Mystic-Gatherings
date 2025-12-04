@@ -43,8 +43,8 @@ public class Tier2RitualCircleGUIScreen extends AbstractContainerScreen<Tier2Rit
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/t1resultslot.png"), this.leftPos + 281, this.topPos + 77, 0, 0, 32, 32, 32, 32);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/ritualcirclet1gui.png"), this.leftPos + 127, this.topPos + 21, 0, 0, 144, 144, 144, 144);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/t1resultslot.png"), this.leftPos + 281, this.topPos + 77, 0, 0, -1, -1, -1, -1);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/ritualcirclet1gui.png"), this.leftPos + 127, this.topPos + 21, 0, 0, 1, 1, -1, -1);
 	}
 
 	@Override

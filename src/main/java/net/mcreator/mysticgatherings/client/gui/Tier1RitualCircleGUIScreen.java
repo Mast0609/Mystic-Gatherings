@@ -3,6 +3,7 @@ package net.mcreator.mysticgatherings.client.gui;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.renderer.RenderPipelines;
@@ -10,6 +11,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.mysticgatherings.world.inventory.Tier1RitualCircleGUIMenu;
+import net.mcreator.mysticgatherings.procedures.T1SpiralUpdateProcedure;
 import net.mcreator.mysticgatherings.init.MysticGatheringsModScreens;
 
 public class Tier1RitualCircleGUIScreen extends AbstractContainerScreen<Tier1RitualCircleGUIMenu> implements MysticGatheringsModScreens.ScreenAccessor {
@@ -43,8 +45,11 @@ public class Tier1RitualCircleGUIScreen extends AbstractContainerScreen<Tier1Rit
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/t1resultslot.png"), this.leftPos + 281, this.topPos + 77, 0, 0, 32, 32, 32, 32);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/extraslott1circlegui.png"), this.leftPos + 85, this.topPos + 96, 0, 0, 32, 32, 32, 32);
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/t1circlegui.png"), this.leftPos + 127, this.topPos + 21, 0, 0, 144, 144, 144, 144);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/extraslott1circlegui.png"), this.leftPos + 281, this.topPos + 77, 0, 0, 32, 32, 32, 32);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/t1spiralspritesheet.png"), this.leftPos + 91, this.topPos + 67,
+				Mth.clamp((int) T1SpiralUpdateProcedure.execute(world, x, y, z) * 20, 0, 20), 0, 20, 20, 40, 20);
 	}
 
 	@Override

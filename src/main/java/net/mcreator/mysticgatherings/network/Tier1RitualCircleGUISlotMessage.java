@@ -15,6 +15,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.mysticgatherings.procedures.T1FuelCheckProcedure;
 import net.mcreator.mysticgatherings.procedures.ItemTakenFromOutputSlotT1Procedure;
 import net.mcreator.mysticgatherings.MysticGatheringsMod;
 
@@ -53,6 +54,10 @@ public record Tier1RitualCircleGUISlotMessage(int slotID, int x, int y, int z, i
 			int amount = meta;
 
 			ItemTakenFromOutputSlotT1Procedure.execute(entity);
+		}
+		if (slot == 5 && changeType == 0) {
+
+			T1FuelCheckProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

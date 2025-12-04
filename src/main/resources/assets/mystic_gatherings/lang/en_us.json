@@ -30,5 +30,7 @@
   "item.mystic_gatherings.orph_armor_chestplate": "Orph Chestplate",
   "item.mystic_gatherings.orph_armor_leggings": "Orph Leggings",
   "item.mystic_gatherings.orph_armor_boots": "Orph Boots",
-  "item.mystic_gatherings.orph_armor_helmet": "Orph Helmet"
+  "item.mystic_gatherings.orph_armor_helmet": "Orph Helmet",
+  "key.mystic_gatherings.switch_to_stored_mystia": "Switch to Stored Mystia",
+  "gui.mystic_gatherings.tier_1_ritual_circle_gui.button_empty": ""
 }

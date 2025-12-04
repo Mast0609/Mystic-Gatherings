@@ -6,17 +6,17 @@
     "width": 400,
     "height": 230,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": 86,
+    "inventoryOffsetY": 100,
     "renderBgLayer": false,
     "doesPauseGame": false,
     "components": [
       {
         "type": "image",
         "data": {
-          "image": "t1resultslot.png",
+          "image": "extraslott1circlegui.png",
           "use1Xscale": false,
-          "x": 295,
-          "y": 82,
+          "x": 99,
+          "y": 101,
           "locked": true
         }
       },
@@ -120,6 +120,52 @@
           "x": 141,
           "y": 26,
           "locked": true
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "t1spiralspritesheet.png",
+          "spritesCount": 2,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "T1SpiralUpdate"
+          },
+          "x": 105,
+          "y": 72,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "extraslott1circlegui.png",
+          "use1Xscale": false,
+          "x": 295,
+          "y": 82,
+          "locked": true
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:RawMystia"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "T1FuelCheck"
+          },
+          "x": 106,
+          "y": 108,
+          "locked": false
         }
       }
     ],

@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD0",
+    "keyBindingName": "Switch to Stored Mystia",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "T1ConsumeMystiaFuel"
+    }
+  }
+}

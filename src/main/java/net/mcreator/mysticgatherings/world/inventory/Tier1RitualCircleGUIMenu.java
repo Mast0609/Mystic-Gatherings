@@ -29,6 +29,7 @@ import net.mcreator.mysticgatherings.procedures.RecipesT1Procedure;
 import net.mcreator.mysticgatherings.procedures.DropSlotsT1Procedure;
 import net.mcreator.mysticgatherings.network.Tier1RitualCircleGUISlotMessage;
 import net.mcreator.mysticgatherings.init.MysticGatheringsModMenus;
+import net.mcreator.mysticgatherings.init.MysticGatheringsModItems;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -40,7 +41,7 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 7)
+			if (!this.containsKey(key) && this.size() >= 10)
 				return null;
 			return super.put(key, value);
 		}
@@ -60,7 +61,7 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 		super(MysticGatheringsModMenus.TIER_1_RITUAL_CIRCLE_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(5);
+		this.internal = new ItemStackHandler(6);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -133,11 +134,27 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 			private int x = Tier1RitualCircleGUIMenu.this.x;
 			private int y = Tier1RitualCircleGUIMenu.this.y;
 		}));
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 93, 104) {
+			private final int slot = 5;
+			private int x = Tier1RitualCircleGUIMenu.this.x;
+			private int y = Tier1RitualCircleGUIMenu.this.y;
+
+			@Override
+			public void setChanged() {
+				super.setChanged();
+				slotChanged(5, 0, 0);
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return MysticGatheringsModItems.RAW_MYSTIA.get() == stack.getItem();
+			}
+		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 112 + 8 + sj * 18, 118 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 112 + 8 + sj * 18, 132 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 112 + 8 + si * 18, 118 + 142));
+			this.addSlot(new Slot(inv, si, 112 + 8 + si * 18, 132 + 142));
 	}
 
 	@Override
@@ -160,16 +177,16 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 5) {
-				if (!this.moveItemStackTo(itemstack1, 5, this.slots.size(), true))
+			if (index < 6) {
+				if (!this.moveItemStackTo(itemstack1, 6, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 5, false)) {
-				if (index < 5 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 5 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 6, false)) {
+				if (index < 6 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 6 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 5, 5 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 6, 6 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -292,7 +309,7 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 			double x = menu.x;
 			double y = menu.y;
 			double z = menu.z;
-			RecipesT1Procedure.execute(entity);
+			RecipesT1Procedure.execute(world, x, y, z, entity);
 		}
 	}
 }

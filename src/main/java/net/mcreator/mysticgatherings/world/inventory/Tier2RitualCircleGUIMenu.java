@@ -292,7 +292,7 @@ public class Tier2RitualCircleGUIMenu extends AbstractContainerMenu implements M
 			double x = menu.x;
 			double y = menu.y;
 			double z = menu.z;
-			RecipesT1Procedure.execute(entity);
+			RecipesT1Procedure.execute(world, x, y, z, entity);
 		}
 	}
 }

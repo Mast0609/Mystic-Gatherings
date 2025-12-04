@@ -830,6 +830,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -1222,6 +1238,167 @@
         ]
       },
       "path": "~/MystiaSystem/Commands"
+    },
+    {
+      "name": "SwitchToStoredMystia",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_to_stored_mystia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/network/SwitchToStoredMystiaMessage.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "SetT1NBT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_t_1_nbt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/SetT1NBTProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "T1FuelTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_1_fuel_timer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/T1FuelTimerProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "T1SpiralUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_1_spiral_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/T1SpiralUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "T1FuelCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_1_fuel_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/T1FuelCheckProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "T1ConsumeMystiaFuel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_1_consume_mystia_fuel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/T1ConsumeMystiaFuelProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual"
     }
   ],
   "variable_elements": [
@@ -1343,7 +1520,9 @@
       "item.mystic_gatherings.orph_armor_chestplate": "Orph Chestplate",
       "item.mystic_gatherings.orph_armor_leggings": "Orph Leggings",
       "item.mystic_gatherings.orph_armor_boots": "Orph Boots",
-      "item.mystic_gatherings.orph_armor_helmet": "Orph Helmet"
+      "item.mystic_gatherings.orph_armor_helmet": "Orph Helmet",
+      "key.mystic_gatherings.switch_to_stored_mystia": "Switch to Stored Mystia",
+      "gui.mystic_gatherings.tier_1_ritual_circle_gui.button_empty": ""
     }
   },
   "metadata": {
@@ -1351,6 +1530,7 @@
       "src/main/java/net/mcreator/mysticgatherings/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModMenus.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModScreens.java",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModKeyMappings.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModBlocks.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModBlockEntities.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModItems.java",
