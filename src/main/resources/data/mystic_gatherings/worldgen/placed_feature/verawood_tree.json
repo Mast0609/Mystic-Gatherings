@@ -1,0 +1,8 @@
+{
+  "feature": "mystic_gatherings:verawood_tree",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

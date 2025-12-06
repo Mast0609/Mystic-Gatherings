@@ -35,6 +35,9 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> STRIPPED_VERAWOOD_LOG;
 	public static final DeferredBlock<Block> STRIPPED_VERAWOOD_WOOD;
 	public static final DeferredBlock<Block> VERAWOOD_WOOD;
+	public static final DeferredBlock<Block> VERAWOOD_PLANKS;
+	public static final DeferredBlock<Block> VERAWOOD_LEAVES;
+	public static final DeferredBlock<Block> VERAWOOD_SAPLING;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -55,6 +58,9 @@ public class MysticGatheringsModBlocks {
 		STRIPPED_VERAWOOD_LOG = register("stripped_verawood_log", StrippedVerawoodLogBlock::new);
 		STRIPPED_VERAWOOD_WOOD = register("stripped_verawood_wood", StrippedVerawoodWoodBlock::new);
 		VERAWOOD_WOOD = register("verawood_wood", VerawoodWoodBlock::new);
+		VERAWOOD_PLANKS = register("verawood_planks", VerawoodPlanksBlock::new);
+		VERAWOOD_LEAVES = register("verawood_leaves", VerawoodLeavesBlock::new);
+		VERAWOOD_SAPLING = register("verawood_sapling", VerawoodSaplingBlock::new);
 	}
 
 	// Start of user code block custom blocks

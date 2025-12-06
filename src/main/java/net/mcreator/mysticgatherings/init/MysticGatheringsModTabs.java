@@ -57,6 +57,8 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_LOG.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_WOOD.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_PLANKS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_SAPLING.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -71,6 +73,7 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_LOG.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_WOOD.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_SAPLING.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.ORPH_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DREAL_BLOCK.get().asItem());
@@ -80,6 +83,7 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.WAXED_WEATHERED_DREAL_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.WAXED_OXIDIZED_DREAL_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.MYSTIA_BLOCK.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_PLANKS.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(MysticGatheringsModItems.POLISHING_CLOTH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

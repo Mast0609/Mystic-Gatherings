@@ -54,6 +54,9 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> STRIPPED_VERAWOOD_LOG;
 	public static final DeferredItem<Item> STRIPPED_VERAWOOD_WOOD;
 	public static final DeferredItem<Item> VERAWOOD_WOOD;
+	public static final DeferredItem<Item> VERAWOOD_PLANKS;
+	public static final DeferredItem<Item> VERAWOOD_LEAVES;
+	public static final DeferredItem<Item> VERAWOOD_SAPLING;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -90,6 +93,9 @@ public class MysticGatheringsModItems {
 		STRIPPED_VERAWOOD_LOG = block(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_LOG);
 		STRIPPED_VERAWOOD_WOOD = block(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD);
 		VERAWOOD_WOOD = block(MysticGatheringsModBlocks.VERAWOOD_WOOD);
+		VERAWOOD_PLANKS = block(MysticGatheringsModBlocks.VERAWOOD_PLANKS);
+		VERAWOOD_LEAVES = block(MysticGatheringsModBlocks.VERAWOOD_LEAVES);
+		VERAWOOD_SAPLING = block(MysticGatheringsModBlocks.VERAWOOD_SAPLING);
 	}
 
 	// Start of user code block custom items

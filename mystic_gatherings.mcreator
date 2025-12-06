@@ -1471,6 +1471,137 @@
         ]
       },
       "path": "~/Verawood"
+    },
+    {
+      "name": "VerawoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verawood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/VerawoodPlanksBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/verawood_planks.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/verawood_planks.json",
+          "src/main/resources/assets/mystic_gatherings/items/verawood_planks.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/verawood_planks.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/verawood_planks.json"
+        ]
+      },
+      "path": "~/Verawood"
+    },
+    {
+      "name": "VerawoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verawood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/verawood_leaves.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/verawood_leaves.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/VerawoodLeavesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/verawood_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/items/verawood_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/verawood_leaves.json"
+        ]
+      },
+      "path": "~/Verawood"
+    },
+    {
+      "name": "VerawoodSapling",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verawood_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/verawood_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/items/verawood_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/verawood_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/verawood_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/verawood_sapling.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/VerawoodSaplingBlock.java"
+        ]
+      },
+      "path": "~/Verawood"
+    },
+    {
+      "name": "VerawoodTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verawood_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/verawood_tree_biome_modifier.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/verawood_tree.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/verawood_tree.json"
+        ]
+      },
+      "path": "~/Verawood"
+    },
+    {
+      "name": "VerawoodSaplingGrowth",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verawood_sapling_growth",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/VerawoodSaplingGrowthProcedure.java"
+        ]
+      },
+      "path": "~/Verawood"
+    },
+    {
+      "name": "VerawoodSaplingGrowthBonemeal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verawood_sapling_growth_bonemeal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/VerawoodSaplingGrowthBonemealProcedure.java"
+        ]
+      },
+      "path": "~/Verawood"
     }
   ],
   "variable_elements": [
@@ -1544,10 +1675,14 @@
       "~CUSTOM:OrphIngot"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:VerawoodPlanks",
       "~CUSTOM:VerawoodWood",
       "~CUSTOM:StrippedVerawoodWood",
       "~CUSTOM:StrippedVerawoodLog",
       "~CUSTOM:VerawoodLog"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:VerawoodLeaves"
     ]
   },
   "tab_element_order": {
@@ -1604,7 +1739,10 @@
       "item.mystic_gatherings.verawood_log": "Verawood Log",
       "item.mystic_gatherings.stripped_verawood_log": "Verawood Log",
       "item.mystic_gatherings.stripped_verawood_wood": "Verawood Log",
-      "item.mystic_gatherings.verawood_wood": "Verawood Log"
+      "item.mystic_gatherings.verawood_wood": "Verawood Log",
+      "item.mystic_gatherings.verawood_planks": "Verawood Planks",
+      "item.mystic_gatherings.verawood_leaves": "Verawood Leaves",
+      "item.mystic_gatherings.verawood_sapling": "Verawood Sapling"
     }
   },
   "metadata": {
@@ -1616,6 +1754,7 @@
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModBlocks.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModBlockEntities.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModItems.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/mysticgatherings/MysticGatheringsMod.java",
       "src/main/java/net/mcreator/mysticgatherings/network/MysticGatheringsModVariables.java",
       "src/main/resources/pack.mcmeta",
