@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mystic_gatherings:verawood_wood",
+    "mystic_gatherings:verawood_log",
+    "mystic_gatherings:stripped_verawood_log",
+    "mystic_gatherings:stripped_verawood_wood"
+  ]
+}

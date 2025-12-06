@@ -53,6 +53,10 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_CHESTPLATE.get());
 				tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_LEGGINGS.get());
 				tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_BOOTS.get());
+				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_LOG.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_LOG.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_WOOD.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -63,6 +67,10 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.STONE_DREAL_ORE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DEEPSLATE_DREAL_ORE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.MYSTIA_ORE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_LOG.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_LOG.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_WOOD.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.ORPH_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DREAL_BLOCK.get().asItem());

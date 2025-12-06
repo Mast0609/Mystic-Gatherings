@@ -50,6 +50,10 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> ORPH_ARMOR_CHESTPLATE;
 	public static final DeferredItem<Item> ORPH_ARMOR_LEGGINGS;
 	public static final DeferredItem<Item> ORPH_ARMOR_BOOTS;
+	public static final DeferredItem<Item> VERAWOOD_LOG;
+	public static final DeferredItem<Item> STRIPPED_VERAWOOD_LOG;
+	public static final DeferredItem<Item> STRIPPED_VERAWOOD_WOOD;
+	public static final DeferredItem<Item> VERAWOOD_WOOD;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -82,6 +86,10 @@ public class MysticGatheringsModItems {
 		ORPH_ARMOR_CHESTPLATE = register("orph_armor_chestplate", OrphArmorItem.Chestplate::new);
 		ORPH_ARMOR_LEGGINGS = register("orph_armor_leggings", OrphArmorItem.Leggings::new);
 		ORPH_ARMOR_BOOTS = register("orph_armor_boots", OrphArmorItem.Boots::new);
+		VERAWOOD_LOG = block(MysticGatheringsModBlocks.VERAWOOD_LOG);
+		STRIPPED_VERAWOOD_LOG = block(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_LOG);
+		STRIPPED_VERAWOOD_WOOD = block(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD);
+		VERAWOOD_WOOD = block(MysticGatheringsModBlocks.VERAWOOD_WOOD);
 	}
 
 	// Start of user code block custom items

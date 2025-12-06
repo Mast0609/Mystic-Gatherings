@@ -1399,6 +1399,78 @@
         ]
       },
       "path": "~/Ritual Circles/T1 Ritual"
+    },
+    {
+      "name": "VerawoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verawood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/verawood_log.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/verawood_log.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/verawood_log.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/verawood_log.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/VerawoodLogBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/verawood_log.json"
+        ]
+      },
+      "path": "~/Verawood"
+    },
+    {
+      "name": "StrippedVerawoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_verawood_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/StrippedVerawoodLogBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/stripped_verawood_log.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/stripped_verawood_log.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stripped_verawood_log.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/stripped_verawood_log.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/stripped_verawood_log.json"
+        ]
+      },
+      "path": "~/Verawood"
+    },
+    {
+      "name": "StrippedVerawoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_verawood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/stripped_verawood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/stripped_verawood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/items/stripped_verawood_wood.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stripped_verawood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/stripped_verawood_wood.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/StrippedVerawoodWoodBlock.java"
+        ]
+      },
+      "path": "~/Verawood"
+    },
+    {
+      "name": "VerawoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verawood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/verawood_wood.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/VerawoodWoodBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/verawood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/verawood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/items/verawood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/verawood_wood.json"
+        ]
+      },
+      "path": "~/Verawood"
     }
   ],
   "variable_elements": [
@@ -1470,6 +1542,12 @@
     ],
     "ITEMS:mystic_gatherings:orph_armor_repair_items": [
       "~CUSTOM:OrphIngot"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:VerawoodWood",
+      "~CUSTOM:StrippedVerawoodWood",
+      "~CUSTOM:StrippedVerawoodLog",
+      "~CUSTOM:VerawoodLog"
     ]
   },
   "tab_element_order": {
@@ -1522,7 +1600,11 @@
       "item.mystic_gatherings.orph_armor_boots": "Orph Boots",
       "item.mystic_gatherings.orph_armor_helmet": "Orph Helmet",
       "key.mystic_gatherings.switch_to_stored_mystia": "Switch to Stored Mystia",
-      "gui.mystic_gatherings.tier_1_ritual_circle_gui.button_empty": ""
+      "gui.mystic_gatherings.tier_1_ritual_circle_gui.button_empty": "",
+      "item.mystic_gatherings.verawood_log": "Verawood Log",
+      "item.mystic_gatherings.stripped_verawood_log": "Verawood Log",
+      "item.mystic_gatherings.stripped_verawood_wood": "Verawood Log",
+      "item.mystic_gatherings.verawood_wood": "Verawood Log"
     }
   },
   "metadata": {
@@ -1538,6 +1620,7 @@
       "src/main/java/net/mcreator/mysticgatherings/network/MysticGatheringsModVariables.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModTabs.java",
+      "src/main/java/net/mcreator/mysticgatherings/client/RenderUtils.java",
       "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
@@ -1586,6 +1669,14 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Verawood",
+        "children": []
+      },
+      {
+        "name": "Effects",
+        "children": []
       }
     ]
   },

@@ -32,5 +32,9 @@
   "item.mystic_gatherings.orph_armor_boots": "Orph Boots",
   "item.mystic_gatherings.orph_armor_helmet": "Orph Helmet",
   "key.mystic_gatherings.switch_to_stored_mystia": "Switch to Stored Mystia",
-  "gui.mystic_gatherings.tier_1_ritual_circle_gui.button_empty": ""
+  "gui.mystic_gatherings.tier_1_ritual_circle_gui.button_empty": "",
+  "item.mystic_gatherings.verawood_log": "Verawood Log",
+  "item.mystic_gatherings.stripped_verawood_log": "Verawood Log",
+  "item.mystic_gatherings.stripped_verawood_wood": "Verawood Log",
+  "item.mystic_gatherings.verawood_wood": "Verawood Log"
 }

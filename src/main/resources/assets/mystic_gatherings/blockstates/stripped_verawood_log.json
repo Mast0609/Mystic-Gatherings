@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mystic_gatherings:block/stripped_verawood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mystic_gatherings:block/stripped_verawood_log"
+    },
+    "axis=z": {
+      "model": "mystic_gatherings:block/stripped_verawood_log",
+      "x": 90
+    }
+  }
+}
