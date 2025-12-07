@@ -16,6 +16,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
 import net.mcreator.mysticgatherings.network.SwitchToStoredMystiaMessage;
+import net.mcreator.mysticgatherings.network.SwitchMystiaBarOrientationMessage;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class MysticGatheringsModKeyMappings {
@@ -32,10 +33,24 @@ public class MysticGatheringsModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping SWITCH_MYSTIA_BAR_ORIENTATION = new KeyMapping("key.mystic_gatherings.switch_mystia_bar_orientation", GLFW.GLFW_KEY_KP_ENTER, "key.categories.ui") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				ClientPacketDistributor.sendToServer(new SwitchMystiaBarOrientationMessage(0, 0));
+				SwitchMystiaBarOrientationMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(SWITCH_TO_STORED_MYSTIA);
+		event.register(SWITCH_MYSTIA_BAR_ORIENTATION);
 	}
 
 	@EventBusSubscriber(Dist.CLIENT)
@@ -44,6 +59,7 @@ public class MysticGatheringsModKeyMappings {
 		public static void onClientTick(ClientTickEvent.Post event) {
 			if (Minecraft.getInstance().screen == null) {
 				SWITCH_TO_STORED_MYSTIA.consumeClick();
+				SWITCH_MYSTIA_BAR_ORIENTATION.consumeClick();
 			}
 		}
 	}

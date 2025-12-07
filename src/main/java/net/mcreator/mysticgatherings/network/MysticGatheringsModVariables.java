@@ -81,6 +81,7 @@ public class MysticGatheringsModVariables {
 		PlayerVariables clone = new PlayerVariables();
 		clone.currentPlayerMystia = original.currentPlayerMystia;
 		clone.maxPlayerMystia = original.maxPlayerMystia;
+		clone.mystiaBarOrientation = original.mystiaBarOrientation;
 		if (!event.isWasDeath()) {
 		}
 		event.getEntity().setData(PLAYER_VARIABLES, clone);
@@ -234,17 +235,20 @@ public class MysticGatheringsModVariables {
 		boolean _syncDirty = false;
 		public double currentPlayerMystia = 100.0;
 		public double maxPlayerMystia = 100.0;
+		public double mystiaBarOrientation = 0.0;
 
 		@Override
 		public void serialize(ValueOutput output) {
 			output.putDouble("currentPlayerMystia", currentPlayerMystia);
 			output.putDouble("maxPlayerMystia", maxPlayerMystia);
+			output.putDouble("mystiaBarOrientation", mystiaBarOrientation);
 		}
 
 		@Override
 		public void deserialize(ValueInput input) {
 			currentPlayerMystia = input.getDoubleOr("currentPlayerMystia", 0);
 			maxPlayerMystia = input.getDoubleOr("maxPlayerMystia", 0);
+			mystiaBarOrientation = input.getDoubleOr("mystiaBarOrientation", 0);
 		}
 
 		public void markSyncDirty() {

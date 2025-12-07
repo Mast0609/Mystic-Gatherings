@@ -1,20 +1,4 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "mystic_gatherings:blocks/verawood_leaves",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "mystic_gatherings:verawood_leaves"
-        }
-      ]
-    }
-  ]
+  "random_sequence": "mystic_gatherings:blocks/verawood_leaves"
 }

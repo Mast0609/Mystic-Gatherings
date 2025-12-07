@@ -13,7 +13,7 @@
           "src/main/java/net/mcreator/mysticgatherings/item/RawOrphItem.java"
         ]
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "StoneOrphOre",
@@ -34,7 +34,7 @@
           "src/main/resources/data/mystic_gatherings/loot_table/blocks/stone_orph_ore.json"
         ]
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "MysticGatherings",
@@ -45,7 +45,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "OrphIngot",
@@ -60,7 +60,7 @@
           "src/main/java/net/mcreator/mysticgatherings/item/OrphIngotItem.java"
         ]
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "OrphIngotBlasting",
@@ -74,7 +74,7 @@
           "src/main/resources/data/mystic_gatherings/advancement/recipes/orph_ingot_blasting.json"
         ]
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "OrphBlock",
@@ -92,7 +92,7 @@
           "src/main/resources/data/mystic_gatherings/loot_table/blocks/orph_block.json"
         ]
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "OrphBlockCrafting",
@@ -106,7 +106,7 @@
           "src/main/resources/data/mystic_gatherings/recipe/orph_block_crafting.json"
         ]
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "OrphIngotCrafting",
@@ -120,7 +120,7 @@
           "src/main/resources/data/mystic_gatherings/advancement/recipes/orph_ingot_crafting.json"
         ]
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "DeepslateOrphOre",
@@ -141,7 +141,7 @@
           "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/deepslate_orph_ore.json"
         ]
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "RawDreal",
@@ -156,7 +156,7 @@
           "src/main/resources/assets/mystic_gatherings/models/item/raw_dreal.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "DrealIngot",
@@ -171,7 +171,7 @@
           "src/main/java/net/mcreator/mysticgatherings/item/DrealIngotItem.java"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "StoneDrealOre",
@@ -192,7 +192,7 @@
           "src/main/resources/assets/mystic_gatherings/models/item/stone_dreal_ore.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "DeepslateDrealOre",
@@ -213,7 +213,7 @@
           "src/main/resources/assets/mystic_gatherings/blockstates/deepslate_dreal_ore.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "DrealBlock",
@@ -231,7 +231,7 @@
           "src/main/resources/data/mystic_gatherings/loot_table/blocks/dreal_block.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "WeatheredDrealBlock",
@@ -249,7 +249,7 @@
           "src/main/resources/assets/mystic_gatherings/models/item/weathered_dreal_block.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "OxidizedDrealBlock",
@@ -267,7 +267,7 @@
           "src/main/resources/assets/mystic_gatherings/items/oxidized_dreal_block.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "OrphIngotSmelting",
@@ -281,7 +281,7 @@
           "src/main/resources/data/mystic_gatherings/advancement/recipes/orph_ingot_smelting.json"
         ]
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "DrealIngotSmelting",
@@ -295,7 +295,7 @@
           "src/main/resources/data/mystic_gatherings/recipe/dreal_ingot_smelting.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "DrealIngotBlasting",
@@ -309,7 +309,7 @@
           "src/main/resources/data/mystic_gatherings/advancement/recipes/dreal_ingot_blasting.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "DrealIngotCrafting",
@@ -323,7 +323,7 @@
           "src/main/resources/data/mystic_gatherings/recipe/dreal_ingot_crafting_reg.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "DrealIngotCrafting2",
@@ -337,7 +337,7 @@
           "src/main/resources/data/mystic_gatherings/recipe/dreal_ingot_crafting_wea.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "DrealIngotCrafting3",
@@ -351,7 +351,7 @@
           "src/main/resources/data/mystic_gatherings/recipe/dreal_ingot_crafting_oxi.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "DrealBlockCrafting",
@@ -365,7 +365,7 @@
           "src/main/resources/data/mystic_gatherings/advancement/recipes/dreal_block_crafting.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "WaxedDrealBlock",
@@ -383,7 +383,7 @@
           "src/main/resources/assets/mystic_gatherings/models/item/waxed_dreal_block.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "WaxedWeatheredDrealBlock",
@@ -401,7 +401,7 @@
           "src/main/java/net/mcreator/mysticgatherings/block/WaxedWeatheredDrealBlockBlock.java"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "WaxedOxidizedDrealBlock",
@@ -419,7 +419,7 @@
           "src/main/resources/assets/mystic_gatherings/models/item/waxed_oxidized_dreal_block.json"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "RegToWeathered",
@@ -450,7 +450,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/RegToWeatheredProcedure.java"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "WeatheredToOxidized",
@@ -481,7 +481,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/WeatheredToOxidizedProcedure.java"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "OxidizedToWeathered",
@@ -516,7 +516,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/OxidizedToWeatheredProcedure.java"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "WeatheredToReg",
@@ -551,7 +551,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/WeatheredToRegProcedure.java"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "WaxReg",
@@ -586,7 +586,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/WaxRegProcedure.java"
         ]
       },
-      "path": "~/Dreal Ore"
+      "path": "~/Ore/Dreal Ore"
     },
     {
       "name": "RawMystia",
@@ -601,7 +601,7 @@
           "src/main/resources/assets/mystic_gatherings/items/raw_mystia.json"
         ]
       },
-      "path": "~/Mystia Gem"
+      "path": "~/Ore/Orph Ore/Mystia Gem"
     },
     {
       "name": "MystiaOre",
@@ -622,7 +622,7 @@
           "src/main/resources/assets/mystic_gatherings/models/block/mystia_ore.json"
         ]
       },
-      "path": "~/Mystia Gem"
+      "path": "~/Ore/Orph Ore/Mystia Gem"
     },
     {
       "name": "PolishingCloth",
@@ -637,7 +637,7 @@
           "src/main/resources/assets/mystic_gatherings/models/item/polishing_cloth.json"
         ]
       },
-      "path": "~/Mystia Gem"
+      "path": "~/Ore/Orph Ore/Mystia Gem"
     },
     {
       "name": "PolishedMystia",
@@ -652,7 +652,7 @@
           "src/main/resources/assets/mystic_gatherings/items/polished_mystia.json"
         ]
       },
-      "path": "~/Mystia Gem"
+      "path": "~/Ore/Orph Ore/Mystia Gem"
     },
     {
       "name": "PolishingClothCrafting",
@@ -666,7 +666,7 @@
           "src/main/resources/data/mystic_gatherings/advancement/recipes/polishing_cloth_crafting.json"
         ]
       },
-      "path": "~/Mystia Gem"
+      "path": "~/Ore/Orph Ore/Mystia Gem"
     },
     {
       "name": "RawMystiaPolishing",
@@ -680,7 +680,7 @@
           "src/main/resources/data/mystic_gatherings/recipe/raw_mystia_polishing.json"
         ]
       },
-      "path": "~/Mystia Gem"
+      "path": "~/Ore/Orph Ore/Mystia Gem"
     },
     {
       "name": "MystiaBlock",
@@ -698,7 +698,7 @@
           "src/main/resources/assets/mystic_gatherings/blockstates/mystia_block.json"
         ]
       },
-      "path": "~/Mystia Gem"
+      "path": "~/Ore/Orph Ore/Mystia Gem"
     },
     {
       "name": "MystiaBlockCrafting",
@@ -712,7 +712,7 @@
           "src/main/resources/data/mystic_gatherings/advancement/recipes/mystia_block_crafting.json"
         ]
       },
-      "path": "~/Mystia Gem"
+      "path": "~/Ore/Orph Ore/Mystia Gem"
     },
     {
       "name": "PolishedMystiaCrafting",
@@ -726,7 +726,7 @@
           "src/main/resources/data/mystic_gatherings/recipe/polished_mystia_crafting.json"
         ]
       },
-      "path": "~/Mystia Gem"
+      "path": "~/Ore/Orph Ore/Mystia Gem"
     },
     {
       "name": "Tier1RitualCircle",
@@ -756,6 +756,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/mystic_gatherings/models/item/tier_2_ritual_circle.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/entity/Tier2RitualCircleBlockEntity.java",
           "src/main/resources/assets/mystic_gatherings/items/tier_2_ritual_circle.json",
           "src/main/resources/data/mystic_gatherings/loot_table/blocks/tier_2_ritual_circle.json",
           "src/main/java/net/mcreator/mysticgatherings/block/Tier2RitualCircleBlock.java",
@@ -900,7 +901,7 @@
           "src/main/java/net/mcreator/mysticgatherings/item/AgriumIngotItem.java"
         ]
       },
-      "path": "~/Alloys"
+      "path": "~/Ore/Alloys"
     },
     {
       "name": "CaldonIngot",
@@ -915,7 +916,7 @@
           "src/main/resources/assets/mystic_gatherings/items/caldon_ingot.json"
         ]
       },
-      "path": "~/Alloys"
+      "path": "~/Ore/Alloys"
     },
     {
       "name": "AbarashIngot",
@@ -930,7 +931,7 @@
           "src/main/resources/assets/mystic_gatherings/items/abarash_ingot.json"
         ]
       },
-      "path": "~/Alloys"
+      "path": "~/Ore/Alloys"
     },
     {
       "name": "VeritaIngot",
@@ -945,7 +946,7 @@
           "src/main/resources/assets/mystic_gatherings/items/verita_ingot.json"
         ]
       },
-      "path": "~/Alloys"
+      "path": "~/Ore/Alloys"
     },
     {
       "name": "BradishIngot",
@@ -960,22 +961,7 @@
           "src/main/resources/assets/mystic_gatherings/models/item/bradish_ingot.json"
         ]
       },
-      "path": "~/Alloys"
-    },
-    {
-      "name": "Tier2RitualCircleGUI",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tier_2_ritual_circle_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mysticgatherings/client/gui/Tier2RitualCircleGUIScreen.java",
-          "src/main/java/net/mcreator/mysticgatherings/world/inventory/Tier2RitualCircleGUIMenu.java",
-          "src/main/java/net/mcreator/mysticgatherings/network/Tier2RitualCircleGUISlotMessage.java"
-        ]
-      },
-      "path": "~/Ritual Circles/T2 Ritual"
+      "path": "~/Ore/Alloys"
     },
     {
       "name": "AgriumIngotConditions",
@@ -1098,7 +1084,7 @@
           "src/main/resources/assets/mystic_gatherings/items/orph_armor_helmet.json"
         ]
       },
-      "path": "~/Orph Ore"
+      "path": "~/Ore/Orph Ore"
     },
     {
       "name": "PlayerMystiaRegen",
@@ -1121,7 +1107,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/PlayerMystiaRegenProcedure.java"
         ]
       },
-      "path": "~/MystiaSystem"
+      "path": "~/Mystia System"
     },
     {
       "name": "MystiaRegenTimer",
@@ -1140,7 +1126,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/MystiaRegenTimerProcedure.java"
         ]
       },
-      "path": "~/MystiaSystem"
+      "path": "~/Mystia System"
     },
     {
       "name": "MystiaBar",
@@ -1153,7 +1139,7 @@
           "src/main/java/net/mcreator/mysticgatherings/client/screens/MystiaBarOverlay.java"
         ]
       },
-      "path": "~/MystiaSystem"
+      "path": "~/Mystia System"
     },
     {
       "name": "MystiaBarSpriteUpdate",
@@ -1173,7 +1159,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/MystiaBarSpriteUpdateProcedure.java"
         ]
       },
-      "path": "~/MystiaSystem"
+      "path": "~/Mystia System"
     },
     {
       "name": "MystiaReset1",
@@ -1192,7 +1178,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/MystiaReset1Procedure.java"
         ]
       },
-      "path": "~/MystiaSystem/Commands"
+      "path": "~/Mystia System/Commands"
     },
     {
       "name": "MystiaReset",
@@ -1205,7 +1191,7 @@
           "src/main/java/net/mcreator/mysticgatherings/command/MystiaResetCommand.java"
         ]
       },
-      "path": "~/MystiaSystem/Commands"
+      "path": "~/Mystia System/Commands"
     },
     {
       "name": "MystiaReset100",
@@ -1218,7 +1204,7 @@
           "src/main/java/net/mcreator/mysticgatherings/command/MystiaReset100Command.java"
         ]
       },
-      "path": "~/MystiaSystem/Commands"
+      "path": "~/Mystia System/Commands"
     },
     {
       "name": "MystiaReset1001",
@@ -1237,7 +1223,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/MystiaReset1001Procedure.java"
         ]
       },
-      "path": "~/MystiaSystem/Commands"
+      "path": "~/Mystia System/Commands"
     },
     {
       "name": "SwitchToStoredMystia",
@@ -1416,7 +1402,7 @@
           "src/main/resources/assets/mystic_gatherings/items/verawood_log.json"
         ]
       },
-      "path": "~/Verawood"
+      "path": "~/Woods/Verawood"
     },
     {
       "name": "StrippedVerawoodLog",
@@ -1434,7 +1420,7 @@
           "src/main/resources/assets/mystic_gatherings/blockstates/stripped_verawood_log.json"
         ]
       },
-      "path": "~/Verawood"
+      "path": "~/Woods/Verawood"
     },
     {
       "name": "StrippedVerawoodWood",
@@ -1452,7 +1438,7 @@
           "src/main/java/net/mcreator/mysticgatherings/block/StrippedVerawoodWoodBlock.java"
         ]
       },
-      "path": "~/Verawood"
+      "path": "~/Woods/Verawood"
     },
     {
       "name": "VerawoodWood",
@@ -1470,7 +1456,7 @@
           "src/main/resources/assets/mystic_gatherings/blockstates/verawood_wood.json"
         ]
       },
-      "path": "~/Verawood"
+      "path": "~/Woods/Verawood"
     },
     {
       "name": "VerawoodPlanks",
@@ -1488,7 +1474,7 @@
           "src/main/resources/assets/mystic_gatherings/blockstates/verawood_planks.json"
         ]
       },
-      "path": "~/Verawood"
+      "path": "~/Woods/Verawood"
     },
     {
       "name": "VerawoodLeaves",
@@ -1506,7 +1492,7 @@
           "src/main/resources/assets/mystic_gatherings/models/block/verawood_leaves.json"
         ]
       },
-      "path": "~/Verawood"
+      "path": "~/Woods/Verawood"
     },
     {
       "name": "VerawoodSapling",
@@ -1524,7 +1510,7 @@
           "src/main/java/net/mcreator/mysticgatherings/block/VerawoodSaplingBlock.java"
         ]
       },
-      "path": "~/Verawood"
+      "path": "~/Woods/Verawood"
     },
     {
       "name": "VerawoodTree",
@@ -1539,7 +1525,7 @@
           "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/verawood_tree.json"
         ]
       },
-      "path": "~/Verawood"
+      "path": "~/Woods/Verawood"
     },
     {
       "name": "VerawoodSaplingGrowth",
@@ -1570,7 +1556,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/VerawoodSaplingGrowthProcedure.java"
         ]
       },
-      "path": "~/Verawood"
+      "path": "~/Woods/Verawood"
     },
     {
       "name": "VerawoodSaplingGrowthBonemeal",
@@ -1580,6 +1566,10 @@
       "registry_name": "verawood_sapling_growth_bonemeal",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -1601,7 +1591,434 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/VerawoodSaplingGrowthBonemealProcedure.java"
         ]
       },
-      "path": "~/Verawood"
+      "path": "~/Woods/Verawood"
+    },
+    {
+      "name": "LeatherSack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_sack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/leather_sack.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/LeatherSackItem.java",
+          "src/main/java/net/mcreator/mysticgatherings/item/inventory/LeatherSackInventoryCapability.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/leather_sack.json"
+        ]
+      },
+      "path": "~/Ritual Items/Leather Sack"
+    },
+    {
+      "name": "LeatherSackInventory",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_sack_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/world/inventory/LeatherSackInventoryMenu.java",
+          "src/main/java/net/mcreator/mysticgatherings/client/gui/LeatherSackInventoryScreen.java"
+        ]
+      },
+      "path": "~/Ritual Items/Leather Sack"
+    },
+    {
+      "name": "LeatherSackInventoryOpen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_sack_inventory_open",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/LeatherSackInventoryOpenProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Items/Leather Sack"
+    },
+    {
+      "name": "LeatherSackConditions",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_sack_conditions",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/LeatherSackConditionsProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T1 Ritual/Recipes"
+    },
+    {
+      "name": "LeatherSackSaveInventory",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_sack_save_inventory",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/LeatherSackSaveInventoryProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Items/Leather Sack"
+    },
+    {
+      "name": "SwitchMystiaBarOrientation",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_mystia_bar_orientation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/network/SwitchMystiaBarOrientationMessage.java"
+        ]
+      },
+      "path": "~/Mystia System"
+    },
+    {
+      "name": "SwitchBarOrientation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_bar_orientation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/SwitchBarOrientationProcedure.java"
+        ]
+      },
+      "path": "~/Mystia System"
+    },
+    {
+      "name": "VerticalTrue",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_true",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/VerticalTrueProcedure.java"
+        ]
+      },
+      "path": "~/Mystia System"
+    },
+    {
+      "name": "HorizontalTrue",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horizontal_true",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/HorizontalTrueProcedure.java"
+        ]
+      },
+      "path": "~/Mystia System"
+    },
+    {
+      "name": "Tier2RitualCircleGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_2_ritual_circle_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/client/gui/Tier2RitualCircleGUIScreen.java",
+          "src/main/java/net/mcreator/mysticgatherings/world/inventory/Tier2RitualCircleGUIMenu.java",
+          "src/main/java/net/mcreator/mysticgatherings/network/Tier2RitualCircleGUISlotMessage.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual"
+    },
+    {
+      "name": "Tier3RitualCircle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_3_ritual_circle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/entity/Tier3RitualCircleBlockEntity.java",
+          "src/main/resources/assets/mystic_gatherings/items/tier_3_ritual_circle.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/Tier3RitualCircleBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/tier_3_ritual_circle.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/tier_3_ritual_circle.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/tier_3_ritual_circle.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/tier_3_ritual_circle.json"
+        ]
+      },
+      "path": "~/Ritual Circles/T3 Ritual"
+    },
+    {
+      "name": "SetT2NBT",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_t_2_nbt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/SetT2NBTProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual"
+    },
+    {
+      "name": "T2FuelTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_2_fuel_timer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/T2FuelTimerProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual"
+    },
+    {
+      "name": "T2SpiralUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_2_spiral_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/T2SpiralUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual"
+    },
+    {
+      "name": "T2FuelCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_2_fuel_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/T2FuelCheckProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual"
+    },
+    {
+      "name": "RecipesT2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_t_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/RecipesT2Procedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual"
+    },
+    {
+      "name": "DropSlotsT2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_slots_t_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/DropSlotsT2Procedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual"
+    },
+    {
+      "name": "ItemTakenFromOutputSlotT2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_taken_from_output_slot_t_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/ItemTakenFromOutputSlotT2Procedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual"
+    },
+    {
+      "name": "RitualCircleT3Conditions",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ritual_circle_t_3_conditions",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/RitualCircleT3ConditionsProcedure.java"
+        ]
+      },
+      "path": "~/Ritual Circles/T2 Ritual/Recipes"
     }
   ],
   "variable_elements": [
@@ -1622,6 +2039,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "100.0"
+    },
+    {
+      "name": "mystiaBarOrientation",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
     }
   ],
   "sound_elements": [],
@@ -1683,6 +2106,12 @@
     ],
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:VerawoodLeaves"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:VerawoodLog",
+      "CUSTOM:StrippedVerawoodLog",
+      "CUSTOM:StrippedVerawoodWood",
+      "CUSTOM:VerawoodWood"
     ]
   },
   "tab_element_order": {
@@ -1742,7 +2171,10 @@
       "item.mystic_gatherings.verawood_wood": "Verawood Log",
       "item.mystic_gatherings.verawood_planks": "Verawood Planks",
       "item.mystic_gatherings.verawood_leaves": "Verawood Leaves",
-      "item.mystic_gatherings.verawood_sapling": "Verawood Sapling"
+      "item.mystic_gatherings.verawood_sapling": "Verawood Sapling",
+      "item.mystic_gatherings.leather_sack": "Leather Sack",
+      "key.mystic_gatherings.switch_mystia_bar_orientation": "Switch Mystia Bar Orientation",
+      "item.mystic_gatherings.tier_3_ritual_circle": "Tier 3 Ritual Circle"
     }
   },
   "metadata": {
@@ -1767,18 +2199,6 @@
     "name": "~",
     "children": [
       {
-        "name": "Orph Ore",
-        "children": []
-      },
-      {
-        "name": "Dreal Ore",
-        "children": []
-      },
-      {
-        "name": "Mystia Gem",
-        "children": []
-      },
-      {
         "name": "Ritual Circles",
         "children": [
           {
@@ -1792,30 +2212,71 @@
           },
           {
             "name": "T2 Ritual",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "T3 Ritual",
             "children": []
           }
         ]
       },
       {
-        "name": "Alloys",
-        "children": []
-      },
-      {
-        "name": "MystiaSystem",
+        "name": "Mystia System",
         "children": [
           {
             "name": "Commands",
             "children": []
+          },
+          {
+            "name": "Effects",
+            "children": []
           }
         ]
       },
       {
-        "name": "Verawood",
-        "children": []
+        "name": "Ritual Items",
+        "children": [
+          {
+            "name": "Leather Sack",
+            "children": []
+          }
+        ]
       },
       {
-        "name": "Effects",
-        "children": []
+        "name": "Woods",
+        "children": [
+          {
+            "name": "Verawood",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ore",
+        "children": [
+          {
+            "name": "Dreal Ore",
+            "children": []
+          },
+          {
+            "name": "Orph Ore",
+            "children": [
+              {
+                "name": "Mystia Gem",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Alloys",
+            "children": []
+          }
+        ]
       }
     ]
   },

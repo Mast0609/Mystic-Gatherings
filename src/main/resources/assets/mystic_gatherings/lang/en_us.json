@@ -39,5 +39,8 @@
   "item.mystic_gatherings.verawood_wood": "Verawood Log",
   "item.mystic_gatherings.verawood_planks": "Verawood Planks",
   "item.mystic_gatherings.verawood_leaves": "Verawood Leaves",
-  "item.mystic_gatherings.verawood_sapling": "Verawood Sapling"
+  "item.mystic_gatherings.verawood_sapling": "Verawood Sapling",
+  "item.mystic_gatherings.leather_sack": "Leather Sack",
+  "key.mystic_gatherings.switch_mystia_bar_orientation": "Switch Mystia Bar Orientation",
+  "item.mystic_gatherings.tier_3_ritual_circle": "Tier 3 Ritual Circle"
 }

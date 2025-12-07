@@ -61,7 +61,7 @@ public class VerawoodSaplingBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		VerawoodSaplingGrowthBonemealProcedure.execute(world, x, y, z);
+		VerawoodSaplingGrowthBonemealProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

@@ -1,7 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/leaves",
   "textures": {
-    "all": "mystic_gatherings:block/verawoodleaves",
-    "particle": "mystic_gatherings:block/verawoodleaves"
+    "all": "mystic_gatherings:block/verawoodleavestest",
+    "particle": "mystic_gatherings:block/verawoodleavestest"
   }
 }

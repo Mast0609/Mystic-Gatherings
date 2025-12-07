@@ -5,6 +5,10 @@ package net.mcreator.mysticgatherings.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
@@ -38,6 +42,7 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> VERAWOOD_PLANKS;
 	public static final DeferredBlock<Block> VERAWOOD_LEAVES;
 	public static final DeferredBlock<Block> VERAWOOD_SAPLING;
+	public static final DeferredBlock<Block> TIER_3_RITUAL_CIRCLE;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -61,11 +66,20 @@ public class MysticGatheringsModBlocks {
 		VERAWOOD_PLANKS = register("verawood_planks", VerawoodPlanksBlock::new);
 		VERAWOOD_LEAVES = register("verawood_leaves", VerawoodLeavesBlock::new);
 		VERAWOOD_SAPLING = register("verawood_sapling", VerawoodSaplingBlock::new);
+		TIER_3_RITUAL_CIRCLE = register("tier_3_ritual_circle", Tier3RitualCircleBlock::new);
 	}
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 	private static <B extends Block> DeferredBlock<B> register(String name, Function<BlockBehaviour.Properties, ? extends B> supplier) {
 		return REGISTRY.registerBlock(name, supplier);
+	}
+
+	@EventBusSubscriber(Dist.CLIENT)
+	public static class BlocksClientSideHandler {
+		@SubscribeEvent
+		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+			VerawoodLeavesBlock.blockColorLoad(event);
+		}
 	}
 }

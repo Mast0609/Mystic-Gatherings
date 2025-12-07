@@ -15,6 +15,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.mysticgatherings.procedures.T2FuelCheckProcedure;
 import net.mcreator.mysticgatherings.procedures.ItemTakenFromOutputSlotT1Procedure;
 import net.mcreator.mysticgatherings.MysticGatheringsMod;
 
@@ -49,7 +50,11 @@ public record Tier2RitualCircleGUISlotMessage(int slotID, int x, int y, int z, i
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-		if (slot == 4 && changeType == 1) {
+		if (slot == 0 && changeType == 0) {
+
+			T2FuelCheckProcedure.execute(world, x, y, z, entity);
+		}
+		if (slot == 6 && changeType == 1) {
 			int amount = meta;
 
 			ItemTakenFromOutputSlotT1Procedure.execute(entity);

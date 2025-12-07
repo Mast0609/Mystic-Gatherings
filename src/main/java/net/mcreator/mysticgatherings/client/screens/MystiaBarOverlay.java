@@ -15,11 +15,13 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.mysticgatherings.procedures.VerticalTrueProcedure;
 import net.mcreator.mysticgatherings.procedures.MystiaBarSpriteUpdateProcedure;
+import net.mcreator.mysticgatherings.procedures.HorizontalTrueProcedure;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class MystiaBarOverlay {
-	@SubscribeEvent(priority = EventPriority.NORMAL)
+	@SubscribeEvent(priority = EventPriority.HIGH)
 	public static void eventHandler(RenderGuiEvent.Pre event) {
 		int w = event.getGuiGraphics().guiWidth();
 		int h = event.getGuiGraphics().guiHeight();
@@ -35,10 +37,14 @@ public class MystiaBarOverlay {
 			z = entity.getZ();
 		}
 		if (true) {
-
-			event.getGuiGraphics().blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/mystiabarspritesheet.png"), w / 2 + -100, 5,
-					Mth.clamp((int) MystiaBarSpriteUpdateProcedure.execute(entity) * 201, 0, 2010), 0, 201, 5, 2211, 5);
-
+			if (HorizontalTrueProcedure.execute(entity)) {
+				event.getGuiGraphics().blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/mystiabarspritesheet.png"), w / 2 + -100, 5,
+						Mth.clamp((int) MystiaBarSpriteUpdateProcedure.execute(entity) * 201, 0, 2010), 0, 201, 5, 2211, 5);
+			}
+			if (VerticalTrueProcedure.execute(entity)) {
+				event.getGuiGraphics().blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("mystic_gatherings:textures/screens/verticalmystiabarspritesheet.png"), 6, h / 2 + -106, 0,
+						Mth.clamp((int) MystiaBarSpriteUpdateProcedure.execute(entity) * 201, 0, 2010), 5, 201, 5, 2211);
+			}
 		}
 	}
 }

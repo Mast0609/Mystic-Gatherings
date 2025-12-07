@@ -18,6 +18,7 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.mysticgatherings.world.inventory.Tier2RitualCircleGUIMenu;
 import net.mcreator.mysticgatherings.world.inventory.Tier1RitualCircleGUIMenu;
+import net.mcreator.mysticgatherings.world.inventory.LeatherSackInventoryMenu;
 import net.mcreator.mysticgatherings.network.MenuStateUpdateMessage;
 import net.mcreator.mysticgatherings.MysticGatheringsMod;
 
@@ -26,6 +27,7 @@ import java.util.Map;
 public class MysticGatheringsModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, MysticGatheringsMod.MODID);
 	public static final DeferredHolder<MenuType<?>, MenuType<Tier1RitualCircleGUIMenu>> TIER_1_RITUAL_CIRCLE_GUI = REGISTRY.register("tier_1_ritual_circle_gui", () -> IMenuTypeExtension.create(Tier1RitualCircleGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<LeatherSackInventoryMenu>> LEATHER_SACK_INVENTORY = REGISTRY.register("leather_sack_inventory", () -> IMenuTypeExtension.create(LeatherSackInventoryMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<Tier2RitualCircleGUIMenu>> TIER_2_RITUAL_CIRCLE_GUI = REGISTRY.register("tier_2_ritual_circle_gui", () -> IMenuTypeExtension.create(Tier2RitualCircleGUIMenu::new));
 
 	public interface MenuAccessor {

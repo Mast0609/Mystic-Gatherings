@@ -6,17 +6,23 @@ package net.mcreator.mysticgatherings.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
+import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.mysticgatherings.item.inventory.LeatherSackInventoryCapability;
 import net.mcreator.mysticgatherings.item.*;
 import net.mcreator.mysticgatherings.MysticGatheringsMod;
 
 import java.util.function.Function;
 
+@EventBusSubscriber
 public class MysticGatheringsModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(MysticGatheringsMod.MODID);
 	public static final DeferredItem<Item> RAW_ORPH;
@@ -57,6 +63,8 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> VERAWOOD_PLANKS;
 	public static final DeferredItem<Item> VERAWOOD_LEAVES;
 	public static final DeferredItem<Item> VERAWOOD_SAPLING;
+	public static final DeferredItem<Item> LEATHER_SACK;
+	public static final DeferredItem<Item> TIER_3_RITUAL_CIRCLE;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -96,6 +104,8 @@ public class MysticGatheringsModItems {
 		VERAWOOD_PLANKS = block(MysticGatheringsModBlocks.VERAWOOD_PLANKS);
 		VERAWOOD_LEAVES = block(MysticGatheringsModBlocks.VERAWOOD_LEAVES);
 		VERAWOOD_SAPLING = block(MysticGatheringsModBlocks.VERAWOOD_SAPLING);
+		LEATHER_SACK = register("leather_sack", LeatherSackItem::new);
+		TIER_3_RITUAL_CIRCLE = block(MysticGatheringsModBlocks.TIER_3_RITUAL_CIRCLE, new Item.Properties().rarity(Rarity.EPIC));
 	}
 
 	// Start of user code block custom items
@@ -110,5 +120,10 @@ public class MysticGatheringsModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+	}
+
+	@SubscribeEvent
+	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new LeatherSackInventoryCapability(stack), LEATHER_SACK.get());
 	}
 }

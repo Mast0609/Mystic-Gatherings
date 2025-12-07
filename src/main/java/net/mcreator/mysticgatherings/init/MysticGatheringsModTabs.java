@@ -58,7 +58,10 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_WOOD.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_PLANKS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_LEAVES.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_SAPLING.get().asItem());
+				tabData.accept(MysticGatheringsModItems.LEATHER_SACK.get());
+				tabData.accept(MysticGatheringsModBlocks.TIER_3_RITUAL_CIRCLE.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -73,6 +76,7 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_LOG.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_WOOD.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_LEAVES.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_SAPLING.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.ORPH_BLOCK.get().asItem());
@@ -86,9 +90,11 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_PLANKS.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(MysticGatheringsModItems.POLISHING_CLOTH.get());
+			tabData.accept(MysticGatheringsModItems.LEATHER_SACK.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.TIER_3_RITUAL_CIRCLE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_HELMET.get());
 			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_CHESTPLATE.get());

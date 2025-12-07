@@ -16,6 +16,8 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.mysticgatherings.block.entity.Tier3RitualCircleBlockEntity;
+import net.mcreator.mysticgatherings.block.entity.Tier2RitualCircleBlockEntity;
 import net.mcreator.mysticgatherings.block.entity.Tier1RitualCircleBlockEntity;
 import net.mcreator.mysticgatherings.MysticGatheringsMod;
 
@@ -23,6 +25,8 @@ import net.mcreator.mysticgatherings.MysticGatheringsMod;
 public class MysticGatheringsModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, MysticGatheringsMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<Tier1RitualCircleBlockEntity>> TIER_1_RITUAL_CIRCLE = register("tier_1_ritual_circle", MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE, Tier1RitualCircleBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<Tier2RitualCircleBlockEntity>> TIER_2_RITUAL_CIRCLE = register("tier_2_ritual_circle", MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE, Tier2RitualCircleBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<Tier3RitualCircleBlockEntity>> TIER_3_RITUAL_CIRCLE = register("tier_3_ritual_circle", MysticGatheringsModBlocks.TIER_3_RITUAL_CIRCLE, Tier3RitualCircleBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -33,5 +37,7 @@ public class MysticGatheringsModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TIER_1_RITUAL_CIRCLE.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TIER_2_RITUAL_CIRCLE.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TIER_3_RITUAL_CIRCLE.get(), SidedInvWrapper::new);
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPADENTER",
+    "keyBindingName": "Switch Mystia Bar Orientation",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "SwitchBarOrientation"
+    }
+  }
+}

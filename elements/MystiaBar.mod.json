@@ -2,13 +2,16 @@
   "_fv": 79,
   "_type": "overlay",
   "definition": {
-    "priority": "NORMAL",
+    "priority": "HIGH",
     "components": [
       {
         "type": "sprite",
         "data": {
           "sprite": "mystiabarspritesheet.png",
           "spritesCount": 11,
+          "displayCondition": {
+            "name": "HorizontalTrue"
+          },
           "spriteIndex": {
             "fixedValue": 0.0,
             "name": "MystiaBarSpriteUpdate"
@@ -16,6 +19,24 @@
           "anchorPoint": "TOP_CENTER",
           "x": 113,
           "y": 5,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "verticalmystiabarspritesheet.png",
+          "spritesCount": 11,
+          "displayCondition": {
+            "name": "VerticalTrue"
+          },
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "MystiaBarSpriteUpdate"
+          },
+          "anchorPoint": "CENTER_LEFT",
+          "x": 6,
+          "y": 14,
           "locked": false
         }
       }
@@ -27,7 +48,7 @@
       "sy": 3,
       "ox": 1,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }
