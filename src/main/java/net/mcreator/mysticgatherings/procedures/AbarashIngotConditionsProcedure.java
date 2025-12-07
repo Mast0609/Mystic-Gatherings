@@ -18,6 +18,6 @@ public class AbarashIngotConditionsProcedure {
 				&& (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MysticGatheringsModMenus.MenuAccessor _menu4 ? _menu4.getSlots().get(2).getItem() : ItemStack.EMPTY).getItem() == MysticGatheringsModItems.CALDON_INGOT
 						.get()
 				&& (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MysticGatheringsModMenus.MenuAccessor _menu6 ? _menu6.getSlots().get(3).getItem() : ItemStack.EMPTY)
-						.getItem() == MysticGatheringsModItems.POLISHED_MYSTIA.get();
+						.getItem() == MysticGatheringsModItems.POLISHED_MYSTIA_GEM.get();
 	}
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "mystic_gatherings:custom/ritualcandle",
+  "textures": {
+    "all": "mystic_gatherings:block/ritualcandle1",
+    "particle": "mystic_gatherings:block/ritualcandle1",
+    "0": "mystic_gatherings:block/ritualcandle1"
+  },
+  "render_type": "cutout_mipped"
+}

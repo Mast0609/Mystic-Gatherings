@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mystic_gatherings:block/t_3_ritual_candle"
+    },
+    "facing=east": {
+      "model": "mystic_gatherings:block/t_3_ritual_candle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mystic_gatherings:block/t_3_ritual_candle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mystic_gatherings:block/t_3_ritual_candle",
+      "y": 270
+    }
+  }
+}

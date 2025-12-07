@@ -16,6 +16,6 @@ public class CaldonIngotConditionsProcedure {
 				.get() && (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MysticGatheringsModMenus.MenuAccessor _menu2 ? _menu2.getSlots().get(1).getItem() : ItemStack.EMPTY).getItem() == Items.COPPER_INGOT
 				&& (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MysticGatheringsModMenus.MenuAccessor _menu4 ? _menu4.getSlots().get(2).getItem() : ItemStack.EMPTY).getItem() == Items.DIAMOND
 				&& (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MysticGatheringsModMenus.MenuAccessor _menu6 ? _menu6.getSlots().get(3).getItem() : ItemStack.EMPTY)
-						.getItem() == MysticGatheringsModItems.POLISHED_MYSTIA.get();
+						.getItem() == MysticGatheringsModItems.POLISHED_MYSTIA_GEM.get();
 	}
 }

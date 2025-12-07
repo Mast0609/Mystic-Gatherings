@@ -37,10 +37,10 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModBlocks.WAXED_DREAL_BLOCK.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.WAXED_WEATHERED_DREAL_BLOCK.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.WAXED_OXIDIZED_DREAL_BLOCK.get().asItem());
-				tabData.accept(MysticGatheringsModItems.RAW_MYSTIA.get());
+				tabData.accept(MysticGatheringsModItems.RAW_MYSTIA_GEM.get());
 				tabData.accept(MysticGatheringsModBlocks.MYSTIA_ORE.get().asItem());
 				tabData.accept(MysticGatheringsModItems.POLISHING_CLOTH.get());
-				tabData.accept(MysticGatheringsModItems.POLISHED_MYSTIA.get());
+				tabData.accept(MysticGatheringsModItems.POLISHED_MYSTIA_GEM.get());
 				tabData.accept(MysticGatheringsModBlocks.MYSTIA_BLOCK.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE.get().asItem());
@@ -62,6 +62,10 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_SAPLING.get().asItem());
 				tabData.accept(MysticGatheringsModItems.LEATHER_SACK.get());
 				tabData.accept(MysticGatheringsModBlocks.TIER_3_RITUAL_CIRCLE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.T_1_RITUAL_CANDLE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.T_2_RITUAL_CANDLE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.T_3_RITUAL_CANDLE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.STONE_CONDENSED_MYSTIA_ORE.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -78,6 +82,7 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_WOOD.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_LEAVES.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_SAPLING.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.STONE_CONDENSED_MYSTIA_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.ORPH_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DREAL_BLOCK.get().asItem());
@@ -88,6 +93,9 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.WAXED_OXIDIZED_DREAL_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.MYSTIA_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_PLANKS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.T_1_RITUAL_CANDLE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.T_2_RITUAL_CANDLE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.T_3_RITUAL_CANDLE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(MysticGatheringsModItems.POLISHING_CLOTH.get());
 			tabData.accept(MysticGatheringsModItems.LEATHER_SACK.get());
@@ -95,6 +103,9 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.TIER_3_RITUAL_CIRCLE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.T_1_RITUAL_CANDLE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.T_2_RITUAL_CANDLE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.T_3_RITUAL_CANDLE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_HELMET.get());
 			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_CHESTPLATE.get());
@@ -110,8 +121,8 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModItems.VERITA_INGOT.get());
 			tabData.accept(MysticGatheringsModItems.CALDON_INGOT.get());
 			tabData.accept(MysticGatheringsModItems.ABARASH_INGOT.get());
-			tabData.accept(MysticGatheringsModItems.RAW_MYSTIA.get());
-			tabData.accept(MysticGatheringsModItems.POLISHED_MYSTIA.get());
+			tabData.accept(MysticGatheringsModItems.RAW_MYSTIA_GEM.get());
+			tabData.accept(MysticGatheringsModItems.POLISHED_MYSTIA_GEM.get());
 		}
 	}
 }

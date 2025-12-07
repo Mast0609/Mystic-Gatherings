@@ -40,10 +40,10 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> WAXED_DREAL_BLOCK;
 	public static final DeferredItem<Item> WAXED_WEATHERED_DREAL_BLOCK;
 	public static final DeferredItem<Item> WAXED_OXIDIZED_DREAL_BLOCK;
-	public static final DeferredItem<Item> RAW_MYSTIA;
+	public static final DeferredItem<Item> RAW_MYSTIA_GEM;
 	public static final DeferredItem<Item> MYSTIA_ORE;
 	public static final DeferredItem<Item> POLISHING_CLOTH;
-	public static final DeferredItem<Item> POLISHED_MYSTIA;
+	public static final DeferredItem<Item> POLISHED_MYSTIA_GEM;
 	public static final DeferredItem<Item> MYSTIA_BLOCK;
 	public static final DeferredItem<Item> TIER_1_RITUAL_CIRCLE;
 	public static final DeferredItem<Item> TIER_2_RITUAL_CIRCLE;
@@ -65,6 +65,10 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> VERAWOOD_SAPLING;
 	public static final DeferredItem<Item> LEATHER_SACK;
 	public static final DeferredItem<Item> TIER_3_RITUAL_CIRCLE;
+	public static final DeferredItem<Item> T_1_RITUAL_CANDLE;
+	public static final DeferredItem<Item> T_2_RITUAL_CANDLE;
+	public static final DeferredItem<Item> T_3_RITUAL_CANDLE;
+	public static final DeferredItem<Item> STONE_CONDENSED_MYSTIA_ORE;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -81,10 +85,10 @@ public class MysticGatheringsModItems {
 		WAXED_DREAL_BLOCK = block(MysticGatheringsModBlocks.WAXED_DREAL_BLOCK);
 		WAXED_WEATHERED_DREAL_BLOCK = block(MysticGatheringsModBlocks.WAXED_WEATHERED_DREAL_BLOCK);
 		WAXED_OXIDIZED_DREAL_BLOCK = block(MysticGatheringsModBlocks.WAXED_OXIDIZED_DREAL_BLOCK);
-		RAW_MYSTIA = register("raw_mystia", RawMystiaItem::new);
+		RAW_MYSTIA_GEM = register("raw_mystia_gem", RawMystiaItem::new);
 		MYSTIA_ORE = block(MysticGatheringsModBlocks.MYSTIA_ORE, new Item.Properties().rarity(Rarity.RARE));
 		POLISHING_CLOTH = register("polishing_cloth", PolishingClothItem::new);
-		POLISHED_MYSTIA = register("polished_mystia", PolishedMystiaItem::new);
+		POLISHED_MYSTIA_GEM = register("polished_mystia_gem", PolishedMystiaItem::new);
 		MYSTIA_BLOCK = block(MysticGatheringsModBlocks.MYSTIA_BLOCK, new Item.Properties().rarity(Rarity.RARE));
 		TIER_1_RITUAL_CIRCLE = block(MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE, new Item.Properties().rarity(Rarity.RARE));
 		TIER_2_RITUAL_CIRCLE = block(MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE, new Item.Properties().rarity(Rarity.EPIC));
@@ -106,6 +110,10 @@ public class MysticGatheringsModItems {
 		VERAWOOD_SAPLING = block(MysticGatheringsModBlocks.VERAWOOD_SAPLING);
 		LEATHER_SACK = register("leather_sack", LeatherSackItem::new);
 		TIER_3_RITUAL_CIRCLE = block(MysticGatheringsModBlocks.TIER_3_RITUAL_CIRCLE, new Item.Properties().rarity(Rarity.EPIC));
+		T_1_RITUAL_CANDLE = block(MysticGatheringsModBlocks.T_1_RITUAL_CANDLE);
+		T_2_RITUAL_CANDLE = block(MysticGatheringsModBlocks.T_2_RITUAL_CANDLE);
+		T_3_RITUAL_CANDLE = block(MysticGatheringsModBlocks.T_3_RITUAL_CANDLE);
+		STONE_CONDENSED_MYSTIA_ORE = block(MysticGatheringsModBlocks.STONE_CONDENSED_MYSTIA_ORE);
 	}
 
 	// Start of user code block custom items

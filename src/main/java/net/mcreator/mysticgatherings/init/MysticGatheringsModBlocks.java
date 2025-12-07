@@ -43,6 +43,10 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> VERAWOOD_LEAVES;
 	public static final DeferredBlock<Block> VERAWOOD_SAPLING;
 	public static final DeferredBlock<Block> TIER_3_RITUAL_CIRCLE;
+	public static final DeferredBlock<Block> T_1_RITUAL_CANDLE;
+	public static final DeferredBlock<Block> T_2_RITUAL_CANDLE;
+	public static final DeferredBlock<Block> T_3_RITUAL_CANDLE;
+	public static final DeferredBlock<Block> STONE_CONDENSED_MYSTIA_ORE;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -67,6 +71,10 @@ public class MysticGatheringsModBlocks {
 		VERAWOOD_LEAVES = register("verawood_leaves", VerawoodLeavesBlock::new);
 		VERAWOOD_SAPLING = register("verawood_sapling", VerawoodSaplingBlock::new);
 		TIER_3_RITUAL_CIRCLE = register("tier_3_ritual_circle", Tier3RitualCircleBlock::new);
+		T_1_RITUAL_CANDLE = register("t_1_ritual_candle", T1RitualCandleBlock::new);
+		T_2_RITUAL_CANDLE = register("t_2_ritual_candle", T2RitualCandleBlock::new);
+		T_3_RITUAL_CANDLE = register("t_3_ritual_candle", T3RitualCandleBlock::new);
+		STONE_CONDENSED_MYSTIA_ORE = register("stone_condensed_mystia_ore", StoneCondensedMystiaOreBlock::new);
 	}
 
 	// Start of user code block custom blocks

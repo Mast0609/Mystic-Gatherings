@@ -593,15 +593,15 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "raw_mystia",
+      "registry_name": "raw_mystia_gem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mystic_gatherings/models/item/raw_mystia.json",
           "src/main/java/net/mcreator/mysticgatherings/item/RawMystiaItem.java",
-          "src/main/resources/assets/mystic_gatherings/items/raw_mystia.json"
+          "src/main/resources/assets/mystic_gatherings/models/item/raw_mystia_gem.json",
+          "src/main/resources/assets/mystic_gatherings/items/raw_mystia_gem.json"
         ]
       },
-      "path": "~/Ore/Orph Ore/Mystia Gem"
+      "path": "~/Ore/Mystia Gem"
     },
     {
       "name": "MystiaOre",
@@ -622,7 +622,7 @@
           "src/main/resources/assets/mystic_gatherings/models/block/mystia_ore.json"
         ]
       },
-      "path": "~/Ore/Orph Ore/Mystia Gem"
+      "path": "~/Ore/Mystia Gem"
     },
     {
       "name": "PolishingCloth",
@@ -637,22 +637,22 @@
           "src/main/resources/assets/mystic_gatherings/models/item/polishing_cloth.json"
         ]
       },
-      "path": "~/Ore/Orph Ore/Mystia Gem"
+      "path": "~/Ore/Mystia Gem"
     },
     {
       "name": "PolishedMystia",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "polished_mystia",
+      "registry_name": "polished_mystia_gem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mystic_gatherings/models/item/polished_mystia.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_mystia_gem.json",
           "src/main/java/net/mcreator/mysticgatherings/item/PolishedMystiaItem.java",
-          "src/main/resources/assets/mystic_gatherings/items/polished_mystia.json"
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_mystia_gem.json"
         ]
       },
-      "path": "~/Ore/Orph Ore/Mystia Gem"
+      "path": "~/Ore/Mystia Gem"
     },
     {
       "name": "PolishingClothCrafting",
@@ -666,7 +666,7 @@
           "src/main/resources/data/mystic_gatherings/advancement/recipes/polishing_cloth_crafting.json"
         ]
       },
-      "path": "~/Ore/Orph Ore/Mystia Gem"
+      "path": "~/Ore/Mystia Gem"
     },
     {
       "name": "RawMystiaPolishing",
@@ -680,7 +680,7 @@
           "src/main/resources/data/mystic_gatherings/recipe/raw_mystia_polishing.json"
         ]
       },
-      "path": "~/Ore/Orph Ore/Mystia Gem"
+      "path": "~/Ore/Mystia Gem"
     },
     {
       "name": "MystiaBlock",
@@ -698,7 +698,7 @@
           "src/main/resources/assets/mystic_gatherings/blockstates/mystia_block.json"
         ]
       },
-      "path": "~/Ore/Orph Ore/Mystia Gem"
+      "path": "~/Ore/Mystia Gem"
     },
     {
       "name": "MystiaBlockCrafting",
@@ -712,7 +712,7 @@
           "src/main/resources/data/mystic_gatherings/advancement/recipes/mystia_block_crafting.json"
         ]
       },
-      "path": "~/Ore/Orph Ore/Mystia Gem"
+      "path": "~/Ore/Mystia Gem"
     },
     {
       "name": "PolishedMystiaCrafting",
@@ -726,7 +726,7 @@
           "src/main/resources/data/mystic_gatherings/recipe/polished_mystia_crafting.json"
         ]
       },
-      "path": "~/Ore/Orph Ore/Mystia Gem"
+      "path": "~/Ore/Mystia Gem"
     },
     {
       "name": "Tier1RitualCircle",
@@ -2019,6 +2019,78 @@
         ]
       },
       "path": "~/Ritual Circles/T2 Ritual/Recipes"
+    },
+    {
+      "name": "T1RitualCandle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_1_ritual_candle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/t_1_ritual_candle.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/t_1_ritual_candle.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/t_1_ritual_candle.json",
+          "src/main/resources/assets/mystic_gatherings/items/t_1_ritual_candle.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/T1RitualCandleBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/t_1_ritual_candle.json"
+        ]
+      }
+    },
+    {
+      "name": "T2RitualCandle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_2_ritual_candle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/t_2_ritual_candle.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/t_2_ritual_candle.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/t_2_ritual_candle.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/t_2_ritual_candle.json",
+          "src/main/resources/assets/mystic_gatherings/items/t_2_ritual_candle.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/T2RitualCandleBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "T3RitualCandle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_3_ritual_candle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/t_3_ritual_candle.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/T3RitualCandleBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/t_3_ritual_candle.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/t_3_ritual_candle.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/t_3_ritual_candle.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/t_3_ritual_candle.json"
+        ]
+      }
+    },
+    {
+      "name": "StoneCondensedMystiaOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_condensed_mystia_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stone_condensed_mystia_ore.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/stone_condensed_mystia_ore.json",
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/stone_condensed_mystia_ore_biome_modifier.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/stone_condensed_mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/stone_condensed_mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/stone_condensed_mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/stone_condensed_mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/items/stone_condensed_mystia_ore.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/StoneCondensedMystiaOreBlock.java"
+        ]
+      },
+      "path": "~/Ore/Condensed Mystia"
     }
   ],
   "variable_elements": [
@@ -2050,6 +2122,7 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:StoneCondensedMystiaOre",
       "~CUSTOM:MystiaBlock",
       "~CUSTOM:MystiaOre",
       "~CUSTOM:WaxedOxidizedDrealBlock",
@@ -2112,6 +2185,17 @@
       "CUSTOM:StrippedVerawoodLog",
       "CUSTOM:StrippedVerawoodWood",
       "CUSTOM:VerawoodWood"
+    ],
+    "ITEMS:mystic_gatherings:polishing_cloth": [
+      "CUSTOM:PolishingCloth"
+    ],
+    "BLOCKS:minecraft:dirt": [],
+    "BLOCKS:minecraft:sand": [],
+    "BIOMES:minecraft:is_overworld": [],
+    "BIOMES:minecraft:is_nether": [],
+    "BIOMES:minecraft:is_end": [],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:StoneCondensedMystiaOre"
     ]
   },
   "tab_element_order": {
@@ -2145,15 +2229,13 @@
       "item.mystic_gatherings.waxed_dreal_block": "Waxed Dreal Block",
       "item.mystic_gatherings.waxed_weathered_dreal_block": "Waxed Weathered Dreal Block",
       "item.mystic_gatherings.waxed_oxidized_dreal_block": "Waxed Oxidized Dreal Block",
-      "item.mystic_gatherings.raw_mystia": "Raw Mystia",
-      "item.mystic_gatherings.mystia_ore": "Mystia Ore",
+      "item.mystic_gatherings.mystia_ore": "Mystia Gem Ore",
       "item.mystic_gatherings.polishing_cloth": "Polishing Cloth",
       "item.mystic_gatherings.mystia_block": "Mystia Block",
       "item.mystic_gatherings.tier_1_ritual_circle": "Tier 1 Ritual Circle",
       "item.mystic_gatherings.tier_2_ritual_circle": "Tier 2 Ritual Circle",
       "item.mystic_gatherings.orph_ingot": "Orph Ingot",
       "item.mystic_gatherings.dreal_ingot": "Dreal Ingot",
-      "item.mystic_gatherings.polished_mystia": "Polished Mystia",
       "item.mystic_gatherings.agrium_ingot": "Agrium Ingot",
       "item.mystic_gatherings.caldon_ingot": "Caldon Ingot",
       "item.mystic_gatherings.abarash_ingot": "Abarash Ingot",
@@ -2174,7 +2256,13 @@
       "item.mystic_gatherings.verawood_sapling": "Verawood Sapling",
       "item.mystic_gatherings.leather_sack": "Leather Sack",
       "key.mystic_gatherings.switch_mystia_bar_orientation": "Switch Mystia Bar Orientation",
-      "item.mystic_gatherings.tier_3_ritual_circle": "Tier 3 Ritual Circle"
+      "item.mystic_gatherings.tier_3_ritual_circle": "Tier 3 Ritual Circle",
+      "item.mystic_gatherings.raw_mystia_gem": "Raw Mystia Gem\u0027",
+      "item.mystic_gatherings.polished_mystia_gem": "Polished Mystia Gem",
+      "item.mystic_gatherings.t_1_ritual_candle": "Tier 1 Ritual Candle",
+      "item.mystic_gatherings.t_2_ritual_candle": "Tier 2 Ritual Candle",
+      "item.mystic_gatherings.t_3_ritual_candle": "Tier 3 Ritual Candle",
+      "item.mystic_gatherings.stone_condensed_mystia_ore": "Stone Condensed Mystia Ore"
     }
   },
   "metadata": {
@@ -2265,15 +2353,18 @@
           },
           {
             "name": "Orph Ore",
-            "children": [
-              {
-                "name": "Mystia Gem",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "name": "Alloys",
+            "children": []
+          },
+          {
+            "name": "Condensed Mystia",
+            "children": []
+          },
+          {
+            "name": "Mystia Gem",
             "children": []
           }
         ]

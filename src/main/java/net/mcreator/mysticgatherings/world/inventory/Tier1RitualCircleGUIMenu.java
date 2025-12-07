@@ -147,7 +147,7 @@ public class Tier1RitualCircleGUIMenu extends AbstractContainerMenu implements M
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return MysticGatheringsModItems.RAW_MYSTIA.get() == stack.getItem();
+				return MysticGatheringsModItems.RAW_MYSTIA_GEM.get() == stack.getItem();
 			}
 		}));
 		for (int si = 0; si < 3; ++si)

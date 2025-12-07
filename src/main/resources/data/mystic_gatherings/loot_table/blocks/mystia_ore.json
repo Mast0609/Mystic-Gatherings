@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mystic_gatherings:raw_mystia",
+          "name": "mystic_gatherings:raw_mystia_gem",
           "functions": [
             {
               "count": 3,

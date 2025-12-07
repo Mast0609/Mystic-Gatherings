@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "ritualcandle1"
+      }
+    },
+    "t2": {
+      "name": "t2",
+      "map": {
+        "0": "ritualcandle2"
+      }
+    },
+    "t3": {
+      "name": "t3",
+      "map": {
+        "0": "ritualcandle3"
+      }
+    }
+  }
+}

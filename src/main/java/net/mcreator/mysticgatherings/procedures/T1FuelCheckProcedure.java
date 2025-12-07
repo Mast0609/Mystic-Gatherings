@@ -17,7 +17,7 @@ public class T1FuelCheckProcedure {
 		if (entity == null)
 			return;
 		if (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "activationTimer") <= 0) {
-			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MysticGatheringsModMenus.MenuAccessor _menu1 ? _menu1.getSlots().get(5).getItem() : ItemStack.EMPTY).getItem() == MysticGatheringsModItems.RAW_MYSTIA
+			if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof MysticGatheringsModMenus.MenuAccessor _menu1 ? _menu1.getSlots().get(5).getItem() : ItemStack.EMPTY).getItem() == MysticGatheringsModItems.RAW_MYSTIA_GEM
 					.get()) {
 				if (entity instanceof Player _player && _player.containerMenu instanceof MysticGatheringsModMenus.MenuAccessor _menu) {
 					_menu.getSlots().get(5).remove(1);

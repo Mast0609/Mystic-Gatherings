@@ -20,7 +20,7 @@ public class T1ConsumeMystiaFuelProcedure {
 				_vars.markSyncDirty();
 			}
 			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(MysticGatheringsModItems.RAW_MYSTIA.get()).copy();
+				ItemStack _setstack = new ItemStack(MysticGatheringsModItems.RAW_MYSTIA_GEM.get()).copy();
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}

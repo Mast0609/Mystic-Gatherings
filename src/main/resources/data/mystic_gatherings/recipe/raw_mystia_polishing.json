@@ -3,11 +3,11 @@
   "group": "mysticgatherings",
   "category": "misc",
   "ingredients": [
-    "mystic_gatherings:raw_mystia",
-    "mystic_gatherings:polishing_cloth"
+    "mystic_gatherings:raw_mystia_gem",
+    "#mystic_gatherings:polishing_cloth"
   ],
   "result": {
-    "id": "mystic_gatherings:polished_mystia",
+    "id": "mystic_gatherings:polished_mystia_gem",
     "count": 1
   }
 }
