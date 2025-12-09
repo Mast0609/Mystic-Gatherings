@@ -21,7 +21,7 @@ import net.mcreator.mysticgatherings.MysticGatheringsMod;
 public class MysticGatheringsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MysticGatheringsMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MYSTIC_GATHERINGS = REGISTRY.register("mystic_gatherings",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mystic_gatherings.mystic_gatherings")).icon(() -> new ItemStack(MysticGatheringsModItems.RAW_ORPH.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mystic_gatherings.mystic_gatherings")).icon(() -> new ItemStack(MysticGatheringsModItems.POLISHED_MYSTIA_GEM.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(MysticGatheringsModItems.RAW_ORPH.get());
 				tabData.accept(MysticGatheringsModBlocks.STONE_ORPH_ORE.get().asItem());
 				tabData.accept(MysticGatheringsModItems.ORPH_INGOT.get());
@@ -66,7 +66,12 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModBlocks.T_2_RITUAL_CANDLE.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.T_3_RITUAL_CANDLE.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.STONE_CONDENSED_MYSTIA_ORE.get().asItem());
-			}).build());
+				tabData.accept(MysticGatheringsModItems.RAW_CONDENSED_MYSTIA.get());
+				tabData.accept(MysticGatheringsModBlocks.DEEPSLATE_CONDENSED_MYSTIA_ORE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.ENDSTONE_CONDENSED_MYSTIA_ORE.get().asItem());
+				tabData.accept(MysticGatheringsModItems.CONDENSED_MYSTIA_PEARL.get());
+				tabData.accept(MysticGatheringsModItems.ORPH_NUGGET.get());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -83,6 +88,8 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_LEAVES.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_SAPLING.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.STONE_CONDENSED_MYSTIA_ORE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.DEEPSLATE_CONDENSED_MYSTIA_ORE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.ENDSTONE_CONDENSED_MYSTIA_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.ORPH_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DREAL_BLOCK.get().asItem());
@@ -123,6 +130,9 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModItems.ABARASH_INGOT.get());
 			tabData.accept(MysticGatheringsModItems.RAW_MYSTIA_GEM.get());
 			tabData.accept(MysticGatheringsModItems.POLISHED_MYSTIA_GEM.get());
+			tabData.accept(MysticGatheringsModItems.RAW_CONDENSED_MYSTIA.get());
+			tabData.accept(MysticGatheringsModItems.CONDENSED_MYSTIA_PEARL.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_NUGGET.get());
 		}
 	}
 }

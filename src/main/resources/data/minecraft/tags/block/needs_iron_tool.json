@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "mystic_gatherings:stone_condensed_mystia_ore"
+    "mystic_gatherings:endstone_condensed_mystia_ore",
+    "mystic_gatherings:stone_condensed_mystia_ore",
+    "mystic_gatherings:deepslate_condensed_mystia_ore"
   ]
 }

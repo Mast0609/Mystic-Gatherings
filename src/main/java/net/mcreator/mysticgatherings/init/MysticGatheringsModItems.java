@@ -69,6 +69,11 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> T_2_RITUAL_CANDLE;
 	public static final DeferredItem<Item> T_3_RITUAL_CANDLE;
 	public static final DeferredItem<Item> STONE_CONDENSED_MYSTIA_ORE;
+	public static final DeferredItem<Item> RAW_CONDENSED_MYSTIA;
+	public static final DeferredItem<Item> DEEPSLATE_CONDENSED_MYSTIA_ORE;
+	public static final DeferredItem<Item> ENDSTONE_CONDENSED_MYSTIA_ORE;
+	public static final DeferredItem<Item> CONDENSED_MYSTIA_PEARL;
+	public static final DeferredItem<Item> ORPH_NUGGET;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -114,6 +119,11 @@ public class MysticGatheringsModItems {
 		T_2_RITUAL_CANDLE = block(MysticGatheringsModBlocks.T_2_RITUAL_CANDLE);
 		T_3_RITUAL_CANDLE = block(MysticGatheringsModBlocks.T_3_RITUAL_CANDLE);
 		STONE_CONDENSED_MYSTIA_ORE = block(MysticGatheringsModBlocks.STONE_CONDENSED_MYSTIA_ORE);
+		RAW_CONDENSED_MYSTIA = register("raw_condensed_mystia", RawCondensedMystiaItem::new);
+		DEEPSLATE_CONDENSED_MYSTIA_ORE = block(MysticGatheringsModBlocks.DEEPSLATE_CONDENSED_MYSTIA_ORE);
+		ENDSTONE_CONDENSED_MYSTIA_ORE = block(MysticGatheringsModBlocks.ENDSTONE_CONDENSED_MYSTIA_ORE);
+		CONDENSED_MYSTIA_PEARL = register("condensed_mystia_pearl", CondensedMystiaPearlItem::new);
+		ORPH_NUGGET = register("orph_nugget", OrphNuggetItem::new);
 	}
 
 	// Start of user code block custom items

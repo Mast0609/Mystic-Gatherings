@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mysticgatherings",
+  "category": "misc",
+  "ingredients": [
+    "mystic_gatherings:orph_ingot"
+  ],
+  "result": {
+    "id": "mystic_gatherings:orph_nugget",
+    "count": 9
+  }
+}

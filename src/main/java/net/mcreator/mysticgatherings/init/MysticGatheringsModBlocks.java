@@ -47,6 +47,8 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> T_2_RITUAL_CANDLE;
 	public static final DeferredBlock<Block> T_3_RITUAL_CANDLE;
 	public static final DeferredBlock<Block> STONE_CONDENSED_MYSTIA_ORE;
+	public static final DeferredBlock<Block> DEEPSLATE_CONDENSED_MYSTIA_ORE;
+	public static final DeferredBlock<Block> ENDSTONE_CONDENSED_MYSTIA_ORE;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -75,6 +77,8 @@ public class MysticGatheringsModBlocks {
 		T_2_RITUAL_CANDLE = register("t_2_ritual_candle", T2RitualCandleBlock::new);
 		T_3_RITUAL_CANDLE = register("t_3_ritual_candle", T3RitualCandleBlock::new);
 		STONE_CONDENSED_MYSTIA_ORE = register("stone_condensed_mystia_ore", StoneCondensedMystiaOreBlock::new);
+		DEEPSLATE_CONDENSED_MYSTIA_ORE = register("deepslate_condensed_mystia_ore", DeepslateCondensedMystiaOreBlock::new);
+		ENDSTONE_CONDENSED_MYSTIA_ORE = register("endstone_condensed_mystia_ore", EndstoneCondensedMystiaOreBlock::new);
 	}
 
 	// Start of user code block custom blocks

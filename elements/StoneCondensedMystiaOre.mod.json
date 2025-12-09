@@ -61,11 +61,11 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:RawCondensedMystia"
     },
-    "dropAmount": 1,
-    "xpAmountMin": 0,
-    "xpAmountMax": 0,
+    "dropAmount": 3,
+    "xpAmountMin": 1,
+    "xpAmountMax": 3,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,

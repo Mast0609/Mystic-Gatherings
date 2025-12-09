@@ -24,7 +24,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:RawMystia"
+            "value": "CUSTOM:CondensedMystiaPearl"
           },
           "disablePlacement": {
             "fixedValue": false

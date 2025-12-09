@@ -2091,6 +2091,135 @@
         ]
       },
       "path": "~/Ore/Condensed Mystia"
+    },
+    {
+      "name": "RawCondensedMystia",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_condensed_mystia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/raw_condensed_mystia.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/RawCondensedMystiaItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/raw_condensed_mystia.json"
+        ]
+      },
+      "path": "~/Ore/Condensed Mystia"
+    },
+    {
+      "name": "DeepslateCondensedMystiaOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_condensed_mystia_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/deepslate_condensed_mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/items/deepslate_condensed_mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/deepslate_condensed_mystia_ore.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/deepslate_condensed_mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/deepslate_condensed_mystia_ore.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/deepslate_condensed_mystia_ore.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/DeepslateCondensedMystiaOreBlock.java",
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/deepslate_condensed_mystia_ore_biome_modifier.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/deepslate_condensed_mystia_ore.json"
+        ]
+      },
+      "path": "~/Ore/Condensed Mystia"
+    },
+    {
+      "name": "EndstoneCondensedMystiaOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone_condensed_mystia_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/endstone_condensed_mystia_ore.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/endstone_condensed_mystia_ore.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/endstone_condensed_mystia_ore.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/endstone_condensed_mystia_ore.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/EndstoneCondensedMystiaOreBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/endstone_condensed_mystia_ore.json",
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/endstone_condensed_mystia_ore_biome_modifier.json",
+          "src/main/resources/assets/mystic_gatherings/items/endstone_condensed_mystia_ore.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/endstone_condensed_mystia_ore.json"
+        ]
+      },
+      "path": "~/Ore/Condensed Mystia"
+    },
+    {
+      "name": "CondensedMystiaPearl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_mystia_pearl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/CondensedMystiaPearlItem.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/condensed_mystia_pearl.json",
+          "src/main/resources/assets/mystic_gatherings/items/condensed_mystia_pearl.json"
+        ]
+      },
+      "path": "~/Ore/Condensed Mystia"
+    },
+    {
+      "name": "CondensedMystiaPearlCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_mystia_pearl_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/condensed_mystia_pearl_crafting.json",
+          "src/main/resources/data/mystic_gatherings/recipe/condensed_mystia_pearl_crafting.json"
+        ]
+      },
+      "path": "~/Ore/Condensed Mystia"
+    },
+    {
+      "name": "OrphNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/orph_nugget.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/OrphNuggetItem.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_nugget.json"
+        ]
+      },
+      "path": "~/Ore/Orph Ore"
+    },
+    {
+      "name": "OrphIngotCraftingNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_ingot_crafting_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/orph_ingot_crafting_nugget.json",
+          "src/main/resources/data/mystic_gatherings/recipe/orph_ingot_crafting_nugget.json"
+        ]
+      },
+      "path": "~/Ore/Orph Ore"
+    },
+    {
+      "name": "OrphNuggetCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_nugget_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/orph_nugget_crafting.json",
+          "src/main/resources/data/mystic_gatherings/recipe/orph_nugget_crafting.json"
+        ]
+      },
+      "path": "~/Ore/Orph Ore"
     }
   ],
   "variable_elements": [
@@ -2122,6 +2251,8 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EndstoneCondensedMystiaOre",
+      "~CUSTOM:DeepslateCondensedMystiaOre",
       "~CUSTOM:StoneCondensedMystiaOre",
       "~CUSTOM:MystiaBlock",
       "~CUSTOM:MystiaOre",
@@ -2195,7 +2326,13 @@
     "BIOMES:minecraft:is_nether": [],
     "BIOMES:minecraft:is_end": [],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:EndstoneCondensedMystiaOre",
+      "~CUSTOM:DeepslateCondensedMystiaOre",
       "~CUSTOM:StoneCondensedMystiaOre"
+    ],
+    "BLOCKS:minecraft:beacon_base_blocks": [
+      "CUSTOM:OrphBlock",
+      "CUSTOM:MystiaBlock"
     ]
   },
   "tab_element_order": {
@@ -2210,7 +2347,10 @@
       "CaldonIngot",
       "AbarashIngot",
       "RawMystia",
-      "PolishedMystia"
+      "PolishedMystia",
+      "RawCondensedMystia",
+      "CondensedMystiaPearl",
+      "OrphNugget"
     ]
   },
   "language_map": {
@@ -2262,7 +2402,12 @@
       "item.mystic_gatherings.t_1_ritual_candle": "Tier 1 Ritual Candle",
       "item.mystic_gatherings.t_2_ritual_candle": "Tier 2 Ritual Candle",
       "item.mystic_gatherings.t_3_ritual_candle": "Tier 3 Ritual Candle",
-      "item.mystic_gatherings.stone_condensed_mystia_ore": "Stone Condensed Mystia Ore"
+      "item.mystic_gatherings.stone_condensed_mystia_ore": "Stone Condensed Mystia Ore",
+      "item.mystic_gatherings.raw_condensed_mystia": "Raw Condensed Mystia",
+      "item.mystic_gatherings.deepslate_condensed_mystia_ore": "Stone Condensed Mystia Ore",
+      "item.mystic_gatherings.endstone_condensed_mystia_ore": "Stone Condensed Mystia Ore",
+      "item.mystic_gatherings.condensed_mystia_pearl": "Raw Condensed Mystia",
+      "item.mystic_gatherings.orph_nugget": "Raw Orph"
     }
   },
   "metadata": {

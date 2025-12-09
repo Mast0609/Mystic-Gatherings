@@ -46,5 +46,10 @@
   "item.mystic_gatherings.t_1_ritual_candle": "Tier 1 Ritual Candle",
   "item.mystic_gatherings.t_2_ritual_candle": "Tier 2 Ritual Candle",
   "item.mystic_gatherings.t_3_ritual_candle": "Tier 3 Ritual Candle",
-  "item.mystic_gatherings.stone_condensed_mystia_ore": "Stone Condensed Mystia Ore"
+  "item.mystic_gatherings.stone_condensed_mystia_ore": "Stone Condensed Mystia Ore",
+  "item.mystic_gatherings.raw_condensed_mystia": "Raw Condensed Mystia",
+  "item.mystic_gatherings.deepslate_condensed_mystia_ore": "Stone Condensed Mystia Ore",
+  "item.mystic_gatherings.endstone_condensed_mystia_ore": "Stone Condensed Mystia Ore",
+  "item.mystic_gatherings.condensed_mystia_pearl": "Raw Condensed Mystia",
+  "item.mystic_gatherings.orph_nugget": "Raw Orph"
 }

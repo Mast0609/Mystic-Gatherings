@@ -111,7 +111,7 @@ public class Tier2RitualCircleGUIMenu extends AbstractContainerMenu implements M
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return MysticGatheringsModItems.RAW_MYSTIA_GEM.get() == stack.getItem();
+				return MysticGatheringsModItems.CONDENSED_MYSTIA_PEARL.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 146, 85) {

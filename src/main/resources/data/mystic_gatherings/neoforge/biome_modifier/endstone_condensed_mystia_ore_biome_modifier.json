@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": "mystic_gatherings:endstone_condensed_mystia_ore",
+  "step": "underground_ores"
+}
