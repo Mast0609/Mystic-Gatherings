@@ -140,7 +140,15 @@
     "raidCelebrationSound": {
       "value": ""
     },
-    "entityDataEntries": [],
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "detectionCooldown",
+        "type": "integer",
+        "value": 0
+      }
+    ],
     "onMobTickUpdate": {
       "name": "SmallBellhopDetectOres"
     },

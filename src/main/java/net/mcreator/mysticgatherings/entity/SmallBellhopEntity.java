@@ -3,6 +3,8 @@ package net.mcreator.mysticgatherings.entity;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.EventHooks;
 
+import net.minecraft.world.level.storage.ValueOutput;
+import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
@@ -30,6 +32,9 @@ import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.BlockPos;
@@ -39,12 +44,19 @@ import net.mcreator.mysticgatherings.init.MysticGatheringsModItems;
 import net.mcreator.mysticgatherings.init.MysticGatheringsModEntities;
 
 public class SmallBellhopEntity extends TamableAnimal {
+	public static final EntityDataAccessor<Integer> DATA_detectionCooldown = SynchedEntityData.defineId(SmallBellhopEntity.class, EntityDataSerializers.INT);
 	public final AnimationState animationState1 = new AnimationState();
 
 	public SmallBellhopEntity(EntityType<SmallBellhopEntity> type, Level world) {
 		super(type, world);
 		xpReward = 1;
 		setNoAi(false);
+	}
+
+	@Override
+	protected void defineSynchedData(SynchedEntityData.Builder builder) {
+		super.defineSynchedData(builder);
+		builder.define(DATA_detectionCooldown, 0);
 	}
 
 	@Override
@@ -91,6 +103,18 @@ public class SmallBellhopEntity extends TamableAnimal {
 	@Override
 	public boolean ignoreExplosion(Explosion explosion) {
 		return true;
+	}
+
+	@Override
+	public void addAdditionalSaveData(ValueOutput valueOutput) {
+		super.addAdditionalSaveData(valueOutput);
+		valueOutput.putInt("DatadetectionCooldown", this.entityData.get(DATA_detectionCooldown));
+	}
+
+	@Override
+	public void readAdditionalSaveData(ValueInput valueInput) {
+		super.readAdditionalSaveData(valueInput);
+		this.entityData.set(DATA_detectionCooldown, valueInput.getIntOr("DatadetectionCooldown", 0));
 	}
 
 	@Override
