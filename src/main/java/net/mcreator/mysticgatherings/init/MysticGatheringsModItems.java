@@ -12,6 +12,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
@@ -74,6 +75,23 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> ENDSTONE_CONDENSED_MYSTIA_ORE;
 	public static final DeferredItem<Item> CONDENSED_MYSTIA_PEARL;
 	public static final DeferredItem<Item> ORPH_NUGGET;
+	public static final DeferredItem<Item> DREAL_ARMOR_HELMET;
+	public static final DeferredItem<Item> DREAL_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> DREAL_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> DREAL_ARMOR_BOOTS;
+	public static final DeferredItem<Item> DREAL_SWORD;
+	public static final DeferredItem<Item> DREAL_AXE;
+	public static final DeferredItem<Item> DREAL_PICKAXE;
+	public static final DeferredItem<Item> DREAL_SHOVEL;
+	public static final DeferredItem<Item> DREAL_HOE;
+	public static final DeferredItem<Item> DREAL_NUGGET;
+	public static final DeferredItem<Item> ORPH_HOE;
+	public static final DeferredItem<Item> ORPH_SHOVEL;
+	public static final DeferredItem<Item> ORPH_PICKAXE;
+	public static final DeferredItem<Item> ORPH_AXE;
+	public static final DeferredItem<Item> ORPH_SWORD;
+	public static final DeferredItem<Item> MEDIUMBELLHOP_SPAWN_EGG;
+	public static final DeferredItem<Item> SMALL_BELLHOP_SPAWN_EGG;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -124,6 +142,23 @@ public class MysticGatheringsModItems {
 		ENDSTONE_CONDENSED_MYSTIA_ORE = block(MysticGatheringsModBlocks.ENDSTONE_CONDENSED_MYSTIA_ORE);
 		CONDENSED_MYSTIA_PEARL = register("condensed_mystia_pearl", CondensedMystiaPearlItem::new);
 		ORPH_NUGGET = register("orph_nugget", OrphNuggetItem::new);
+		DREAL_ARMOR_HELMET = register("dreal_armor_helmet", DrealArmorItem.Helmet::new);
+		DREAL_ARMOR_CHESTPLATE = register("dreal_armor_chestplate", DrealArmorItem.Chestplate::new);
+		DREAL_ARMOR_LEGGINGS = register("dreal_armor_leggings", DrealArmorItem.Leggings::new);
+		DREAL_ARMOR_BOOTS = register("dreal_armor_boots", DrealArmorItem.Boots::new);
+		DREAL_SWORD = register("dreal_sword", DrealSwordItem::new);
+		DREAL_AXE = register("dreal_axe", DrealAxeItem::new);
+		DREAL_PICKAXE = register("dreal_pickaxe", DrealPickaxeItem::new);
+		DREAL_SHOVEL = register("dreal_shovel", DrealShovelItem::new);
+		DREAL_HOE = register("dreal_hoe", DrealHoeItem::new);
+		DREAL_NUGGET = register("dreal_nugget", DrealNuggetItem::new);
+		ORPH_HOE = register("orph_hoe", OrphHoeItem::new);
+		ORPH_SHOVEL = register("orph_shovel", OrphShovelItem::new);
+		ORPH_PICKAXE = register("orph_pickaxe", OrphPickaxeItem::new);
+		ORPH_AXE = register("orph_axe", OrphAxeItem::new);
+		ORPH_SWORD = register("orph_sword", OrphSwordItem::new);
+		MEDIUMBELLHOP_SPAWN_EGG = register("mediumbellhop_spawn_egg", properties -> new SpawnEggItem(MysticGatheringsModEntities.MEDIUMBELLHOP.get(), properties));
+		SMALL_BELLHOP_SPAWN_EGG = register("small_bellhop_spawn_egg", properties -> new SpawnEggItem(MysticGatheringsModEntities.SMALL_BELLHOP.get(), properties));
 	}
 
 	// Start of user code block custom items

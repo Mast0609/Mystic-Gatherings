@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mystic_gatherings:dreal_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mystic_gatherings:dreal_armor"
+      }
+    ]
+  }
+}

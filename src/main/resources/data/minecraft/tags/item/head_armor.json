@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mystic_gatherings:orph_armor_helmet"
+    "mystic_gatherings:orph_armor_helmet",
+    "mystic_gatherings:dreal_armor_helmet"
   ]
 }

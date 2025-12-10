@@ -21,11 +21,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mysticgatherings.network.MysticGatheringsModVariables;
-import net.mcreator.mysticgatherings.init.MysticGatheringsModTabs;
-import net.mcreator.mysticgatherings.init.MysticGatheringsModMenus;
-import net.mcreator.mysticgatherings.init.MysticGatheringsModItems;
-import net.mcreator.mysticgatherings.init.MysticGatheringsModBlocks;
-import net.mcreator.mysticgatherings.init.MysticGatheringsModBlockEntities;
+import net.mcreator.mysticgatherings.init.*;
 
 import javax.annotation.Nullable;
 
@@ -53,6 +49,7 @@ public class MysticGatheringsMod {
 		MysticGatheringsModBlocks.REGISTRY.register(modEventBus);
 		MysticGatheringsModBlockEntities.REGISTRY.register(modEventBus);
 		MysticGatheringsModItems.REGISTRY.register(modEventBus);
+		MysticGatheringsModEntities.REGISTRY.register(modEventBus);
 		MysticGatheringsModTabs.REGISTRY.register(modEventBus);
 		MysticGatheringsModVariables.ATTACHMENT_TYPES.register(modEventBus);
 		MysticGatheringsModMenus.REGISTRY.register(modEventBus);

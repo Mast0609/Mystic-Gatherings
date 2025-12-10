@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "mystic_gatherings:deepslate_dreal_ore",
+    "minecraft:emerald_ore",
+    "mystic_gatherings:deepslate_condensed_mystia_ore",
+    "minecraft:gold_ore",
+    "mystic_gatherings:mystia_ore",
+    "minecraft:lapis_ore",
+    "mystic_gatherings:stone_condensed_mystia_ore",
+    "mystic_gatherings:endstone_condensed_mystia_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:iron_ore",
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:nether_quartz_ore",
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:copper_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:coal_ore",
+    "mystic_gatherings:deepslate_orph_ore",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:nether_gold_ore",
+    "mystic_gatherings:stone_orph_ore",
+    "minecraft:deepslate_redstone_ore",
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:deepslate_emerald_ore",
+    "mystic_gatherings:stone_dreal_ore"
+  ]
+}

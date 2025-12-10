@@ -44,8 +44,7 @@
       "registry_name": "mystic_gatherings",
       "metadata": {
         "files": []
-      },
-      "path": "~/Ore/Orph Ore"
+      }
     },
     {
       "name": "OrphIngot",
@@ -1084,7 +1083,7 @@
           "src/main/resources/assets/mystic_gatherings/items/orph_armor_helmet.json"
         ]
       },
-      "path": "~/Ore/Orph Ore"
+      "path": "~/Ore/Orph Ore/Equipment"
     },
     {
       "name": "PlayerMystiaRegen",
@@ -2220,6 +2219,259 @@
         ]
       },
       "path": "~/Ore/Orph Ore"
+    },
+    {
+      "name": "DrealArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/equipment/dreal_armor.json",
+          "src/main/java/net/mcreator/mysticgatherings/client/renderer/item/DrealArmorArmor.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_armor_helmet.json",
+          "src/main/resources/assets/mystic_gatherings/items/dreal_armor_leggings.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_armor_chestplate.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_armor_leggings.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/DrealArmorItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/dreal_armor_chestplate.json",
+          "src/main/resources/assets/mystic_gatherings/items/dreal_armor_boots.json",
+          "src/main/resources/assets/mystic_gatherings/items/dreal_armor_helmet.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_armor_boots.json"
+        ]
+      },
+      "path": "~/Ore/Dreal Ore/Equipment"
+    },
+    {
+      "name": "DrealSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/dreal_sword.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/DrealSwordItem.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_sword.json"
+        ]
+      },
+      "path": "~/Ore/Dreal Ore/Equipment"
+    },
+    {
+      "name": "DrealAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_axe.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/DrealAxeItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/dreal_axe.json"
+        ]
+      },
+      "path": "~/Ore/Dreal Ore/Equipment"
+    },
+    {
+      "name": "DrealPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/DrealPickaxeItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/dreal_pickaxe.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_pickaxe.json"
+        ]
+      },
+      "path": "~/Ore/Dreal Ore/Equipment"
+    },
+    {
+      "name": "DrealShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/DrealShovelItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/dreal_shovel.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_shovel.json"
+        ]
+      },
+      "path": "~/Ore/Dreal Ore/Equipment"
+    },
+    {
+      "name": "DrealHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_hoe.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/DrealHoeItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/dreal_hoe.json"
+        ]
+      },
+      "path": "~/Ore/Dreal Ore/Equipment"
+    },
+    {
+      "name": "DrealNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreal_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/dreal_nugget.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/DrealNuggetItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/dreal_nugget.json"
+        ]
+      },
+      "path": "~/Ore/Dreal Ore"
+    },
+    {
+      "name": "OrphHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/OrphHoeItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/orph_hoe.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_hoe.json"
+        ]
+      },
+      "path": "~/Ore/Orph Ore/Equipment"
+    },
+    {
+      "name": "OrphShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/orph_shovel.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/OrphShovelItem.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_shovel.json"
+        ]
+      },
+      "path": "~/Ore/Orph Ore/Equipment"
+    },
+    {
+      "name": "OrphPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/orph_pickaxe.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_pickaxe.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/OrphPickaxeItem.java"
+        ]
+      },
+      "path": "~/Ore/Orph Ore/Equipment"
+    },
+    {
+      "name": "OrphAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/OrphAxeItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/orph_axe.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_axe.json"
+        ]
+      },
+      "path": "~/Ore/Orph Ore/Equipment"
+    },
+    {
+      "name": "OrphSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orph_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/orph_sword.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/orph_sword.json",
+          "src/main/java/net/mcreator/mysticgatherings/item/OrphSwordItem.java"
+        ]
+      },
+      "path": "~/Ore/Orph Ore/Equipment"
+    },
+    {
+      "name": "Bellhop",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mediumbellhop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/mediumbellhop_biome_modifier.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/mediumbellhop_spawn_egg.json",
+          "src/main/java/net/mcreator/mysticgatherings/client/renderer/BellhopRenderer.java",
+          "src/main/resources/assets/mystic_gatherings/items/mediumbellhop_spawn_egg.json",
+          "src/main/java/net/mcreator/mysticgatherings/entity/BellhopEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SmallBellhop",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_bellhop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/small_bellhop_spawn_egg.json",
+          "src/main/java/net/mcreator/mysticgatherings/entity/SmallBellhopEntity.java",
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/small_bellhop_biome_modifier.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/small_bellhop_spawn_egg.json",
+          "src/main/java/net/mcreator/mysticgatherings/client/renderer/SmallBellhopRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SmallBellhopDetectOres",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_bellhop_detect_ores",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/SmallBellhopDetectOresProcedure.java"
+        ]
+      },
+      "path": "~/Entities"
     }
   ],
   "variable_elements": [
@@ -2287,15 +2539,19 @@
       "~CUSTOM:PolishingCloth"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:DrealArmor.helmet",
       "~CUSTOM:OrphArmor.helmet"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:DrealArmor.body",
       "~CUSTOM:OrphArmor.body"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:DrealArmor.legs",
       "~CUSTOM:OrphArmor.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:DrealArmor.boots",
       "~CUSTOM:OrphArmor.boots"
     ],
     "ITEMS:mystic_gatherings:orph_armor_repair_items": [
@@ -2333,6 +2589,87 @@
     "BLOCKS:minecraft:beacon_base_blocks": [
       "CUSTOM:OrphBlock",
       "CUSTOM:MystiaBlock"
+    ],
+    "ITEMS:mystic_gatherings:dreal_armor_repair_items": [
+      "~CUSTOM:DrealIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:OrphSword",
+      "~CUSTOM:DrealSword"
+    ],
+    "ITEMS:mystic_gatherings:dreal_sword_repair_items": [
+      "~CUSTOM:DrealIngot"
+    ],
+    "ITEMS:mystic_gatherings:dreal_axe_repair_items": [
+      "~CUSTOM:DrealIngot"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:OrphAxe",
+      "~CUSTOM:DrealAxe"
+    ],
+    "ITEMS:mystic_gatherings:dreal_pickaxe_repair_items": [
+      "~CUSTOM:DrealIngot"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:OrphPickaxe",
+      "~CUSTOM:DrealPickaxe"
+    ],
+    "ITEMS:mystic_gatherings:dreal_shovel_repair_items": [
+      "~CUSTOM:DrealIngot"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:OrphShovel",
+      "~CUSTOM:DrealShovel"
+    ],
+    "ITEMS:mystic_gatherings:dreal_hoe_repair_items": [
+      "~CUSTOM:DrealIngot"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:OrphHoe",
+      "~CUSTOM:DrealHoe"
+    ],
+    "ITEMS:mystic_gatherings:orph_hoe_repair_items": [
+      "~CUSTOM:OrphIngot"
+    ],
+    "ITEMS:mystic_gatherings:orph_shovel_repair_items": [
+      "~CUSTOM:OrphIngot"
+    ],
+    "ITEMS:mystic_gatherings:orph_pickaxe_repair_items": [
+      "~CUSTOM:OrphIngot"
+    ],
+    "ITEMS:mystic_gatherings:orph_axe_repair_items": [
+      "~CUSTOM:OrphIngot"
+    ],
+    "ITEMS:mystic_gatherings:orph_sword_repair_items": [
+      "~CUSTOM:OrphIngot"
+    ],
+    "BLOCKS:mod:ore": [
+      "CUSTOM:StoneOrphOre",
+      "CUSTOM:DeepslateOrphOre",
+      "CUSTOM:StoneDrealOre",
+      "CUSTOM:DeepslateDrealOre",
+      "CUSTOM:MystiaOre",
+      "CUSTOM:StoneCondensedMystiaOre",
+      "CUSTOM:DeepslateCondensedMystiaOre",
+      "CUSTOM:EndstoneCondensedMystiaOre",
+      "Blocks.COAL_ORE",
+      "Blocks.IRON_ORE",
+      "Blocks.REDSTONE_ORE",
+      "Blocks.GOLD_ORE",
+      "Blocks.LAPIS_ORE",
+      "Blocks.DIAMOND_ORE",
+      "Blocks.EMERALD_ORE",
+      "Blocks.COPPER_ORE",
+      "Blocks.DEEPSLATE_COAL_ORE",
+      "Blocks.DEEPSLATE_IRON_ORE",
+      "Blocks.DEEPSLATE_REDSTONE_ORE",
+      "Blocks.DEEPSLATE_GOLD_ORE",
+      "Blocks.DEEPSLATE_LAPIS_ORE",
+      "Blocks.DEEPSLATE_DIAMOND_ORE",
+      "Blocks.DEEPSLATE_EMERALD_ORE",
+      "Blocks.DEEPSLATE_COPPER_ORE",
+      "Blocks.QUARTZ_ORE",
+      "Blocks.NETHER_GOLD_ORE"
     ]
   },
   "tab_element_order": {
@@ -2350,7 +2687,8 @@
       "PolishedMystia",
       "RawCondensedMystia",
       "CondensedMystiaPearl",
-      "OrphNugget"
+      "OrphNugget",
+      "DrealNugget"
     ]
   },
   "language_map": {
@@ -2407,7 +2745,26 @@
       "item.mystic_gatherings.deepslate_condensed_mystia_ore": "Stone Condensed Mystia Ore",
       "item.mystic_gatherings.endstone_condensed_mystia_ore": "Stone Condensed Mystia Ore",
       "item.mystic_gatherings.condensed_mystia_pearl": "Raw Condensed Mystia",
-      "item.mystic_gatherings.orph_nugget": "Raw Orph"
+      "item.mystic_gatherings.orph_nugget": "Orph Nugget",
+      "item.mystic_gatherings.dreal_armor_chestplate": "Dreal Chestplate",
+      "item.mystic_gatherings.dreal_armor_leggings": "Dreal Leggings",
+      "item.mystic_gatherings.dreal_armor_boots": "Dreal Boots",
+      "item.mystic_gatherings.dreal_armor_helmet": "Dreal Helmet",
+      "item.mystic_gatherings.dreal_sword": "Dreal Sword",
+      "item.mystic_gatherings.dreal_axe": "Dreal Axe",
+      "item.mystic_gatherings.dreal_pickaxe": "Dreal Pickaxe",
+      "item.mystic_gatherings.dreal_shovel": "Dreal Shovel",
+      "item.mystic_gatherings.dreal_hoe": "Dreal Hoe",
+      "item.mystic_gatherings.dreal_nugget": "Dreal Nugget",
+      "item.mystic_gatherings.orph_hoe": "Orphl Hoe",
+      "item.mystic_gatherings.orph_shovel": "Orph Shovel",
+      "item.mystic_gatherings.orph_pickaxe": "Orph Pickaxe",
+      "item.mystic_gatherings.orph_axe": "Orph Axe",
+      "item.mystic_gatherings.orph_sword": "Orph Sword",
+      "item.mystic_gatherings.mediumbellhop_spawn_egg": "Medium Bellhop Spawn Egg",
+      "entity.mystic_gatherings.mediumbellhop": "Medium Bellhop",
+      "item.mystic_gatherings.small_bellhop_spawn_egg": "Small Bellhop Spawn Egg",
+      "entity.mystic_gatherings.small_bellhop": "Small Bellhop"
     }
   },
   "metadata": {
@@ -2419,13 +2776,16 @@
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModBlocks.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModBlockEntities.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModItems.java",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModEntityRenderers.java",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModEntities.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/mysticgatherings/MysticGatheringsMod.java",
       "src/main/java/net/mcreator/mysticgatherings/network/MysticGatheringsModVariables.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModTabs.java",
       "src/main/java/net/mcreator/mysticgatherings/client/RenderUtils.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModModels.java"
     ]
   },
   "foldersRoot": {
@@ -2494,11 +2854,21 @@
         "children": [
           {
             "name": "Dreal Ore",
-            "children": []
+            "children": [
+              {
+                "name": "Equipment",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Orph Ore",
-            "children": []
+            "children": [
+              {
+                "name": "Equipment",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Alloys",
@@ -2513,6 +2883,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Entities",
+        "children": []
       }
     ]
   },
