@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "mystic_gatherings:block/travertinebricks",
+    "particle": "mystic_gatherings:block/travertinebricks"
+  },
+  "render_type": "solid"
+}

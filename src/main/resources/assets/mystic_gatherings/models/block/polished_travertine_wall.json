@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "mystic_gatherings:block/polishedtravertine",
+    "particle": "mystic_gatherings:block/polishedtravertine"
+  },
+  "render_type": "solid"
+}

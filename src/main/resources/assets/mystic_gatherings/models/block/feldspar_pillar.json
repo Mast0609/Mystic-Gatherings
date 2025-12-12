@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystic_gatherings:block/chiseledfeldspar",
+    "up": "mystic_gatherings:block/chiseledfeldspar",
+    "north": "mystic_gatherings:block/feldsparpillar",
+    "east": "mystic_gatherings:block/feldsparpillar",
+    "south": "mystic_gatherings:block/feldsparpillar",
+    "west": "mystic_gatherings:block/feldsparpillar",
+    "particle": "mystic_gatherings:block/chiseledfeldspar"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "mystic_gatherings:block/travertine",
+    "bottom": "mystic_gatherings:block/travertine",
+    "top": "mystic_gatherings:block/travertine",
+    "side": "mystic_gatherings:block/travertine"
+  },
+  "render_type": "solid"
+}

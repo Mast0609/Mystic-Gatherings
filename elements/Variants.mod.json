@@ -1,0 +1,118 @@
+{
+  "_fv": 79,
+  "_type": "blockstates",
+  "definition": {
+    "block": "VillagerStatue",
+    "blockstateList": [
+      {
+        "texture": "villagerstatue",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "villagerstatue:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 4.0,
+            "my": 0.0,
+            "mz": 5.0,
+            "Mx": 12.0,
+            "My": 15.0,
+            "Mz": 12.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": -3.0,
+            "mz": 5.0,
+            "Mx": 14.0,
+            "My": 4.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 5.0,
+            "mz": 3.0,
+            "Mx": 9.0,
+            "My": 10.0,
+            "Mz": 5.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "playerstatue",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "playerstatue:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 5.0,
+            "my": 18.0,
+            "mz": 5.0,
+            "Mx": 11.0,
+            "My": 24.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.0,
+            "my": 8.0,
+            "mz": 7.0,
+            "Mx": 11.0,
+            "My": 18.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 11.0,
+            "my": 8.0,
+            "mz": 7.0,
+            "Mx": 13.0,
+            "My": 18.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.0,
+            "my": 8.0,
+            "mz": 7.0,
+            "Mx": 5.0,
+            "My": 18.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.9,
+            "my": 0.0,
+            "mz": 7.0,
+            "Mx": 10.9,
+            "My": 8.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.1,
+            "my": 0.0,
+            "mz": 7.0,
+            "Mx": 7.1,
+            "My": 8.0,
+            "Mz": 9.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

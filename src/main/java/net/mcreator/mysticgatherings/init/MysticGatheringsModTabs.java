@@ -88,6 +88,54 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModItems.ORPH_SWORD.get());
 				tabData.accept(MysticGatheringsModItems.MEDIUMBELLHOP_SPAWN_EGG.get());
 				tabData.accept(MysticGatheringsModItems.SMALL_BELLHOP_SPAWN_EGG.get());
+				tabData.accept(MysticGatheringsModBlocks.TRAVERTINE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_BRICKS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_TRAVERTINE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.CHISELED_TRAVERTINE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_PILLAR.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_SLAB.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_BRICKS_SLAB.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_TRAVERTINE_SLAB.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_STAIRS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_BRICKS_STAIRS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_TRAVERTINE_STAIRS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_WALL.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_BRICKS_WALL.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_TRAVERTINE_WALL.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.ANCIENT_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.ANCIENT_SHINGLES_SLAB.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.ANCIENT_SHINGLES_STAIRS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.VILLAGER_STATUE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.WHITE_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.LIGHT_GRAY_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.GRAY_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.BLACK_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.BROWN_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.RED_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.ORANGE_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.YELLOW_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.LIME_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.GREEN_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.CYAN_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.LIGHT_BLUE_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.BLUE_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.PURPLE_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.MAGENTA_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.PINK_SHINGLES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FELDSPAR.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_PILLAR.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.CHISELED_FELDSPAR.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS_SLAB.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR_SLAB.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_SLAB.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS_STAIRS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR_STAIRS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_STAIRS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS_WALL.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR_WALL.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_WALL.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -107,6 +155,43 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.STONE_CONDENSED_MYSTIA_ORE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DEEPSLATE_CONDENSED_MYSTIA_ORE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.ENDSTONE_CONDENSED_MYSTIA_ORE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.TRAVERTINE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_BRICKS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_TRAVERTINE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.CHISELED_TRAVERTINE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_PILLAR.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_BRICKS_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_TRAVERTINE_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_BRICKS_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_TRAVERTINE_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_WALL.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.TRAVERTINE_BRICKS_WALL.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_TRAVERTINE_WALL.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.ANCIENT_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.ANCIENT_SHINGLES_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.ANCIENT_SHINGLES_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.WHITE_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.LIGHT_GRAY_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.GRAY_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BLACK_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BROWN_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.RED_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.ORANGE_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.YELLOW_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.LIME_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.GREEN_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.CYAN_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.LIGHT_BLUE_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BLUE_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.PURPLE_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.MAGENTA_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.PINK_SHINGLES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FELDSPAR.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_WALL.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.ORPH_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DREAL_BLOCK.get().asItem());
@@ -120,17 +205,16 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.T_1_RITUAL_CANDLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.T_2_RITUAL_CANDLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.T_3_RITUAL_CANDLE.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(MysticGatheringsModItems.POLISHING_CLOTH.get());
-			tabData.accept(MysticGatheringsModItems.LEATHER_SACK.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_AXE.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_PICKAXE.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_SHOVEL.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_HOE.get());
-			tabData.accept(MysticGatheringsModItems.ORPH_HOE.get());
-			tabData.accept(MysticGatheringsModItems.ORPH_SHOVEL.get());
-			tabData.accept(MysticGatheringsModItems.ORPH_PICKAXE.get());
-			tabData.accept(MysticGatheringsModItems.ORPH_AXE.get());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_PILLAR.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.CHISELED_FELDSPAR.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS_WALL.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR_WALL.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE.get().asItem());
@@ -138,19 +222,6 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.T_1_RITUAL_CANDLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.T_2_RITUAL_CANDLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.T_3_RITUAL_CANDLE.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_HELMET.get());
-			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_CHESTPLATE.get());
-			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_LEGGINGS.get());
-			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_BOOTS.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_ARMOR_HELMET.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_ARMOR_CHESTPLATE.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_ARMOR_LEGGINGS.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_ARMOR_BOOTS.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_SWORD.get());
-			tabData.accept(MysticGatheringsModItems.DREAL_AXE.get());
-			tabData.accept(MysticGatheringsModItems.ORPH_AXE.get());
-			tabData.accept(MysticGatheringsModItems.ORPH_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(MysticGatheringsModItems.MEDIUMBELLHOP_SPAWN_EGG.get());
 			tabData.accept(MysticGatheringsModItems.SMALL_BELLHOP_SPAWN_EGG.get());
@@ -170,6 +241,30 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModItems.CONDENSED_MYSTIA_PEARL.get());
 			tabData.accept(MysticGatheringsModItems.ORPH_NUGGET.get());
 			tabData.accept(MysticGatheringsModItems.DREAL_NUGGET.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(MysticGatheringsModItems.POLISHING_CLOTH.get());
+			tabData.accept(MysticGatheringsModItems.LEATHER_SACK.get());
+			tabData.accept(MysticGatheringsModItems.DREAL_AXE.get());
+			tabData.accept(MysticGatheringsModItems.DREAL_PICKAXE.get());
+			tabData.accept(MysticGatheringsModItems.DREAL_SHOVEL.get());
+			tabData.accept(MysticGatheringsModItems.DREAL_HOE.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_AXE.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_PICKAXE.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_SHOVEL.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_HOE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(MysticGatheringsModItems.DREAL_ARMOR_HELMET.get());
+			tabData.accept(MysticGatheringsModItems.DREAL_ARMOR_CHESTPLATE.get());
+			tabData.accept(MysticGatheringsModItems.DREAL_ARMOR_LEGGINGS.get());
+			tabData.accept(MysticGatheringsModItems.DREAL_ARMOR_BOOTS.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_HELMET.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_CHESTPLATE.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_LEGGINGS.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_BOOTS.get());
+			tabData.accept(MysticGatheringsModItems.DREAL_SWORD.get());
+			tabData.accept(MysticGatheringsModItems.DREAL_AXE.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_SWORD.get());
+			tabData.accept(MysticGatheringsModItems.ORPH_AXE.get());
 		}
 	}
 }

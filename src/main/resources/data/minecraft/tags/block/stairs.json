@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "mystic_gatherings:feldspar_stairs",
+    "mystic_gatherings:feldspar_bricks_stairs",
+    "mystic_gatherings:polished_travertine_stairs",
+    "mystic_gatherings:polished_feldspar_stairs",
+    "mystic_gatherings:ancient_shingles_stairs",
+    "mystic_gatherings:travertine_stairs",
+    "mystic_gatherings:travertine_bricks_stairs"
+  ]
+}

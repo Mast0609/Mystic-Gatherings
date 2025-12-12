@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "mystic_gatherings:block/travertinebricks",
+    "bottom": "mystic_gatherings:block/travertinebricks",
+    "top": "mystic_gatherings:block/travertinebricks",
+    "side": "mystic_gatherings:block/travertinebricks"
+  },
+  "render_type": "solid"
+}

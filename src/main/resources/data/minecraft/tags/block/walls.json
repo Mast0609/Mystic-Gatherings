@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mystic_gatherings:polished_feldspar_wall",
+    "mystic_gatherings:feldspar_bricks_wall",
+    "mystic_gatherings:feldspar_wall",
+    "mystic_gatherings:travertine_bricks_wall",
+    "mystic_gatherings:polished_travertine_wall",
+    "mystic_gatherings:travertine_wall"
+  ]
+}

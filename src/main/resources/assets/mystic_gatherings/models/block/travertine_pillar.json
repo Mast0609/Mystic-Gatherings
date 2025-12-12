@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystic_gatherings:block/travertinepillartop",
+    "up": "mystic_gatherings:block/travertinepillartop",
+    "north": "mystic_gatherings:block/travertinepillar",
+    "east": "mystic_gatherings:block/travertinepillar",
+    "south": "mystic_gatherings:block/travertinepillar",
+    "west": "mystic_gatherings:block/travertinepillar",
+    "particle": "mystic_gatherings:block/travertinepillartop"
+  },
+  "render_type": "solid"
+}

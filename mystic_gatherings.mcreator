@@ -1401,7 +1401,7 @@
           "src/main/resources/assets/mystic_gatherings/items/verawood_log.json"
         ]
       },
-      "path": "~/Woods/Verawood"
+      "path": "~/Building Blocks/Woods/Verawood"
     },
     {
       "name": "StrippedVerawoodLog",
@@ -1419,7 +1419,7 @@
           "src/main/resources/assets/mystic_gatherings/blockstates/stripped_verawood_log.json"
         ]
       },
-      "path": "~/Woods/Verawood"
+      "path": "~/Building Blocks/Woods/Verawood"
     },
     {
       "name": "StrippedVerawoodWood",
@@ -1437,7 +1437,7 @@
           "src/main/java/net/mcreator/mysticgatherings/block/StrippedVerawoodWoodBlock.java"
         ]
       },
-      "path": "~/Woods/Verawood"
+      "path": "~/Building Blocks/Woods/Verawood"
     },
     {
       "name": "VerawoodWood",
@@ -1455,7 +1455,7 @@
           "src/main/resources/assets/mystic_gatherings/blockstates/verawood_wood.json"
         ]
       },
-      "path": "~/Woods/Verawood"
+      "path": "~/Building Blocks/Woods/Verawood"
     },
     {
       "name": "VerawoodPlanks",
@@ -1473,7 +1473,7 @@
           "src/main/resources/assets/mystic_gatherings/blockstates/verawood_planks.json"
         ]
       },
-      "path": "~/Woods/Verawood"
+      "path": "~/Building Blocks/Woods/Verawood"
     },
     {
       "name": "VerawoodLeaves",
@@ -1491,7 +1491,7 @@
           "src/main/resources/assets/mystic_gatherings/models/block/verawood_leaves.json"
         ]
       },
-      "path": "~/Woods/Verawood"
+      "path": "~/Building Blocks/Woods/Verawood"
     },
     {
       "name": "VerawoodSapling",
@@ -1509,7 +1509,7 @@
           "src/main/java/net/mcreator/mysticgatherings/block/VerawoodSaplingBlock.java"
         ]
       },
-      "path": "~/Woods/Verawood"
+      "path": "~/Building Blocks/Woods/Verawood"
     },
     {
       "name": "VerawoodTree",
@@ -1524,7 +1524,7 @@
           "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/verawood_tree.json"
         ]
       },
-      "path": "~/Woods/Verawood"
+      "path": "~/Building Blocks/Woods/Verawood"
     },
     {
       "name": "VerawoodSaplingGrowth",
@@ -1555,7 +1555,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/VerawoodSaplingGrowthProcedure.java"
         ]
       },
-      "path": "~/Woods/Verawood"
+      "path": "~/Building Blocks/Woods/Verawood"
     },
     {
       "name": "VerawoodSaplingGrowthBonemeal",
@@ -1590,7 +1590,7 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/VerawoodSaplingGrowthBonemealProcedure.java"
         ]
       },
-      "path": "~/Woods/Verawood"
+      "path": "~/Building Blocks/Woods/Verawood"
     },
     {
       "name": "LeatherSack",
@@ -2472,6 +2472,958 @@
         ]
       },
       "path": "~/Entities"
+    },
+    {
+      "name": "Travertine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine.json",
+          "src/main/resources/assets/mystic_gatherings/items/travertine.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/TravertineBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/travertine.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/travertine.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/travertine.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "TravertineBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/travertine_bricks.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/TravertineBricksBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/travertine_bricks.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/travertine_bricks.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/travertine_bricks.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "PolishedTravertine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_travertine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedTravertineBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_travertine.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_travertine.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_travertine.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_travertine.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "ChiseledTravertine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_travertine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/ChiseledTravertineBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/chiseled_travertine.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/chiseled_travertine.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/chiseled_travertine.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/chiseled_travertine.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/chiseled_travertine.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "TravertinePillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_pillar.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/travertine_pillar.json",
+          "src/main/resources/assets/mystic_gatherings/items/travertine_pillar.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/travertine_pillar.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/travertine_pillar.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/TravertinePillarBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "TravertineSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/travertine_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_slab_top.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_slab_full.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/travertine_slab.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/travertine_slab.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/TravertineSlabBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/travertine_slab.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "TravertineBricksSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/travertine_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks_slab_full.json",
+          "src/main/resources/assets/mystic_gatherings/items/travertine_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/travertine_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks_slab_top.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/travertine_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks_slab.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/TravertineBricksSlabBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "PolishedTravertineSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_travertine_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_travertine_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine_slab_top.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_travertine_slab.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_travertine_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine_slab_full.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedTravertineSlabBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine_slab.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_travertine_slab.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "TravertineStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/travertine_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_stairs_inner.json",
+          "src/main/resources/assets/mystic_gatherings/items/travertine_stairs.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/TravertineStairsBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/travertine_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_stairs_outer.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/travertine_stairs.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "TravertineBricksStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/TravertineBricksStairsBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks_stairs_inner.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/travertine_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks_stairs.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/travertine_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/travertine_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/items/travertine_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks_stairs_outer.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "PolishedTravertineStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_travertine_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_travertine_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_travertine_stairs.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedTravertineStairsBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine_stairs_inner.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine_stairs_outer.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_travertine_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_travertine_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine_stairs.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "TravertineWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/TravertineWallBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/travertine_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_wall_post.json",
+          "src/main/resources/assets/mystic_gatherings/items/travertine_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/travertine_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_wall.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/travertine_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_wall_inventory.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_wall_side_tall.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "TravertineBricksWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine_bricks_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/travertine_bricks_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks_wall_post.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/TravertineBricksWallBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/travertine_bricks_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks_wall_side_tall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/travertine_bricks_wall_inventory.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/travertine_bricks_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/travertine_bricks_wall.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "PolishedTravertineWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_travertine_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_travertine_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine_wall.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedTravertineWallBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine_wall_side_tall.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_travertine_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine_wall_inventory.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_travertine_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_travertine_wall_post.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_travertine_wall.json"
+        ]
+      },
+      "path": "~/Building Blocks/Travertine"
+    },
+    {
+      "name": "AncientShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_shingles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/AncientShinglesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/ancient_shingles.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/ancient_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/ancient_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/ancient_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/ancient_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "AncientShinglesSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_shingles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/ancient_shingles_slab_full.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/ancient_shingles_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/ancient_shingles_slab.json",
+          "src/main/resources/assets/mystic_gatherings/items/ancient_shingles_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/ancient_shingles_slab_top.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/ancient_shingles_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/ancient_shingles_slab.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/AncientShinglesSlabBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "AncientShinglesStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_shingles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/ancient_shingles_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/ancient_shingles_stairs_outer.json",
+          "src/main/resources/assets/mystic_gatherings/items/ancient_shingles_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/ancient_shingles_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/ancient_shingles_stairs.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/ancient_shingles_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/ancient_shingles_stairs_inner.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/AncientShinglesStairsBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "VillagerStatue",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_statue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/villager_statue.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/VillagerStatueBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/villager_statue.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/villager_statue.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/villager_statue.json",
+          "src/main/resources/assets/mystic_gatherings/items/villager_statue.json"
+        ]
+      }
+    },
+    {
+      "name": "Variants",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "variants",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/variants_blockstate_1.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/variants_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "VillagerStatueBlockIsPlacedBy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_statue_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/VillagerStatueBlockIsPlacedByProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WhiteShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/white_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/items/white_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/white_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/white_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/WhiteShinglesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/white_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "LightGrayShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/light_gray_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/LightGrayShinglesBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/light_gray_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/light_gray_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/light_gray_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/light_gray_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "GrayShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_shingles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/GrayShinglesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/gray_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/items/gray_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/gray_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/gray_shingles.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/gray_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "BlackShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_shingles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/BlackShinglesBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/black_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/black_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/black_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/items/black_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/black_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "BrownShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/brown_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/brown_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/brown_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BrownShinglesBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/brown_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/items/brown_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "RedShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/red_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/red_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/red_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/red_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/RedShinglesBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/red_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "OrangeShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_shingles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/OrangeShinglesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/orange_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/orange_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/items/orange_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/orange_shingles.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/orange_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "YellowShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/yellow_shingles.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/yellow_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/YellowShinglesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/yellow_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/yellow_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/yellow_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "LimeShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/lime_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/lime_shingles.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/lime_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/LimeShinglesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/lime_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/lime_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "GreenShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/green_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/items/green_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/green_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/GreenShinglesBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/green_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/green_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "CyanShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/cyan_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/items/cyan_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/cyan_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/cyan_shingles.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/cyan_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/CyanShinglesBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "LightBlueShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/light_blue_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/light_blue_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/LightBlueShinglesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/light_blue_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/items/light_blue_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/light_blue_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "BlueShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/blue_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/blue_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/blue_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BlueShinglesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/blue_shingles.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/blue_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "PurpleShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/purple_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/items/purple_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/purple_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PurpleShinglesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/purple_shingles.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/purple_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "MagentaShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/magenta_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/magenta_shingles.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/magenta_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/magenta_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/magenta_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/MagentaShinglesBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "PinkShingles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_shingles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/pink_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/pink_shingles.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/pink_shingles.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PinkShinglesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/pink_shingles.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/pink_shingles.json"
+        ]
+      },
+      "path": "~/Building Blocks/Shingles"
+    },
+    {
+      "name": "Feldspar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/feldspar.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/feldspar.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FeldsparBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/feldspar.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/feldspar.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "PolishedFeldspar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_feldspar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedFeldsparBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/polished_feldspar.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_feldspar.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_feldspar.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_feldspar.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "FeldsparBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/feldspar_bricks.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/feldspar_bricks.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FeldsparBricksBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/feldspar_bricks.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/feldspar_bricks.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "FeldsparPillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/feldspar_pillar.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/feldspar_pillar.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FeldsparPillarBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/feldspar_pillar.json",
+          "src/main/resources/assets/mystic_gatherings/items/feldspar_pillar.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_pillar.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "ChiseledFeldspar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_feldspar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/chiseled_feldspar.json",
+          "src/main/resources/assets/mystic_gatherings/items/chiseled_feldspar.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/chiseled_feldspar.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/chiseled_feldspar.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/chiseled_feldspar.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/ChiseledFeldsparBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "FeldsparBricksSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks_slab_top.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/feldspar_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks_slab_full.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/feldspar_bricks_slab.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FeldsparBricksSlabBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/feldspar_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/items/feldspar_bricks_slab.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "PolishedFeldsparSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_feldspar_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedFeldsparSlabBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar_slab_full.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_feldspar_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar_slab_top.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_feldspar_slab.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_feldspar_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_feldspar_slab.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "FeldsparSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/feldspar_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/feldspar_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_slab_full.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_slab.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FeldsparSlabBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/feldspar_slab.json",
+          "src/main/resources/assets/mystic_gatherings/items/feldspar_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_slab_top.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "FeldsparBricksStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/feldspar_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/feldspar_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks_stairs_inner.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/feldspar_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/items/feldspar_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks_stairs_outer.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FeldsparBricksStairsBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "PolishedFeldsparStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_feldspar_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_feldspar_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar_stairs_inner.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedFeldsparStairsBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_feldspar_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_feldspar_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar_stairs_outer.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_feldspar_stairs.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "FeldsparStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_stairs_inner.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FeldsparStairsBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/feldspar_stairs.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/feldspar_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/items/feldspar_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/feldspar_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_stairs_outer.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "FeldsparBricksWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar_bricks_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks_wall_side_tall.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FeldsparBricksWallBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/feldspar_bricks_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks_wall_inventory.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/feldspar_bricks_wall.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/feldspar_bricks_wall.json",
+          "src/main/resources/assets/mystic_gatherings/items/feldspar_bricks_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_bricks_wall_post.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "PolishedFeldsparWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_feldspar_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_feldspar_wall.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_feldspar_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar_wall_post.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_feldspar_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar_wall_side_tall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_feldspar_wall_inventory.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedFeldsparWallBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_feldspar_wall.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "FeldsparWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_wall_post.json",
+          "src/main/resources/assets/mystic_gatherings/items/feldspar_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_wall.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/feldspar_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/feldspar_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_wall_inventory.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FeldsparWallBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/feldspar_wall.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/feldspar_wall_side_tall.json"
+        ]
+      },
+      "path": "~/Building Blocks/Feldspar"
     }
   ],
   "variable_elements": [
@@ -2503,6 +3455,53 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:FeldsparWall",
+      "~CUSTOM:PolishedFeldsparWall",
+      "~CUSTOM:FeldsparBricksWall",
+      "~CUSTOM:FeldsparStairs",
+      "~CUSTOM:PolishedFeldsparStairs",
+      "~CUSTOM:FeldsparBricksStairs",
+      "~CUSTOM:FeldsparSlab",
+      "~CUSTOM:PolishedFeldsparSlab",
+      "~CUSTOM:FeldsparBricksSlab",
+      "~CUSTOM:ChiseledFeldspar",
+      "~CUSTOM:FeldsparPillar",
+      "~CUSTOM:FeldsparBricks",
+      "~CUSTOM:PolishedFeldspar",
+      "~CUSTOM:Feldspar",
+      "~CUSTOM:PinkShingles",
+      "~CUSTOM:MagentaShingles",
+      "~CUSTOM:PurpleShingles",
+      "~CUSTOM:BlueShingles",
+      "~CUSTOM:LightBlueShingles",
+      "~CUSTOM:CyanShingles",
+      "~CUSTOM:GreenShingles",
+      "~CUSTOM:LimeShingles",
+      "~CUSTOM:YellowShingles",
+      "~CUSTOM:OrangeShingles",
+      "~CUSTOM:RedShingles",
+      "~CUSTOM:BrownShingles",
+      "~CUSTOM:BlackShingles",
+      "~CUSTOM:GrayShingles",
+      "~CUSTOM:LightGrayShingles",
+      "~CUSTOM:WhiteShingles",
+      "~CUSTOM:AncientShinglesStairs",
+      "~CUSTOM:AncientShinglesSlab",
+      "~CUSTOM:AncientShingles",
+      "~CUSTOM:PolishedTravertineWall",
+      "~CUSTOM:TravertineBricksWall",
+      "~CUSTOM:TravertineWall",
+      "~CUSTOM:PolishedTravertineStairs",
+      "~CUSTOM:TravertineBricksStairs",
+      "~CUSTOM:TravertineStairs",
+      "~CUSTOM:PolishedTravertineSlab",
+      "~CUSTOM:TravertineBricksSlab",
+      "~CUSTOM:TravertineSlab",
+      "~CUSTOM:TravertinePillar",
+      "~CUSTOM:ChiseledTravertine",
+      "~CUSTOM:PolishedTravertine",
+      "~CUSTOM:TravertineBricks",
+      "~CUSTOM:Travertine",
       "~CUSTOM:EndstoneCondensedMystiaOre",
       "~CUSTOM:DeepslateCondensedMystiaOre",
       "~CUSTOM:StoneCondensedMystiaOre",
@@ -2576,11 +3575,6 @@
     "ITEMS:mystic_gatherings:polishing_cloth": [
       "CUSTOM:PolishingCloth"
     ],
-    "BLOCKS:minecraft:dirt": [],
-    "BLOCKS:minecraft:sand": [],
-    "BIOMES:minecraft:is_overworld": [],
-    "BIOMES:minecraft:is_nether": [],
-    "BIOMES:minecraft:is_end": [],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:EndstoneCondensedMystiaOre",
       "~CUSTOM:DeepslateCondensedMystiaOre",
@@ -2670,6 +3664,32 @@
       "Blocks.DEEPSLATE_COPPER_ORE",
       "Blocks.QUARTZ_ORE",
       "Blocks.NETHER_GOLD_ORE"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:FeldsparBricksSlab",
+      "~CUSTOM:PolishedFeldsparSlab",
+      "~CUSTOM:FeldsparSlab",
+      "~CUSTOM:AncientShinglesSlab",
+      "~CUSTOM:PolishedTravertineSlab",
+      "~CUSTOM:TravertineBricksSlab",
+      "~CUSTOM:TravertineSlab"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:FeldsparStairs",
+      "~CUSTOM:PolishedFeldsparStairs",
+      "~CUSTOM:FeldsparBricksStairs",
+      "~CUSTOM:AncientShinglesStairs",
+      "~CUSTOM:PolishedTravertineStairs",
+      "~CUSTOM:TravertineBricksStairs",
+      "~CUSTOM:TravertineStairs"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:FeldsparWall",
+      "~CUSTOM:PolishedFeldsparWall",
+      "~CUSTOM:FeldsparBricksWall",
+      "~CUSTOM:PolishedTravertineWall",
+      "~CUSTOM:TravertineBricksWall",
+      "~CUSTOM:TravertineWall"
     ]
   },
   "tab_element_order": {
@@ -2689,6 +3709,26 @@
       "CondensedMystiaPearl",
       "OrphNugget",
       "DrealNugget"
+    ],
+    "TOOLS": [
+      "PolishingCloth",
+      "LeatherSack",
+      "DrealAxe",
+      "DrealPickaxe",
+      "DrealShovel",
+      "DrealHoe",
+      "OrphAxe",
+      "OrphPickaxe",
+      "OrphShovel",
+      "OrphHoe"
+    ],
+    "COMBAT": [
+      "DrealArmor",
+      "OrphArmor",
+      "DrealSword",
+      "DrealAxe",
+      "OrphSword",
+      "OrphAxe"
     ]
   },
   "language_map": {
@@ -2764,7 +3804,55 @@
       "item.mystic_gatherings.mediumbellhop_spawn_egg": "Medium Bellhop Spawn Egg",
       "entity.mystic_gatherings.mediumbellhop": "Medium Bellhop",
       "item.mystic_gatherings.small_bellhop_spawn_egg": "Small Bellhop Spawn Egg",
-      "entity.mystic_gatherings.small_bellhop": "Small Bellhop"
+      "entity.mystic_gatherings.small_bellhop": "Small Bellhop",
+      "item.mystic_gatherings.travertine": "Travertine",
+      "item.mystic_gatherings.travertine_bricks": "Travertine Bricks",
+      "item.mystic_gatherings.polished_travertine": "Polished Travertine",
+      "item.mystic_gatherings.chiseled_travertine": "Chiseled Travertine",
+      "item.mystic_gatherings.travertine_pillar": "Travertine Pillar",
+      "item.mystic_gatherings.travertine_slab": "Travertine Slab",
+      "item.mystic_gatherings.travertine_bricks_slab": "Travertine Bricks Slab",
+      "item.mystic_gatherings.polished_travertine_slab": "Polished Travertine Slab",
+      "item.mystic_gatherings.travertine_stairs": "Travertine Stairs",
+      "item.mystic_gatherings.travertine_bricks_stairs": "Travertine Bricks Stairs",
+      "item.mystic_gatherings.polished_travertine_stairs": "Polished Travertine Stairs",
+      "item.mystic_gatherings.travertine_wall": "Travertine Wall",
+      "item.mystic_gatherings.travertine_bricks_wall": "Travertine Bricks Wall",
+      "item.mystic_gatherings.polished_travertine_wall": "Polished Travertine Wall",
+      "item.mystic_gatherings.ancient_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.ancient_shingles_slab": "Ancient Shingles Slab",
+      "item.mystic_gatherings.ancient_shingles_stairs": "Ancient Shingles Stairs",
+      "item.mystic_gatherings.villager_statue": "Villager Statue",
+      "item.mystic_gatherings.white_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.light_gray_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.gray_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.black_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.brown_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.red_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.orange_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.yellow_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.lime_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.green_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.cyan_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.light_blue_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.blue_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.purple_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.magenta_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.pink_shingles": "Ancient Shingles",
+      "item.mystic_gatherings.feldspar": "Feldspar",
+      "item.mystic_gatherings.polished_feldspar": "Polished Feldspar",
+      "item.mystic_gatherings.feldspar_bricks": "Feldspar Bricks",
+      "item.mystic_gatherings.feldspar_pillar": "Feldspar Pillar",
+      "item.mystic_gatherings.chiseled_feldspar": "Chiseled Feldspar",
+      "item.mystic_gatherings.feldspar_bricks_slab": "Feldspar Bricks Slab",
+      "item.mystic_gatherings.polished_feldspar_slab": "Polished Feldspar Slab",
+      "item.mystic_gatherings.feldspar_slab": "Feldspar Slab",
+      "item.mystic_gatherings.feldspar_bricks_stairs": "Feldspar Bricks Stairs",
+      "item.mystic_gatherings.polished_feldspar_stairs": "Polished Feldspar Stairs",
+      "item.mystic_gatherings.feldspar_stairs": "Feldspar Stairs",
+      "item.mystic_gatherings.feldspar_bricks_wall": "Feldspar Bricks Wall",
+      "item.mystic_gatherings.polished_feldspar_wall": "Polished Feldspar Wall",
+      "item.mystic_gatherings.feldspar_wall": "Feldspar Wall"
     }
   },
   "metadata": {
@@ -2841,15 +3929,6 @@
         ]
       },
       {
-        "name": "Woods",
-        "children": [
-          {
-            "name": "Verawood",
-            "children": []
-          }
-        ]
-      },
-      {
         "name": "Ore",
         "children": [
           {
@@ -2887,6 +3966,32 @@
       {
         "name": "Entities",
         "children": []
+      },
+      {
+        "name": "Building Blocks",
+        "children": [
+          {
+            "name": "Shingles",
+            "children": []
+          },
+          {
+            "name": "Woods",
+            "children": [
+              {
+                "name": "Verawood",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Travertine",
+            "children": []
+          },
+          {
+            "name": "Feldspar",
+            "children": []
+          }
+        ]
       }
     ]
   },

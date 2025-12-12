@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "mystic_gatherings:block/travertinebricks",
+    "particle": "mystic_gatherings:block/travertinebricks"
+  },
+  "render_type": "solid"
+}

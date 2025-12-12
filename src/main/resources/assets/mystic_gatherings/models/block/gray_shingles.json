@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mystic_gatherings:block/grayancientshingles",
+    "particle": "mystic_gatherings:block/grayancientshingles"
+  },
+  "render_type": "solid"
+}

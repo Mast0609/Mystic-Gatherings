@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystic_gatherings:block/chiseledtravertinetop",
+    "up": "mystic_gatherings:block/chiseledtravertinetop",
+    "north": "mystic_gatherings:block/chiseledtravertine",
+    "east": "mystic_gatherings:block/chiseledtravertine",
+    "south": "mystic_gatherings:block/chiseledtravertine",
+    "west": "mystic_gatherings:block/chiseledtravertine",
+    "particle": "mystic_gatherings:block/chiseledtravertinetop"
+  },
+  "render_type": "solid"
+}

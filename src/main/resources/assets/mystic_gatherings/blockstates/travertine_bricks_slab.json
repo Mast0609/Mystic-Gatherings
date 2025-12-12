@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mystic_gatherings:block/travertine_bricks_slab"
+    },
+    "type=top": {
+      "model": "mystic_gatherings:block/travertine_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "mystic_gatherings:block/travertine_bricks_slab_full"
+    }
+  }
+}
