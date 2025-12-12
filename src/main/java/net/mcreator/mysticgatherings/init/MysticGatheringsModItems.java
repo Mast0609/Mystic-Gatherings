@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.mysticgatherings.item.inventory.LeatherSackInventoryCapability;
@@ -140,6 +141,22 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> FELDSPAR_BRICKS_WALL;
 	public static final DeferredItem<Item> POLISHED_FELDSPAR_WALL;
 	public static final DeferredItem<Item> FELDSPAR_WALL;
+	public static final DeferredItem<Item> FIR_LOG;
+	public static final DeferredItem<Item> FIR_WOOD;
+	public static final DeferredItem<Item> STRIPPED_FIR_LOG;
+	public static final DeferredItem<Item> STRIPPED_FIR_WOOD;
+	public static final DeferredItem<Item> FIR_PLANKS;
+	public static final DeferredItem<Item> FIR_STAIRS;
+	public static final DeferredItem<Item> FIR_SLAB;
+	public static final DeferredItem<Item> FIR_FENCE;
+	public static final DeferredItem<Item> FIR_FENCE_GATE;
+	public static final DeferredItem<Item> FIR_DOOR;
+	public static final DeferredItem<Item> FIR_TRAPDOOR;
+	public static final DeferredItem<Item> FIR_PRESSURE_PLATE;
+	public static final DeferredItem<Item> FIR_BUTTON;
+	public static final DeferredItem<Item> PEAT_SOIL;
+	public static final DeferredItem<Item> SPHAGNUM_MOSS;
+	public static final DeferredItem<Item> SPHAGNUM_MOSS_COVERED_PEAT;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -255,6 +272,22 @@ public class MysticGatheringsModItems {
 		FELDSPAR_BRICKS_WALL = block(MysticGatheringsModBlocks.FELDSPAR_BRICKS_WALL);
 		POLISHED_FELDSPAR_WALL = block(MysticGatheringsModBlocks.POLISHED_FELDSPAR_WALL);
 		FELDSPAR_WALL = block(MysticGatheringsModBlocks.FELDSPAR_WALL);
+		FIR_LOG = block(MysticGatheringsModBlocks.FIR_LOG);
+		FIR_WOOD = block(MysticGatheringsModBlocks.FIR_WOOD);
+		STRIPPED_FIR_LOG = block(MysticGatheringsModBlocks.STRIPPED_FIR_LOG);
+		STRIPPED_FIR_WOOD = block(MysticGatheringsModBlocks.STRIPPED_FIR_WOOD);
+		FIR_PLANKS = block(MysticGatheringsModBlocks.FIR_PLANKS);
+		FIR_STAIRS = block(MysticGatheringsModBlocks.FIR_STAIRS);
+		FIR_SLAB = block(MysticGatheringsModBlocks.FIR_SLAB);
+		FIR_FENCE = block(MysticGatheringsModBlocks.FIR_FENCE);
+		FIR_FENCE_GATE = block(MysticGatheringsModBlocks.FIR_FENCE_GATE);
+		FIR_DOOR = doubleBlock(MysticGatheringsModBlocks.FIR_DOOR);
+		FIR_TRAPDOOR = block(MysticGatheringsModBlocks.FIR_TRAPDOOR);
+		FIR_PRESSURE_PLATE = block(MysticGatheringsModBlocks.FIR_PRESSURE_PLATE);
+		FIR_BUTTON = block(MysticGatheringsModBlocks.FIR_BUTTON);
+		PEAT_SOIL = block(MysticGatheringsModBlocks.PEAT_SOIL);
+		SPHAGNUM_MOSS = block(MysticGatheringsModBlocks.SPHAGNUM_MOSS);
+		SPHAGNUM_MOSS_COVERED_PEAT = block(MysticGatheringsModBlocks.SPHAGNUM_MOSS_COVERED_PEAT);
 	}
 
 	// Start of user code block custom items
@@ -269,6 +302,14 @@ public class MysticGatheringsModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), properties);
 	}
 
 	@SubscribeEvent

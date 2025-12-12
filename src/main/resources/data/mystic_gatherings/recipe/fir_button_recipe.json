@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "mystic_gatherings:fir_planks"
+  ],
+  "result": {
+    "id": "mystic_gatherings:fir_button",
+    "count": 1
+  }
+}

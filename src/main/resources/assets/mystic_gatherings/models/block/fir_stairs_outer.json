@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "mystic_gatherings:block/firplanks",
+    "bottom": "mystic_gatherings:block/firplanks",
+    "top": "mystic_gatherings:block/firplanks",
+    "side": "mystic_gatherings:block/firplanks"
+  },
+  "render_type": "solid"
+}

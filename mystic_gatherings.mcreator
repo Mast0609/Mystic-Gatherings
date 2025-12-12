@@ -3424,6 +3424,469 @@
         ]
       },
       "path": "~/Building Blocks/Feldspar"
+    },
+    {
+      "name": "FirLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/FirLogBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_log.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_log.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_log.json",
+          "src/main/resources/assets/mystic_gatherings/items/fir_log.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_log.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/fir_wood.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_wood.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_wood.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_wood.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FirWoodBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_wood.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "StrippedFirLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_fir_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/stripped_fir_log.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/StrippedFirLogBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stripped_fir_log.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/stripped_fir_log.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/stripped_fir_log.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/stripped_fir_log.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "StrippedFirWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_fir_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/StrippedFirWoodBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/stripped_fir_wood.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/stripped_fir_wood.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/stripped_fir_wood.json",
+          "src/main/resources/assets/mystic_gatherings/items/stripped_fir_wood.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stripped_fir_wood.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_planks.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_planks.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FirPlanksBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_planks.json",
+          "src/main/resources/assets/mystic_gatherings/items/fir_planks.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_planks.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/fir_stairs.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_stairs_outer.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_stairs_inner.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FirStairsBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_slab_top.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_slab.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_slab.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FirSlabBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_slab_full.json",
+          "src/main/resources/assets/mystic_gatherings/items/fir_slab.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_fence.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_fence.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_fence_post.json",
+          "src/main/resources/assets/mystic_gatherings/items/fir_fence.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_fence.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_fence.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_fence_inventory.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FirFenceBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_fence_gate_wall_open.json",
+          "src/main/resources/assets/mystic_gatherings/items/fir_fence_gate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_fence_gate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_fence_gate_wall.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FirFenceGateBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_fence_gate.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_fence_gate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_fence_gate_open.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_fence_gate.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_door",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/FirDoorBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_door_bottom_left.json",
+          "src/main/resources/assets/mystic_gatherings/items/fir_door.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_door_top_left.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_door_bottom_left_open.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_door.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_door.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_door_bottom_right.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_door.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_door_top_right.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_door_top_right_open.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_door_bottom_right_open.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_door_top_left_open.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/FirTrapdoorBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_trapdoor.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_trapdoor.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_trapdoor.json",
+          "src/main/resources/assets/mystic_gatherings/items/fir_trapdoor.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_trapdoor_open.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_trapdoor.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_trapdoor_top.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_pressure_plate.json",
+          "src/main/resources/assets/mystic_gatherings/items/fir_pressure_plate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_pressure_plate.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FirPressurePlateBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_pressure_plate.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_pressure_plate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_button.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_button.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_button.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_button_inventory.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_button_pressed.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FirButtonBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/fir_button.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_button.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/fir_wood_recipe.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/fir_wood_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "StrippedFirWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_fir_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/stripped_fir_wood_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/stripped_fir_wood_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/fir_planks_recipe.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/fir_planks_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/fir_stairs_recipe.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/fir_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/fir_slab_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/fir_slab_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/fir_fence_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/fir_fence_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/fir_fence_gate_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/fir_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/fir_door_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/fir_door_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/fir_trapdoor_recipe.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/fir_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/fir_pressure_plate_recipe.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/fir_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/fir_button_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/fir_button_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "PeatSoil",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peat_soil",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/peat_soil.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/peat_soil.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PeatSoilBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/peat_soil.json",
+          "src/main/resources/assets/mystic_gatherings/items/peat_soil.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/peat_soil.json"
+        ]
+      },
+      "path": "~/Building Blocks/Sphagnum"
+    },
+    {
+      "name": "SphagnumMoss",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphagnum_moss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/SphagnumMossBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/sphagnum_moss.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/sphagnum_moss.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/sphagnum_moss.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/sphagnum_moss.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/sphagnum_moss.json"
+        ]
+      },
+      "path": "~/Building Blocks/Sphagnum"
+    },
+    {
+      "name": "SphagnumMossCoveredPeat",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphagnum_moss_covered_peat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/SphagnumMossCoveredPeatBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/sphagnum_moss_covered_peat.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/sphagnum_moss_covered_peat.json",
+          "src/main/resources/assets/mystic_gatherings/items/sphagnum_moss_covered_peat.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/sphagnum_moss_covered_peat.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/sphagnum_moss_covered_peat.json"
+        ]
+      },
+      "path": "~/Building Blocks/Sphagnum"
     }
   ],
   "variable_elements": [
@@ -3557,6 +4020,19 @@
       "~CUSTOM:OrphIngot"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:FirButton",
+      "~CUSTOM:FirPressurePlate",
+      "~CUSTOM:FirTrapdoor",
+      "~CUSTOM:FirDoor",
+      "~CUSTOM:FirFenceGate",
+      "~CUSTOM:FirFence",
+      "~CUSTOM:FirSlab",
+      "~CUSTOM:FirStairs",
+      "~CUSTOM:FirPlanks",
+      "~CUSTOM:StrippedFirWood",
+      "~CUSTOM:StrippedFirLog",
+      "~CUSTOM:FirWood",
+      "~CUSTOM:FirLog",
       "~CUSTOM:VerawoodPlanks",
       "~CUSTOM:VerawoodWood",
       "~CUSTOM:StrippedVerawoodWood",
@@ -3666,6 +4142,7 @@
       "Blocks.NETHER_GOLD_ORE"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:FirSlab",
       "~CUSTOM:FeldsparBricksSlab",
       "~CUSTOM:PolishedFeldsparSlab",
       "~CUSTOM:FeldsparSlab",
@@ -3675,6 +4152,7 @@
       "~CUSTOM:TravertineSlab"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:FirStairs",
       "~CUSTOM:FeldsparStairs",
       "~CUSTOM:PolishedFeldsparStairs",
       "~CUSTOM:FeldsparBricksStairs",
@@ -3690,6 +4168,45 @@
       "~CUSTOM:PolishedTravertineWall",
       "~CUSTOM:TravertineBricksWall",
       "~CUSTOM:TravertineWall"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:FirFence"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:FirDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:FirTrapdoor"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:FirPressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:FirButton"
+    ],
+    "BLOCKS:mod:fir_logs": [
+      "CUSTOM:FirLog",
+      "CUSTOM:FirWood",
+      "CUSTOM:StrippedFirLog",
+      "CUSTOM:StrippedFirWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:fir_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:FirPlanks"
+    ],
+    "ITEMS:mod:fir_logs": [
+      "CUSTOM:FirLog",
+      "CUSTOM:FirWood",
+      "CUSTOM:StrippedFirLog",
+      "CUSTOM:StrippedFirWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:fir_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:FirPlanks"
     ]
   },
   "tab_element_order": {
@@ -3852,7 +4369,23 @@
       "item.mystic_gatherings.feldspar_stairs": "Feldspar Stairs",
       "item.mystic_gatherings.feldspar_bricks_wall": "Feldspar Bricks Wall",
       "item.mystic_gatherings.polished_feldspar_wall": "Polished Feldspar Wall",
-      "item.mystic_gatherings.feldspar_wall": "Feldspar Wall"
+      "item.mystic_gatherings.feldspar_wall": "Feldspar Wall",
+      "item.mystic_gatherings.fir_log": "Fir Log",
+      "item.mystic_gatherings.fir_wood": "Fir Wood",
+      "item.mystic_gatherings.stripped_fir_log": "Stripped Fir Log",
+      "item.mystic_gatherings.stripped_fir_wood": "Stripped Fir Wood",
+      "item.mystic_gatherings.fir_planks": "Fir Planks",
+      "item.mystic_gatherings.fir_stairs": "Fir Stairs",
+      "item.mystic_gatherings.fir_slab": "Fir Slab",
+      "item.mystic_gatherings.fir_fence": "Fir Fence",
+      "item.mystic_gatherings.fir_fence_gate": "Fir Fence Gate",
+      "item.mystic_gatherings.fir_door": "Fir Door",
+      "item.mystic_gatherings.fir_trapdoor": "Fir Trapdoor",
+      "item.mystic_gatherings.fir_pressure_plate": "Fir Pressure Plate",
+      "item.mystic_gatherings.fir_button": "Fir Button",
+      "item.mystic_gatherings.peat_soil": "Peat Soil",
+      "item.mystic_gatherings.sphagnum_moss": "Sphagnum Moss",
+      "item.mystic_gatherings.sphagnum_moss_covered_peat": "Sphagnum Moss Covered Peat"
     }
   },
   "metadata": {
@@ -3980,6 +4513,10 @@
               {
                 "name": "Verawood",
                 "children": []
+              },
+              {
+                "name": "Fir",
+                "children": []
               }
             ]
           },
@@ -3989,6 +4526,10 @@
           },
           {
             "name": "Feldspar",
+            "children": []
+          },
+          {
+            "name": "Sphagnum",
             "children": []
           }
         ]

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mystic_gatherings:fir_wood",
+    "mystic_gatherings:fir_log",
+    "mystic_gatherings:stripped_fir_log",
+    "mystic_gatherings:stripped_fir_wood"
+  ]
+}

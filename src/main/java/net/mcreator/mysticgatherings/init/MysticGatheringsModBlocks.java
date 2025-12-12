@@ -97,6 +97,22 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> FELDSPAR_BRICKS_WALL;
 	public static final DeferredBlock<Block> POLISHED_FELDSPAR_WALL;
 	public static final DeferredBlock<Block> FELDSPAR_WALL;
+	public static final DeferredBlock<Block> FIR_LOG;
+	public static final DeferredBlock<Block> FIR_WOOD;
+	public static final DeferredBlock<Block> STRIPPED_FIR_LOG;
+	public static final DeferredBlock<Block> STRIPPED_FIR_WOOD;
+	public static final DeferredBlock<Block> FIR_PLANKS;
+	public static final DeferredBlock<Block> FIR_STAIRS;
+	public static final DeferredBlock<Block> FIR_SLAB;
+	public static final DeferredBlock<Block> FIR_FENCE;
+	public static final DeferredBlock<Block> FIR_FENCE_GATE;
+	public static final DeferredBlock<Block> FIR_DOOR;
+	public static final DeferredBlock<Block> FIR_TRAPDOOR;
+	public static final DeferredBlock<Block> FIR_PRESSURE_PLATE;
+	public static final DeferredBlock<Block> FIR_BUTTON;
+	public static final DeferredBlock<Block> PEAT_SOIL;
+	public static final DeferredBlock<Block> SPHAGNUM_MOSS;
+	public static final DeferredBlock<Block> SPHAGNUM_MOSS_COVERED_PEAT;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -175,6 +191,22 @@ public class MysticGatheringsModBlocks {
 		FELDSPAR_BRICKS_WALL = register("feldspar_bricks_wall", FeldsparBricksWallBlock::new);
 		POLISHED_FELDSPAR_WALL = register("polished_feldspar_wall", PolishedFeldsparWallBlock::new);
 		FELDSPAR_WALL = register("feldspar_wall", FeldsparWallBlock::new);
+		FIR_LOG = register("fir_log", FirLogBlock::new);
+		FIR_WOOD = register("fir_wood", FirWoodBlock::new);
+		STRIPPED_FIR_LOG = register("stripped_fir_log", StrippedFirLogBlock::new);
+		STRIPPED_FIR_WOOD = register("stripped_fir_wood", StrippedFirWoodBlock::new);
+		FIR_PLANKS = register("fir_planks", FirPlanksBlock::new);
+		FIR_STAIRS = register("fir_stairs", FirStairsBlock::new);
+		FIR_SLAB = register("fir_slab", FirSlabBlock::new);
+		FIR_FENCE = register("fir_fence", FirFenceBlock::new);
+		FIR_FENCE_GATE = register("fir_fence_gate", FirFenceGateBlock::new);
+		FIR_DOOR = register("fir_door", FirDoorBlock::new);
+		FIR_TRAPDOOR = register("fir_trapdoor", FirTrapdoorBlock::new);
+		FIR_PRESSURE_PLATE = register("fir_pressure_plate", FirPressurePlateBlock::new);
+		FIR_BUTTON = register("fir_button", FirButtonBlock::new);
+		PEAT_SOIL = register("peat_soil", PeatSoilBlock::new);
+		SPHAGNUM_MOSS = register("sphagnum_moss", SphagnumMossBlock::new);
+		SPHAGNUM_MOSS_COVERED_PEAT = register("sphagnum_moss_covered_peat", SphagnumMossCoveredPeatBlock::new);
 	}
 
 	// Start of user code block custom blocks

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystic_gatherings:block/peatsoil",
+    "up": "mystic_gatherings:block/sphagnummoss",
+    "north": "mystic_gatherings:block/sphagnumcoveredpeat",
+    "east": "mystic_gatherings:block/sphagnumcoveredpeat",
+    "south": "mystic_gatherings:block/sphagnumcoveredpeat",
+    "west": "mystic_gatherings:block/sphagnumcoveredpeat",
+    "particle": "mystic_gatherings:block/peatsoil"
+  },
+  "render_type": "solid"
+}

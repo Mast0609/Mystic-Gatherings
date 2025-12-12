@@ -215,6 +215,19 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR_STAIRS.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS_WALL.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR_WALL.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_LOG.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_WOOD.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.STRIPPED_FIR_LOG.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.STRIPPED_FIR_WOOD.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_PLANKS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_FENCE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_FENCE_GATE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_DOOR.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_TRAPDOOR.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_PRESSURE_PLATE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE.get().asItem());

@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "mystic_gatherings:block/firplanks",
+    "particle": "mystic_gatherings:block/firplanks"
+  },
+  "render_type": "solid"
+}

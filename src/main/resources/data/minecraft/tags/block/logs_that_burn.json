@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#mystic_gatherings:fir_logs",
+      "required": false
+    }
+  ]
+}

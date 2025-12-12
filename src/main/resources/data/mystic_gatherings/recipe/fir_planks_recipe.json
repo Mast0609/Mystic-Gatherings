@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "#mystic_gatherings:fir_logs"
+  ],
+  "result": {
+    "id": "mystic_gatherings:fir_planks",
+    "count": 4
+  }
+}

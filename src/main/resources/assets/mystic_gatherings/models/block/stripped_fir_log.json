@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystic_gatherings:block/strippedfirlogtop",
+    "up": "mystic_gatherings:block/strippedfirlogtop",
+    "north": "mystic_gatherings:block/strippedfirlog",
+    "east": "mystic_gatherings:block/strippedfirlog",
+    "south": "mystic_gatherings:block/strippedfirlog",
+    "west": "mystic_gatherings:block/strippedfirlog",
+    "particle": "mystic_gatherings:block/strippedfirlogtop"
+  },
+  "render_type": "solid"
+}

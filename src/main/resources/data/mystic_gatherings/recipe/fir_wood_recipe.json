@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "mystic_gatherings:fir_log"
+  },
+  "result": {
+    "id": "mystic_gatherings:fir_wood",
+    "count": 3
+  }
+}
