@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "mystic_gatherings:blocks/villager_statue",
+  "random_sequence": "mystic_gatherings:blocks/statue",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mystic_gatherings:villager_statue"
+          "name": "mystic_gatherings:statue"
         }
       ]
     }

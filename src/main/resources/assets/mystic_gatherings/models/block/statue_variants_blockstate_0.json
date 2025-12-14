@@ -1,0 +1,9 @@
+{
+  "parent": "mystic_gatherings:custom/villagerstatue",
+  "textures": {
+    "all": "mystic_gatherings:block/villagerstatuetexture",
+    "particle": "mystic_gatherings:block/chiseledtravertinetop",
+    "1": "mystic_gatherings:block/villagerstatuetexture"
+  },
+  "render_type": "solid"
+}

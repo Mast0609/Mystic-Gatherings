@@ -2,20 +2,20 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "villagerstatue",
+    "texture": "chiseledtravertinetop",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "villagerstatue:default",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "statueitem",
     "particleTexture": "",
     "blockSetType": "OAK",
     "pottedPlant": {
@@ -23,7 +23,7 @@
     },
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -39,12 +39,12 @@
       }
     ],
     "customProperties": [],
-    "name": "Villager Statue",
+    "name": "Statue",
     "specialInformation": {
       "fixedValue": []
     },
     "hardness": 1.0,
-    "resistance": 10.0,
+    "resistance": 12.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
@@ -54,9 +54,12 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:MysticGatherings"
+      },
+      {
+        "value": "BUILDING_BLOCKS"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -64,11 +67,11 @@
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
@@ -97,7 +100,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -140,10 +143,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onBlockAdded": {
-      "name": "VillagerStatueBlockIsPlacedBy"
+      "name": "SwitchStatueVariant"
     },
     "onBlockPlayedBy": {
-      "name": "VillagerStatueBlockIsPlacedBy"
+      "name": "SwitchStatueVariant"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

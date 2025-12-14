@@ -2034,7 +2034,8 @@
           "src/main/java/net/mcreator/mysticgatherings/block/T1RitualCandleBlock.java",
           "src/main/resources/data/mystic_gatherings/loot_table/blocks/t_1_ritual_candle.json"
         ]
-      }
+      },
+      "path": "~/Ritual Items"
     },
     {
       "name": "T2RitualCandle",
@@ -2051,7 +2052,8 @@
           "src/main/resources/assets/mystic_gatherings/items/t_2_ritual_candle.json",
           "src/main/java/net/mcreator/mysticgatherings/block/T2RitualCandleBlock.java"
         ]
-      }
+      },
+      "path": "~/Ritual Items"
     },
     {
       "name": "T3RitualCandle",
@@ -2068,7 +2070,8 @@
           "src/main/resources/assets/mystic_gatherings/blockstates/t_3_ritual_candle.json",
           "src/main/resources/assets/mystic_gatherings/models/item/t_3_ritual_candle.json"
         ]
-      }
+      },
+      "path": "~/Ritual Items"
     },
     {
       "name": "StoneCondensedMystiaOre",
@@ -2803,66 +2806,6 @@
         ]
       },
       "path": "~/Building Blocks/Shingles"
-    },
-    {
-      "name": "VillagerStatue",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "villager_statue",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mystic_gatherings/blockstates/villager_statue.json",
-          "src/main/java/net/mcreator/mysticgatherings/block/VillagerStatueBlock.java",
-          "src/main/resources/assets/mystic_gatherings/models/block/villager_statue.json",
-          "src/main/resources/data/mystic_gatherings/loot_table/blocks/villager_statue.json",
-          "src/main/resources/assets/mystic_gatherings/models/item/villager_statue.json",
-          "src/main/resources/assets/mystic_gatherings/items/villager_statue.json"
-        ]
-      }
-    },
-    {
-      "name": "Variants",
-      "type": "blockstates",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "variants",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mystic_gatherings/models/block/variants_blockstate_1.json",
-          "src/main/resources/assets/mystic_gatherings/models/block/variants_blockstate_0.json"
-        ]
-      }
-    },
-    {
-      "name": "VillagerStatueBlockIsPlacedBy",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "villager_statue_block_is_placed_by",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/mysticgatherings/procedures/VillagerStatueBlockIsPlacedByProcedure.java"
-        ]
-      }
     },
     {
       "name": "WhiteShingles",
@@ -3887,6 +3830,66 @@
         ]
       },
       "path": "~/Building Blocks/Sphagnum"
+    },
+    {
+      "name": "Statue",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/statue.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/statue.json",
+          "src/main/resources/assets/mystic_gatherings/items/statue.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/statue.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/StatueBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/statue.json"
+        ]
+      }
+    },
+    {
+      "name": "StatueVariants",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue_variants",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/statue_variants_blockstate_1.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/statue_variants_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "SwitchStatueVariant",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_statue_variant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/SwitchStatueVariantProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3918,6 +3921,7 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Statue",
       "~CUSTOM:FeldsparWall",
       "~CUSTOM:PolishedFeldsparWall",
       "~CUSTOM:FeldsparBricksWall",
@@ -4207,6 +4211,10 @@
     ],
     "ITEMS:minecraft:planks": [
       "CUSTOM:FirPlanks"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:PeatSoil",
+      "~CUSTOM:SphagnumMossCoveredPeat"
     ]
   },
   "tab_element_order": {
@@ -4339,7 +4347,6 @@
       "item.mystic_gatherings.ancient_shingles": "Ancient Shingles",
       "item.mystic_gatherings.ancient_shingles_slab": "Ancient Shingles Slab",
       "item.mystic_gatherings.ancient_shingles_stairs": "Ancient Shingles Stairs",
-      "item.mystic_gatherings.villager_statue": "Villager Statue",
       "item.mystic_gatherings.white_shingles": "Ancient Shingles",
       "item.mystic_gatherings.light_gray_shingles": "Ancient Shingles",
       "item.mystic_gatherings.gray_shingles": "Ancient Shingles",
@@ -4385,7 +4392,8 @@
       "item.mystic_gatherings.fir_button": "Fir Button",
       "item.mystic_gatherings.peat_soil": "Peat Soil",
       "item.mystic_gatherings.sphagnum_moss": "Sphagnum Moss",
-      "item.mystic_gatherings.sphagnum_moss_covered_peat": "Sphagnum Moss Covered Peat"
+      "item.mystic_gatherings.sphagnum_moss_covered_peat": "Sphagnum Moss Covered Peat",
+      "item.mystic_gatherings.statue": "Statue"
     }
   },
   "metadata": {

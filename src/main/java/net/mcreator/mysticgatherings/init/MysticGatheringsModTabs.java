@@ -105,7 +105,6 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModBlocks.ANCIENT_SHINGLES.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.ANCIENT_SHINGLES_SLAB.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.ANCIENT_SHINGLES_STAIRS.get().asItem());
-				tabData.accept(MysticGatheringsModBlocks.VILLAGER_STATUE.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.WHITE_SHINGLES.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.LIGHT_GRAY_SHINGLES.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.GRAY_SHINGLES.get().asItem());
@@ -136,6 +135,7 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS_WALL.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR_WALL.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_WALL.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.STATUE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -228,6 +228,7 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.FIR_TRAPDOOR.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.FIR_PRESSURE_PLATE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.FIR_BUTTON.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.STATUE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE.get().asItem());

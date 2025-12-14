@@ -66,7 +66,6 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> ANCIENT_SHINGLES;
 	public static final DeferredBlock<Block> ANCIENT_SHINGLES_SLAB;
 	public static final DeferredBlock<Block> ANCIENT_SHINGLES_STAIRS;
-	public static final DeferredBlock<Block> VILLAGER_STATUE;
 	public static final DeferredBlock<Block> WHITE_SHINGLES;
 	public static final DeferredBlock<Block> LIGHT_GRAY_SHINGLES;
 	public static final DeferredBlock<Block> GRAY_SHINGLES;
@@ -113,6 +112,7 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> PEAT_SOIL;
 	public static final DeferredBlock<Block> SPHAGNUM_MOSS;
 	public static final DeferredBlock<Block> SPHAGNUM_MOSS_COVERED_PEAT;
+	public static final DeferredBlock<Block> STATUE;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -160,7 +160,6 @@ public class MysticGatheringsModBlocks {
 		ANCIENT_SHINGLES = register("ancient_shingles", AncientShinglesBlock::new);
 		ANCIENT_SHINGLES_SLAB = register("ancient_shingles_slab", AncientShinglesSlabBlock::new);
 		ANCIENT_SHINGLES_STAIRS = register("ancient_shingles_stairs", AncientShinglesStairsBlock::new);
-		VILLAGER_STATUE = register("villager_statue", VillagerStatueBlock::new);
 		WHITE_SHINGLES = register("white_shingles", WhiteShinglesBlock::new);
 		LIGHT_GRAY_SHINGLES = register("light_gray_shingles", LightGrayShinglesBlock::new);
 		GRAY_SHINGLES = register("gray_shingles", GrayShinglesBlock::new);
@@ -207,6 +206,7 @@ public class MysticGatheringsModBlocks {
 		PEAT_SOIL = register("peat_soil", PeatSoilBlock::new);
 		SPHAGNUM_MOSS = register("sphagnum_moss", SphagnumMossBlock::new);
 		SPHAGNUM_MOSS_COVERED_PEAT = register("sphagnum_moss_covered_peat", SphagnumMossCoveredPeatBlock::new);
+		STATUE = register("statue", StatueBlock::new);
 	}
 
 	// Start of user code block custom blocks

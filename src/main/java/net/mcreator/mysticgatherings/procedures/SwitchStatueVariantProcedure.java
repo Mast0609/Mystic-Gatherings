@@ -7,7 +7,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.core.BlockPos;
 
-public class VillagerStatueBlockIsPlacedByProcedure {
+public class SwitchStatueVariantProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
 			int _value = Mth.nextInt(RandomSource.create(), 1, 2);

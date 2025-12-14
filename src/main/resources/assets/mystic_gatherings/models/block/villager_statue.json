@@ -1,9 +1,0 @@
-{
-  "parent": "mystic_gatherings:custom/villagerstatue",
-  "textures": {
-    "all": "mystic_gatherings:block/villagerstatue",
-    "particle": "mystic_gatherings:block/villagerstatue",
-    "0": "mystic_gatherings:block/villagerstatue"
-  },
-  "render_type": "solid"
-}

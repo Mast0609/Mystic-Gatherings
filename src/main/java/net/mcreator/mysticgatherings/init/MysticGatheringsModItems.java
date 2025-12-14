@@ -110,7 +110,6 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> ANCIENT_SHINGLES;
 	public static final DeferredItem<Item> ANCIENT_SHINGLES_SLAB;
 	public static final DeferredItem<Item> ANCIENT_SHINGLES_STAIRS;
-	public static final DeferredItem<Item> VILLAGER_STATUE;
 	public static final DeferredItem<Item> WHITE_SHINGLES;
 	public static final DeferredItem<Item> LIGHT_GRAY_SHINGLES;
 	public static final DeferredItem<Item> GRAY_SHINGLES;
@@ -157,6 +156,7 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> PEAT_SOIL;
 	public static final DeferredItem<Item> SPHAGNUM_MOSS;
 	public static final DeferredItem<Item> SPHAGNUM_MOSS_COVERED_PEAT;
+	public static final DeferredItem<Item> STATUE;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -241,7 +241,6 @@ public class MysticGatheringsModItems {
 		ANCIENT_SHINGLES = block(MysticGatheringsModBlocks.ANCIENT_SHINGLES);
 		ANCIENT_SHINGLES_SLAB = block(MysticGatheringsModBlocks.ANCIENT_SHINGLES_SLAB);
 		ANCIENT_SHINGLES_STAIRS = block(MysticGatheringsModBlocks.ANCIENT_SHINGLES_STAIRS);
-		VILLAGER_STATUE = block(MysticGatheringsModBlocks.VILLAGER_STATUE);
 		WHITE_SHINGLES = block(MysticGatheringsModBlocks.WHITE_SHINGLES);
 		LIGHT_GRAY_SHINGLES = block(MysticGatheringsModBlocks.LIGHT_GRAY_SHINGLES);
 		GRAY_SHINGLES = block(MysticGatheringsModBlocks.GRAY_SHINGLES);
@@ -288,6 +287,7 @@ public class MysticGatheringsModItems {
 		PEAT_SOIL = block(MysticGatheringsModBlocks.PEAT_SOIL);
 		SPHAGNUM_MOSS = block(MysticGatheringsModBlocks.SPHAGNUM_MOSS);
 		SPHAGNUM_MOSS_COVERED_PEAT = block(MysticGatheringsModBlocks.SPHAGNUM_MOSS_COVERED_PEAT);
+		STATUE = block(MysticGatheringsModBlocks.STATUE);
 	}
 
 	// Start of user code block custom items
