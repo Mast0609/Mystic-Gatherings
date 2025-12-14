@@ -1,0 +1,9 @@
+{
+  "parent": "mystic_gatherings:custom/carpet",
+  "textures": {
+    "all": "mystic_gatherings:block/sphagnummoss",
+    "particle": "mystic_gatherings:block/sphagnummoss",
+    "missing": "mystic_gatherings:block/sphagnummoss"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mystic_gatherings:item/sphagnumvine"
+  },
+  "render_type": "translucent"
+}

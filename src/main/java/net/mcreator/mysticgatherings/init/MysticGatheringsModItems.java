@@ -157,6 +157,8 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> SPHAGNUM_MOSS;
 	public static final DeferredItem<Item> SPHAGNUM_MOSS_COVERED_PEAT;
 	public static final DeferredItem<Item> STATUE;
+	public static final DeferredItem<Item> SPHAGNUM_MOSS_CARPET;
+	public static final DeferredItem<Item> SPHAGNUM_MOSS_VINE;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -288,6 +290,8 @@ public class MysticGatheringsModItems {
 		SPHAGNUM_MOSS = block(MysticGatheringsModBlocks.SPHAGNUM_MOSS);
 		SPHAGNUM_MOSS_COVERED_PEAT = block(MysticGatheringsModBlocks.SPHAGNUM_MOSS_COVERED_PEAT);
 		STATUE = block(MysticGatheringsModBlocks.STATUE);
+		SPHAGNUM_MOSS_CARPET = block(MysticGatheringsModBlocks.SPHAGNUM_MOSS_CARPET);
+		SPHAGNUM_MOSS_VINE = block(MysticGatheringsModBlocks.SPHAGNUM_MOSS_VINE);
 	}
 
 	// Start of user code block custom items

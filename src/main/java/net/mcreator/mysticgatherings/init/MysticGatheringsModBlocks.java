@@ -113,6 +113,8 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> SPHAGNUM_MOSS;
 	public static final DeferredBlock<Block> SPHAGNUM_MOSS_COVERED_PEAT;
 	public static final DeferredBlock<Block> STATUE;
+	public static final DeferredBlock<Block> SPHAGNUM_MOSS_CARPET;
+	public static final DeferredBlock<Block> SPHAGNUM_MOSS_VINE;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -207,6 +209,8 @@ public class MysticGatheringsModBlocks {
 		SPHAGNUM_MOSS = register("sphagnum_moss", SphagnumMossBlock::new);
 		SPHAGNUM_MOSS_COVERED_PEAT = register("sphagnum_moss_covered_peat", SphagnumMossCoveredPeatBlock::new);
 		STATUE = register("statue", StatueBlock::new);
+		SPHAGNUM_MOSS_CARPET = register("sphagnum_moss_carpet", SphagnumMossCarpetBlock::new);
+		SPHAGNUM_MOSS_VINE = register("sphagnum_moss_vine", SphagnumMossVineBlock::new);
 	}
 
 	// Start of user code block custom blocks

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mystic_gatherings:block/sphagnum_moss_vine"
+    },
+    "facing=east": {
+      "model": "mystic_gatherings:block/sphagnum_moss_vine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mystic_gatherings:block/sphagnum_moss_vine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mystic_gatherings:block/sphagnum_moss_vine",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mystic_gatherings:block/sphagnum_moss_vine",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "mystic_gatherings:block/sphagnum_moss_vine",
+      "x": 90
+    }
+  }
+}

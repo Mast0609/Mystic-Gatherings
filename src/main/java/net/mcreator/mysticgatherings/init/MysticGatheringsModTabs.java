@@ -135,7 +135,12 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_BRICKS_WALL.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.POLISHED_FELDSPAR_WALL.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.FELDSPAR_WALL.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.PEAT_SOIL.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_COVERED_PEAT.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.STATUE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_CARPET.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_VINE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -192,6 +197,11 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_SLAB.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_STAIRS.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.FELDSPAR_WALL.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.PEAT_SOIL.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_COVERED_PEAT.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_CARPET.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_VINE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.ORPH_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DREAL_BLOCK.get().asItem());

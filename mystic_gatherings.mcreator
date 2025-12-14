@@ -3846,7 +3846,8 @@
           "src/main/java/net/mcreator/mysticgatherings/block/StatueBlock.java",
           "src/main/resources/assets/mystic_gatherings/blockstates/statue.json"
         ]
-      }
+      },
+      "path": "~/Building Blocks/Decorative"
     },
     {
       "name": "StatueVariants",
@@ -3890,6 +3891,42 @@
           "src/main/java/net/mcreator/mysticgatherings/procedures/SwitchStatueVariantProcedure.java"
         ]
       }
+    },
+    {
+      "name": "SphagnumMossCarpet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphagnum_moss_carpet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/sphagnum_moss_carpet.json",
+          "src/main/resources/assets/mystic_gatherings/items/sphagnum_moss_carpet.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/SphagnumMossCarpetBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/sphagnum_moss_carpet.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/sphagnum_moss_carpet.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/sphagnum_moss_carpet.json"
+        ]
+      },
+      "path": "~/Building Blocks/Sphagnum"
+    },
+    {
+      "name": "SphagnumMossVine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphagnum_moss_vine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/sphagnum_moss_vine.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/sphagnum_moss_vine.json",
+          "src/main/resources/assets/mystic_gatherings/items/sphagnum_moss_vine.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/sphagnum_moss_vine.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/sphagnum_moss_vine.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/SphagnumMossVineBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Sphagnum"
     }
   ],
   "variable_elements": [
@@ -4215,6 +4252,12 @@
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:PeatSoil",
       "~CUSTOM:SphagnumMossCoveredPeat"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:SphagnumMossVine"
+    ],
+    "BLOCKS:minecraft:climbable": [
+      "~CUSTOM:SphagnumMossVine"
     ]
   },
   "tab_element_order": {
@@ -4393,7 +4436,9 @@
       "item.mystic_gatherings.peat_soil": "Peat Soil",
       "item.mystic_gatherings.sphagnum_moss": "Sphagnum Moss",
       "item.mystic_gatherings.sphagnum_moss_covered_peat": "Sphagnum Moss Covered Peat",
-      "item.mystic_gatherings.statue": "Statue"
+      "item.mystic_gatherings.statue": "Statue",
+      "item.mystic_gatherings.sphagnum_moss_carpet": "Sphagnum Moss Carpet",
+      "item.mystic_gatherings.sphagnum_moss_vine": "Sphagnum Moss"
     }
   },
   "metadata": {
@@ -4538,6 +4583,10 @@
           },
           {
             "name": "Sphagnum",
+            "children": []
+          },
+          {
+            "name": "Decorative",
             "children": []
           }
         ]

@@ -1,0 +1,9 @@
+{
+  "parent": "mystic_gatherings:custom/vine",
+  "textures": {
+    "all": "mystic_gatherings:block/sphagnumvine",
+    "particle": "mystic_gatherings:block/sphagnumvine",
+    "0": "mystic_gatherings:block/sphagnumvinetexture"
+  },
+  "render_type": "cutout"
+}
