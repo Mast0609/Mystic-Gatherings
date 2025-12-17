@@ -115,6 +115,17 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> STATUE;
 	public static final DeferredBlock<Block> SPHAGNUM_MOSS_CARPET;
 	public static final DeferredBlock<Block> SPHAGNUM_MOSS_VINE;
+	public static final DeferredBlock<Block> BURNSTONE;
+	public static final DeferredBlock<Block> POLISHED_BURNSTONE;
+	public static final DeferredBlock<Block> POLISHED_BURNSTONE_BRICKS;
+	public static final DeferredBlock<Block> POLISHED_BURNSTONE_PILLAR;
+	public static final DeferredBlock<Block> CHISELED_POLISHED_BURNSTONE;
+	public static final DeferredBlock<Block> BURNSTONE_STAIRS;
+	public static final DeferredBlock<Block> POLISHED_BURNSTONE_STAIRS;
+	public static final DeferredBlock<Block> POLISHED_BURNSTONE_BRICKS_STAIRS;
+	public static final DeferredBlock<Block> BURNSTONE_SLAB;
+	public static final DeferredBlock<Block> POLISHED_BURNSTONE_SLAB;
+	public static final DeferredBlock<Block> POLISHED_BURNSTONE_BRICKS_SLAB;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -211,6 +222,17 @@ public class MysticGatheringsModBlocks {
 		STATUE = register("statue", StatueBlock::new);
 		SPHAGNUM_MOSS_CARPET = register("sphagnum_moss_carpet", SphagnumMossCarpetBlock::new);
 		SPHAGNUM_MOSS_VINE = register("sphagnum_moss_vine", SphagnumMossVineBlock::new);
+		BURNSTONE = register("burnstone", BurnstoneBlock::new);
+		POLISHED_BURNSTONE = register("polished_burnstone", PolishedBurnstoneBlock::new);
+		POLISHED_BURNSTONE_BRICKS = register("polished_burnstone_bricks", PolishedBurnstoneBricksBlock::new);
+		POLISHED_BURNSTONE_PILLAR = register("polished_burnstone_pillar", PolishedBurnstonePillarBlock::new);
+		CHISELED_POLISHED_BURNSTONE = register("chiseled_polished_burnstone", ChiseledPolishedBurnstoneBlock::new);
+		BURNSTONE_STAIRS = register("burnstone_stairs", BurnstoneStairsBlock::new);
+		POLISHED_BURNSTONE_STAIRS = register("polished_burnstone_stairs", PolishedBurnstoneStairsBlock::new);
+		POLISHED_BURNSTONE_BRICKS_STAIRS = register("polished_burnstone_bricks_stairs", PolishedBurnstoneBricksStairsBlock::new);
+		BURNSTONE_SLAB = register("burnstone_slab", BurnstoneSlabBlock::new);
+		POLISHED_BURNSTONE_SLAB = register("polished_burnstone_slab", PolishedBurnstoneSlabBlock::new);
+		POLISHED_BURNSTONE_BRICKS_SLAB = register("polished_burnstone_bricks_slab", PolishedBurnstoneBricksSlabBlock::new);
 	}
 
 	// Start of user code block custom blocks

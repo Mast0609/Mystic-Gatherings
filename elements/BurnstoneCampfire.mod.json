@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "mysticgatherings",
+    "unlockingItems": [
+      {
+        "value": "Blocks.COBBLESTONE"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "Blocks.COBBLESTONE"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:Burnstone"
+    },
+    "name": "burnstone_campfire",
+    "namespace": "mod"
+  }
+}

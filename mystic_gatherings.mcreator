@@ -3927,6 +3927,230 @@
         ]
       },
       "path": "~/Building Blocks/Sphagnum"
+    },
+    {
+      "name": "Burnstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/burnstone.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/burnstone.json",
+          "src/main/resources/assets/mystic_gatherings/items/burnstone.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/burnstone.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/burnstone.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BurnstoneBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "PolishedBurnstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_burnstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_burnstone.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_burnstone.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_burnstone.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_burnstone.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedBurnstoneBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "PolishedBurnstoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_burnstone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_burnstone_bricks.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_burnstone_bricks.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_bricks.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_burnstone_bricks.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedBurnstoneBricksBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/polished_burnstone_bricks.json"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "PolishedBurnstonePillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_burnstone_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/polished_burnstone_pillar.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_burnstone_pillar.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_burnstone_pillar.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedBurnstonePillarBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_burnstone_pillar.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_pillar.json"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "ChiseledPolishedBurnstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_polished_burnstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/chiseled_polished_burnstone.json",
+          "src/main/resources/assets/mystic_gatherings/items/chiseled_polished_burnstone.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/ChiseledPolishedBurnstoneBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/chiseled_polished_burnstone.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/chiseled_polished_burnstone.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/chiseled_polished_burnstone.json"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "BurnstoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnstone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/burnstone_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/burnstone_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/burnstone_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/burnstone_stairs.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BurnstoneStairsBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/burnstone_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/burnstone_stairs_inner.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/burnstone_stairs_outer.json"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "PolishedBurnstoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_burnstone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_stairs_outer.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedBurnstoneStairsBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/polished_burnstone_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_burnstone_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_burnstone_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_stairs_inner.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_stairs.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_burnstone_stairs.json"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "PolishedBurnstoneBricksStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_burnstone_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedBurnstoneBricksStairsBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_bricks_stairs_outer.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_burnstone_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_bricks_stairs_inner.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_burnstone_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_burnstone_bricks_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_burnstone_bricks_stairs.json"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "BurnstoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnstone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/burnstone_slab_top.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/burnstone_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/burnstone_slab_full.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/burnstone_slab.json",
+          "src/main/resources/assets/mystic_gatherings/items/burnstone_slab.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BurnstoneSlabBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/burnstone_slab.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/burnstone_slab.json"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "PolishedBurnstoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_burnstone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_slab_full.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedBurnstoneSlabBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/polished_burnstone_slab.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_burnstone_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_slab_top.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_burnstone_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_slab.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_burnstone_slab.json"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "PolishedBurnstoneBricksSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_burnstone_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/items/polished_burnstone_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/polished_burnstone_bricks_slab.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/PolishedBurnstoneBricksSlabBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_bricks_slab_top.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/polished_burnstone_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/polished_burnstone_bricks_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/polished_burnstone_bricks_slab_full.json"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "BurnstoneCampfire",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnstone_campfire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/burnstone_campfire.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/burnstone_campfire.json"
+        ]
+      },
+      "path": "~/Building Blocks/Burnstone"
     }
   ],
   "variable_elements": [
@@ -3958,6 +4182,17 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PolishedBurnstoneBricksSlab",
+      "~CUSTOM:PolishedBurnstoneSlab",
+      "~CUSTOM:BurnstoneSlab",
+      "~CUSTOM:PolishedBurnstoneBricksStairs",
+      "~CUSTOM:PolishedBurnstoneStairs",
+      "~CUSTOM:BurnstoneStairs",
+      "~CUSTOM:ChiseledPolishedBurnstone",
+      "~CUSTOM:PolishedBurnstonePillar",
+      "~CUSTOM:PolishedBurnstoneBricks",
+      "~CUSTOM:PolishedBurnstone",
+      "~CUSTOM:Burnstone",
       "~CUSTOM:Statue",
       "~CUSTOM:FeldsparWall",
       "~CUSTOM:PolishedFeldsparWall",
@@ -4183,6 +4418,9 @@
       "Blocks.NETHER_GOLD_ORE"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PolishedBurnstoneBricksSlab",
+      "~CUSTOM:PolishedBurnstoneSlab",
+      "~CUSTOM:BurnstoneSlab",
       "~CUSTOM:FirSlab",
       "~CUSTOM:FeldsparBricksSlab",
       "~CUSTOM:PolishedFeldsparSlab",
@@ -4193,6 +4431,9 @@
       "~CUSTOM:TravertineSlab"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:PolishedBurnstoneBricksStairs",
+      "~CUSTOM:PolishedBurnstoneStairs",
+      "~CUSTOM:BurnstoneStairs",
       "~CUSTOM:FirStairs",
       "~CUSTOM:FeldsparStairs",
       "~CUSTOM:PolishedFeldsparStairs",
@@ -4438,7 +4679,18 @@
       "item.mystic_gatherings.sphagnum_moss_covered_peat": "Sphagnum Moss Covered Peat",
       "item.mystic_gatherings.statue": "Statue",
       "item.mystic_gatherings.sphagnum_moss_carpet": "Sphagnum Moss Carpet",
-      "item.mystic_gatherings.sphagnum_moss_vine": "Sphagnum Moss"
+      "item.mystic_gatherings.sphagnum_moss_vine": "Sphagnum Moss",
+      "item.mystic_gatherings.burnstone": "Burnstone",
+      "item.mystic_gatherings.polished_burnstone": "Polished Burnstone",
+      "item.mystic_gatherings.polished_burnstone_bricks": "Polished Burnstone Bricks",
+      "item.mystic_gatherings.polished_burnstone_pillar": "Polished Burnstone Pillar",
+      "item.mystic_gatherings.chiseled_polished_burnstone": "Chiseled Polished Burnstone",
+      "item.mystic_gatherings.burnstone_stairs": "Burnstone Stairs",
+      "item.mystic_gatherings.polished_burnstone_stairs": "Polished Burnstone Stairs",
+      "item.mystic_gatherings.polished_burnstone_bricks_stairs": "Polished Burnstone Bricks Stairs",
+      "item.mystic_gatherings.burnstone_slab": "Burnstone Slab",
+      "item.mystic_gatherings.polished_burnstone_slab": "Polished Burnstone Slab",
+      "item.mystic_gatherings.polished_burnstone_bricks_slab": "Polished Burnstone Bricks Slab"
     }
   },
   "metadata": {
@@ -4587,6 +4839,14 @@
           },
           {
             "name": "Decorative",
+            "children": []
+          },
+          {
+            "name": "Burnstone",
+            "children": []
+          },
+          {
+            "name": "Indislate",
             "children": []
           }
         ]

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mystic_gatherings:block/polished_burnstone_slab"
+    },
+    "type=top": {
+      "model": "mystic_gatherings:block/polished_burnstone_slab_top"
+    },
+    "type=double": {
+      "model": "mystic_gatherings:block/polished_burnstone_slab_full"
+    }
+  }
+}

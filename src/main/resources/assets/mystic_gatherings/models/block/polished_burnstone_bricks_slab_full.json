@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "mystic_gatherings:block/burnstonebricks",
+    "bottom": "mystic_gatherings:block/burnstonebricks",
+    "top": "mystic_gatherings:block/burnstonebricks",
+    "side": "mystic_gatherings:block/burnstonebricks"
+  },
+  "render_type": "solid"
+}

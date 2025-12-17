@@ -141,6 +141,17 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModBlocks.STATUE.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_CARPET.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_VINE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.BURNSTONE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_PILLAR.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.CHISELED_POLISHED_BURNSTONE.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.BURNSTONE_STAIRS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_STAIRS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS_STAIRS.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.BURNSTONE_SLAB.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_SLAB.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS_SLAB.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -202,6 +213,17 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_COVERED_PEAT.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_CARPET.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.SPHAGNUM_MOSS_VINE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BURNSTONE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_PILLAR.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.CHISELED_POLISHED_BURNSTONE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BURNSTONE_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BURNSTONE_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS_SLAB.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.ORPH_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DREAL_BLOCK.get().asItem());

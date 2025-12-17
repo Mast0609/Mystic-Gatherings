@@ -136,5 +136,16 @@
   "item.mystic_gatherings.sphagnum_moss_covered_peat": "Sphagnum Moss Covered Peat",
   "item.mystic_gatherings.statue": "Statue",
   "item.mystic_gatherings.sphagnum_moss_carpet": "Sphagnum Moss Carpet",
-  "item.mystic_gatherings.sphagnum_moss_vine": "Sphagnum Moss"
+  "item.mystic_gatherings.sphagnum_moss_vine": "Sphagnum Moss",
+  "item.mystic_gatherings.burnstone": "Burnstone",
+  "item.mystic_gatherings.polished_burnstone": "Polished Burnstone",
+  "item.mystic_gatherings.polished_burnstone_bricks": "Polished Burnstone Bricks",
+  "item.mystic_gatherings.polished_burnstone_pillar": "Polished Burnstone Pillar",
+  "item.mystic_gatherings.chiseled_polished_burnstone": "Chiseled Polished Burnstone",
+  "item.mystic_gatherings.burnstone_stairs": "Burnstone Stairs",
+  "item.mystic_gatherings.polished_burnstone_stairs": "Polished Burnstone Stairs",
+  "item.mystic_gatherings.polished_burnstone_bricks_stairs": "Polished Burnstone Bricks Stairs",
+  "item.mystic_gatherings.burnstone_slab": "Burnstone Slab",
+  "item.mystic_gatherings.polished_burnstone_slab": "Polished Burnstone Slab",
+  "item.mystic_gatherings.polished_burnstone_bricks_slab": "Polished Burnstone Bricks Slab"
 }

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mystic_gatherings:block/polished_burnstone_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mystic_gatherings:block/polished_burnstone_pillar"
+    },
+    "axis=z": {
+      "model": "mystic_gatherings:block/polished_burnstone_pillar",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,11 @@
+package net.mcreator.mysticgatherings.block;
+
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.SlabBlock;
+
+public class BurnstoneSlabBlock extends SlabBlock {
+	public BurnstoneSlabBlock(BlockBehaviour.Properties properties) {
+		super(properties.sound(SoundType.BASALT).strength(1f, 10f).requiresCorrectToolForDrops());
+	}
+}

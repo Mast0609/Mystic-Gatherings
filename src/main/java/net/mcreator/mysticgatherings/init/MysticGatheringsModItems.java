@@ -159,6 +159,17 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> STATUE;
 	public static final DeferredItem<Item> SPHAGNUM_MOSS_CARPET;
 	public static final DeferredItem<Item> SPHAGNUM_MOSS_VINE;
+	public static final DeferredItem<Item> BURNSTONE;
+	public static final DeferredItem<Item> POLISHED_BURNSTONE;
+	public static final DeferredItem<Item> POLISHED_BURNSTONE_BRICKS;
+	public static final DeferredItem<Item> POLISHED_BURNSTONE_PILLAR;
+	public static final DeferredItem<Item> CHISELED_POLISHED_BURNSTONE;
+	public static final DeferredItem<Item> BURNSTONE_STAIRS;
+	public static final DeferredItem<Item> POLISHED_BURNSTONE_STAIRS;
+	public static final DeferredItem<Item> POLISHED_BURNSTONE_BRICKS_STAIRS;
+	public static final DeferredItem<Item> BURNSTONE_SLAB;
+	public static final DeferredItem<Item> POLISHED_BURNSTONE_SLAB;
+	public static final DeferredItem<Item> POLISHED_BURNSTONE_BRICKS_SLAB;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -292,6 +303,17 @@ public class MysticGatheringsModItems {
 		STATUE = block(MysticGatheringsModBlocks.STATUE);
 		SPHAGNUM_MOSS_CARPET = block(MysticGatheringsModBlocks.SPHAGNUM_MOSS_CARPET);
 		SPHAGNUM_MOSS_VINE = block(MysticGatheringsModBlocks.SPHAGNUM_MOSS_VINE);
+		BURNSTONE = block(MysticGatheringsModBlocks.BURNSTONE);
+		POLISHED_BURNSTONE = block(MysticGatheringsModBlocks.POLISHED_BURNSTONE);
+		POLISHED_BURNSTONE_BRICKS = block(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS);
+		POLISHED_BURNSTONE_PILLAR = block(MysticGatheringsModBlocks.POLISHED_BURNSTONE_PILLAR);
+		CHISELED_POLISHED_BURNSTONE = block(MysticGatheringsModBlocks.CHISELED_POLISHED_BURNSTONE);
+		BURNSTONE_STAIRS = block(MysticGatheringsModBlocks.BURNSTONE_STAIRS);
+		POLISHED_BURNSTONE_STAIRS = block(MysticGatheringsModBlocks.POLISHED_BURNSTONE_STAIRS);
+		POLISHED_BURNSTONE_BRICKS_STAIRS = block(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS_STAIRS);
+		BURNSTONE_SLAB = block(MysticGatheringsModBlocks.BURNSTONE_SLAB);
+		POLISHED_BURNSTONE_SLAB = block(MysticGatheringsModBlocks.POLISHED_BURNSTONE_SLAB);
+		POLISHED_BURNSTONE_BRICKS_SLAB = block(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS_SLAB);
 	}
 
 	// Start of user code block custom items
