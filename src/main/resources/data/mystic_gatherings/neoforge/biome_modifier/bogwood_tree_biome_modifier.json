@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mystic_gatherings:bog",
+  "features": "mystic_gatherings:bogwood_tree",
+  "step": "vegetal_decoration"
+}

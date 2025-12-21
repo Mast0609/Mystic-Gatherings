@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "mystic_gatherings:bogwood_planks"
+  },
+  "result": {
+    "id": "mystic_gatherings:bogwood_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "mystic_gatherings:block/bogwoodplanks",
+    "particle": "mystic_gatherings:block/bogwoodplanks"
+  },
+  "render_type": "solid"
+}

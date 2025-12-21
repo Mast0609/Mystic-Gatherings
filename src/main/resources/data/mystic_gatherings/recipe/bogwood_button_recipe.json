@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "mystic_gatherings:bogwood_planks"
+  ],
+  "result": {
+    "id": "mystic_gatherings:bogwood_button",
+    "count": 1
+  }
+}

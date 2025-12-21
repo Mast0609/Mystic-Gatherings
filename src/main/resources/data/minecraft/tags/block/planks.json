@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "mystic_gatherings:bogwood_planks",
     "mystic_gatherings:fir_planks"
   ]
 }

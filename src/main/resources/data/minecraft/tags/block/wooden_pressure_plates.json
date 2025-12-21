@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mystic_gatherings:fir_pressure_plate"
+    "mystic_gatherings:fir_pressure_plate",
+    "mystic_gatherings:bogwood_pressure_plate"
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "mystic_gatherings:bogwood_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "mystic_gatherings:bogwood_fence",
+    "count": 3
+  }
+}

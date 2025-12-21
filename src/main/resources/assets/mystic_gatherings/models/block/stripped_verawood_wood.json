@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mystic_gatherings:block/strippedverawoodlogside",
-    "particle": "mystic_gatherings:block/strippedverawoodlogside"
-  },
-  "render_type": "solid"
-}

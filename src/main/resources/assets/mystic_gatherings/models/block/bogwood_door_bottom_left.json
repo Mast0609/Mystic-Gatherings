@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left",
+  "textures": {
+    "particle": "mystic_gatherings:block/bogwooddoorbottom",
+    "bottom": "mystic_gatherings:block/bogwooddoorbottom",
+    "top": "mystic_gatherings:block/bogwooddoortop"
+  },
+  "render_type": "cutout"
+}

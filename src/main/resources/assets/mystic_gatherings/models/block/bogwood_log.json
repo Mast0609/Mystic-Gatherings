@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystic_gatherings:block/bogwoodlogtop",
+    "up": "mystic_gatherings:block/bogwoodlogtop",
+    "north": "mystic_gatherings:block/bogwoodlogside",
+    "east": "mystic_gatherings:block/bogwoodlogside",
+    "south": "mystic_gatherings:block/bogwoodlogside",
+    "west": "mystic_gatherings:block/bogwoodlogside",
+    "particle": "mystic_gatherings:block/bogwoodlogtop"
+  },
+  "render_type": "solid"
+}

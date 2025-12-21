@@ -53,13 +53,6 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_CHESTPLATE.get());
 				tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_LEGGINGS.get());
 				tabData.accept(MysticGatheringsModItems.ORPH_ARMOR_BOOTS.get());
-				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_LOG.get().asItem());
-				tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_LOG.get().asItem());
-				tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD.get().asItem());
-				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_WOOD.get().asItem());
-				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_PLANKS.get().asItem());
-				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_LEAVES.get().asItem());
-				tabData.accept(MysticGatheringsModBlocks.VERAWOOD_SAPLING.get().asItem());
 				tabData.accept(MysticGatheringsModItems.LEATHER_SACK.get());
 				tabData.accept(MysticGatheringsModBlocks.TIER_3_RITUAL_CIRCLE.get().asItem());
 				tabData.accept(MysticGatheringsModBlocks.T_1_RITUAL_CANDLE.get().asItem());
@@ -162,12 +155,6 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.STONE_DREAL_ORE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DEEPSLATE_DREAL_ORE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.MYSTIA_ORE.get().asItem());
-			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_LOG.get().asItem());
-			tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_LOG.get().asItem());
-			tabData.accept(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD.get().asItem());
-			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_WOOD.get().asItem());
-			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_LEAVES.get().asItem());
-			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_SAPLING.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.STONE_CONDENSED_MYSTIA_ORE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DEEPSLATE_CONDENSED_MYSTIA_ORE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.ENDSTONE_CONDENSED_MYSTIA_ORE.get().asItem());
@@ -224,6 +211,9 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.BURNSTONE_SLAB.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_SLAB.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_LEAVES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FLOWERING_BOGWOOD_LEAVES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_SAPLING.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.ORPH_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DREAL_BLOCK.get().asItem());
@@ -233,7 +223,6 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.WAXED_WEATHERED_DREAL_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.WAXED_OXIDIZED_DREAL_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.MYSTIA_BLOCK.get().asItem());
-			tabData.accept(MysticGatheringsModBlocks.VERAWOOD_PLANKS.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.T_1_RITUAL_CANDLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.T_2_RITUAL_CANDLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.T_3_RITUAL_CANDLE.get().asItem());
@@ -261,6 +250,19 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.FIR_PRESSURE_PLATE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.FIR_BUTTON.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.STATUE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_LOG.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_WOOD.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.STRIPPED_BOGWOOD_LOG.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.STRIPPED_BOGWOOD_WOOD.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_PLANKS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_STAIRS.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_SLAB.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_FENCE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_FENCE_GATE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_DOOR.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_TRAPDOOR.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_PRESSURE_PLATE.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.TIER_1_RITUAL_CIRCLE.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.TIER_2_RITUAL_CIRCLE.get().asItem());

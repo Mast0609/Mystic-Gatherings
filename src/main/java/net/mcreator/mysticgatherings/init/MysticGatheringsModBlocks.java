@@ -5,10 +5,6 @@ package net.mcreator.mysticgatherings.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredBlock;
-import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
@@ -35,13 +31,6 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> MYSTIA_BLOCK;
 	public static final DeferredBlock<Block> TIER_1_RITUAL_CIRCLE;
 	public static final DeferredBlock<Block> TIER_2_RITUAL_CIRCLE;
-	public static final DeferredBlock<Block> VERAWOOD_LOG;
-	public static final DeferredBlock<Block> STRIPPED_VERAWOOD_LOG;
-	public static final DeferredBlock<Block> STRIPPED_VERAWOOD_WOOD;
-	public static final DeferredBlock<Block> VERAWOOD_WOOD;
-	public static final DeferredBlock<Block> VERAWOOD_PLANKS;
-	public static final DeferredBlock<Block> VERAWOOD_LEAVES;
-	public static final DeferredBlock<Block> VERAWOOD_SAPLING;
 	public static final DeferredBlock<Block> TIER_3_RITUAL_CIRCLE;
 	public static final DeferredBlock<Block> T_1_RITUAL_CANDLE;
 	public static final DeferredBlock<Block> T_2_RITUAL_CANDLE;
@@ -126,6 +115,22 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> BURNSTONE_SLAB;
 	public static final DeferredBlock<Block> POLISHED_BURNSTONE_SLAB;
 	public static final DeferredBlock<Block> POLISHED_BURNSTONE_BRICKS_SLAB;
+	public static final DeferredBlock<Block> BOGWOOD_LOG;
+	public static final DeferredBlock<Block> BOGWOOD_WOOD;
+	public static final DeferredBlock<Block> STRIPPED_BOGWOOD_LOG;
+	public static final DeferredBlock<Block> STRIPPED_BOGWOOD_WOOD;
+	public static final DeferredBlock<Block> BOGWOOD_PLANKS;
+	public static final DeferredBlock<Block> BOGWOOD_LEAVES;
+	public static final DeferredBlock<Block> BOGWOOD_STAIRS;
+	public static final DeferredBlock<Block> BOGWOOD_SLAB;
+	public static final DeferredBlock<Block> BOGWOOD_FENCE;
+	public static final DeferredBlock<Block> BOGWOOD_FENCE_GATE;
+	public static final DeferredBlock<Block> BOGWOOD_DOOR;
+	public static final DeferredBlock<Block> BOGWOOD_TRAPDOOR;
+	public static final DeferredBlock<Block> BOGWOOD_PRESSURE_PLATE;
+	public static final DeferredBlock<Block> BOGWOOD_BUTTON;
+	public static final DeferredBlock<Block> FLOWERING_BOGWOOD_LEAVES;
+	public static final DeferredBlock<Block> BOGWOOD_SAPLING;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -142,13 +147,6 @@ public class MysticGatheringsModBlocks {
 		MYSTIA_BLOCK = register("mystia_block", MystiaBlockBlock::new);
 		TIER_1_RITUAL_CIRCLE = register("tier_1_ritual_circle", Tier1RitualCircleBlock::new);
 		TIER_2_RITUAL_CIRCLE = register("tier_2_ritual_circle", Tier2RitualCircleBlock::new);
-		VERAWOOD_LOG = register("verawood_log", VerawoodLogBlock::new);
-		STRIPPED_VERAWOOD_LOG = register("stripped_verawood_log", StrippedVerawoodLogBlock::new);
-		STRIPPED_VERAWOOD_WOOD = register("stripped_verawood_wood", StrippedVerawoodWoodBlock::new);
-		VERAWOOD_WOOD = register("verawood_wood", VerawoodWoodBlock::new);
-		VERAWOOD_PLANKS = register("verawood_planks", VerawoodPlanksBlock::new);
-		VERAWOOD_LEAVES = register("verawood_leaves", VerawoodLeavesBlock::new);
-		VERAWOOD_SAPLING = register("verawood_sapling", VerawoodSaplingBlock::new);
 		TIER_3_RITUAL_CIRCLE = register("tier_3_ritual_circle", Tier3RitualCircleBlock::new);
 		T_1_RITUAL_CANDLE = register("t_1_ritual_candle", T1RitualCandleBlock::new);
 		T_2_RITUAL_CANDLE = register("t_2_ritual_candle", T2RitualCandleBlock::new);
@@ -233,19 +231,27 @@ public class MysticGatheringsModBlocks {
 		BURNSTONE_SLAB = register("burnstone_slab", BurnstoneSlabBlock::new);
 		POLISHED_BURNSTONE_SLAB = register("polished_burnstone_slab", PolishedBurnstoneSlabBlock::new);
 		POLISHED_BURNSTONE_BRICKS_SLAB = register("polished_burnstone_bricks_slab", PolishedBurnstoneBricksSlabBlock::new);
+		BOGWOOD_LOG = register("bogwood_log", BogwoodLogBlock::new);
+		BOGWOOD_WOOD = register("bogwood_wood", BogwoodWoodBlock::new);
+		STRIPPED_BOGWOOD_LOG = register("stripped_bogwood_log", StrippedBogwoodLogBlock::new);
+		STRIPPED_BOGWOOD_WOOD = register("stripped_bogwood_wood", StrippedBogwoodWoodBlock::new);
+		BOGWOOD_PLANKS = register("bogwood_planks", BogwoodPlanksBlock::new);
+		BOGWOOD_LEAVES = register("bogwood_leaves", BogwoodLeavesBlock::new);
+		BOGWOOD_STAIRS = register("bogwood_stairs", BogwoodStairsBlock::new);
+		BOGWOOD_SLAB = register("bogwood_slab", BogwoodSlabBlock::new);
+		BOGWOOD_FENCE = register("bogwood_fence", BogwoodFenceBlock::new);
+		BOGWOOD_FENCE_GATE = register("bogwood_fence_gate", BogwoodFenceGateBlock::new);
+		BOGWOOD_DOOR = register("bogwood_door", BogwoodDoorBlock::new);
+		BOGWOOD_TRAPDOOR = register("bogwood_trapdoor", BogwoodTrapdoorBlock::new);
+		BOGWOOD_PRESSURE_PLATE = register("bogwood_pressure_plate", BogwoodPressurePlateBlock::new);
+		BOGWOOD_BUTTON = register("bogwood_button", BogwoodButtonBlock::new);
+		FLOWERING_BOGWOOD_LEAVES = register("flowering_bogwood_leaves", FloweringBogwoodLeavesBlock::new);
+		BOGWOOD_SAPLING = register("bogwood_sapling", BogwoodSaplingBlock::new);
 	}
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 	private static <B extends Block> DeferredBlock<B> register(String name, Function<BlockBehaviour.Properties, ? extends B> supplier) {
 		return REGISTRY.registerBlock(name, supplier);
-	}
-
-	@EventBusSubscriber(Dist.CLIENT)
-	public static class BlocksClientSideHandler {
-		@SubscribeEvent
-		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
-			VerawoodLeavesBlock.blockColorLoad(event);
-		}
 	}
 }

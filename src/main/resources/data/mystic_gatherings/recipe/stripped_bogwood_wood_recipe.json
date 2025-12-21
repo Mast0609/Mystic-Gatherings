@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "mystic_gatherings:stripped_bogwood_log"
+  },
+  "result": {
+    "id": "mystic_gatherings:stripped_bogwood_wood",
+    "count": 3
+  }
+}

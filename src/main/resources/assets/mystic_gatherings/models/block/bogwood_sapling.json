@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mystic_gatherings:block/bogwoodsapling",
+    "particle": "mystic_gatherings:block/bogwoodsapling"
+  },
+  "render_type": "cutout"
+}

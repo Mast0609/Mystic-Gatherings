@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mystic_gatherings:block/bogwoodleaves",
+    "particle": "mystic_gatherings:block/bogwoodleaves"
+  }
+}

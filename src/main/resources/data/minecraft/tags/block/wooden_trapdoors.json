@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mystic_gatherings:fir_trapdoor"
+    "mystic_gatherings:fir_trapdoor",
+    "mystic_gatherings:bogwood_trapdoor"
   ]
 }

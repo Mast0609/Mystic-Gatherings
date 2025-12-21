@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "#mystic_gatherings:bogwood_logs",
+      "required": false
+    },
+    {
       "id": "#mystic_gatherings:fir_logs",
       "required": false
     }

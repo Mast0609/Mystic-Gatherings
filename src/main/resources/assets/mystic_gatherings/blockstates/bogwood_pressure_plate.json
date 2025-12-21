@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "mystic_gatherings:block/bogwood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "mystic_gatherings:block/bogwood_pressure_plate_down"
+    }
+  }
+}

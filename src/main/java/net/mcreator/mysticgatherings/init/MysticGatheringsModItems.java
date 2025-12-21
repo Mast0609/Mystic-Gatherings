@@ -58,13 +58,6 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> ORPH_ARMOR_CHESTPLATE;
 	public static final DeferredItem<Item> ORPH_ARMOR_LEGGINGS;
 	public static final DeferredItem<Item> ORPH_ARMOR_BOOTS;
-	public static final DeferredItem<Item> VERAWOOD_LOG;
-	public static final DeferredItem<Item> STRIPPED_VERAWOOD_LOG;
-	public static final DeferredItem<Item> STRIPPED_VERAWOOD_WOOD;
-	public static final DeferredItem<Item> VERAWOOD_WOOD;
-	public static final DeferredItem<Item> VERAWOOD_PLANKS;
-	public static final DeferredItem<Item> VERAWOOD_LEAVES;
-	public static final DeferredItem<Item> VERAWOOD_SAPLING;
 	public static final DeferredItem<Item> LEATHER_SACK;
 	public static final DeferredItem<Item> TIER_3_RITUAL_CIRCLE;
 	public static final DeferredItem<Item> T_1_RITUAL_CANDLE;
@@ -170,6 +163,22 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> BURNSTONE_SLAB;
 	public static final DeferredItem<Item> POLISHED_BURNSTONE_SLAB;
 	public static final DeferredItem<Item> POLISHED_BURNSTONE_BRICKS_SLAB;
+	public static final DeferredItem<Item> BOGWOOD_LOG;
+	public static final DeferredItem<Item> BOGWOOD_WOOD;
+	public static final DeferredItem<Item> STRIPPED_BOGWOOD_LOG;
+	public static final DeferredItem<Item> STRIPPED_BOGWOOD_WOOD;
+	public static final DeferredItem<Item> BOGWOOD_PLANKS;
+	public static final DeferredItem<Item> BOGWOOD_LEAVES;
+	public static final DeferredItem<Item> BOGWOOD_STAIRS;
+	public static final DeferredItem<Item> BOGWOOD_SLAB;
+	public static final DeferredItem<Item> BOGWOOD_FENCE;
+	public static final DeferredItem<Item> BOGWOOD_FENCE_GATE;
+	public static final DeferredItem<Item> BOGWOOD_DOOR;
+	public static final DeferredItem<Item> BOGWOOD_TRAPDOOR;
+	public static final DeferredItem<Item> BOGWOOD_PRESSURE_PLATE;
+	public static final DeferredItem<Item> BOGWOOD_BUTTON;
+	public static final DeferredItem<Item> FLOWERING_BOGWOOD_LEAVES;
+	public static final DeferredItem<Item> BOGWOOD_SAPLING;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -202,13 +211,6 @@ public class MysticGatheringsModItems {
 		ORPH_ARMOR_CHESTPLATE = register("orph_armor_chestplate", OrphArmorItem.Chestplate::new);
 		ORPH_ARMOR_LEGGINGS = register("orph_armor_leggings", OrphArmorItem.Leggings::new);
 		ORPH_ARMOR_BOOTS = register("orph_armor_boots", OrphArmorItem.Boots::new);
-		VERAWOOD_LOG = block(MysticGatheringsModBlocks.VERAWOOD_LOG);
-		STRIPPED_VERAWOOD_LOG = block(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_LOG);
-		STRIPPED_VERAWOOD_WOOD = block(MysticGatheringsModBlocks.STRIPPED_VERAWOOD_WOOD);
-		VERAWOOD_WOOD = block(MysticGatheringsModBlocks.VERAWOOD_WOOD);
-		VERAWOOD_PLANKS = block(MysticGatheringsModBlocks.VERAWOOD_PLANKS);
-		VERAWOOD_LEAVES = block(MysticGatheringsModBlocks.VERAWOOD_LEAVES);
-		VERAWOOD_SAPLING = block(MysticGatheringsModBlocks.VERAWOOD_SAPLING);
 		LEATHER_SACK = register("leather_sack", LeatherSackItem::new);
 		TIER_3_RITUAL_CIRCLE = block(MysticGatheringsModBlocks.TIER_3_RITUAL_CIRCLE, new Item.Properties().rarity(Rarity.EPIC));
 		T_1_RITUAL_CANDLE = block(MysticGatheringsModBlocks.T_1_RITUAL_CANDLE);
@@ -314,6 +316,22 @@ public class MysticGatheringsModItems {
 		BURNSTONE_SLAB = block(MysticGatheringsModBlocks.BURNSTONE_SLAB);
 		POLISHED_BURNSTONE_SLAB = block(MysticGatheringsModBlocks.POLISHED_BURNSTONE_SLAB);
 		POLISHED_BURNSTONE_BRICKS_SLAB = block(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS_SLAB);
+		BOGWOOD_LOG = block(MysticGatheringsModBlocks.BOGWOOD_LOG);
+		BOGWOOD_WOOD = block(MysticGatheringsModBlocks.BOGWOOD_WOOD);
+		STRIPPED_BOGWOOD_LOG = block(MysticGatheringsModBlocks.STRIPPED_BOGWOOD_LOG);
+		STRIPPED_BOGWOOD_WOOD = block(MysticGatheringsModBlocks.STRIPPED_BOGWOOD_WOOD);
+		BOGWOOD_PLANKS = block(MysticGatheringsModBlocks.BOGWOOD_PLANKS);
+		BOGWOOD_LEAVES = block(MysticGatheringsModBlocks.BOGWOOD_LEAVES);
+		BOGWOOD_STAIRS = block(MysticGatheringsModBlocks.BOGWOOD_STAIRS);
+		BOGWOOD_SLAB = block(MysticGatheringsModBlocks.BOGWOOD_SLAB);
+		BOGWOOD_FENCE = block(MysticGatheringsModBlocks.BOGWOOD_FENCE);
+		BOGWOOD_FENCE_GATE = block(MysticGatheringsModBlocks.BOGWOOD_FENCE_GATE);
+		BOGWOOD_DOOR = doubleBlock(MysticGatheringsModBlocks.BOGWOOD_DOOR);
+		BOGWOOD_TRAPDOOR = block(MysticGatheringsModBlocks.BOGWOOD_TRAPDOOR);
+		BOGWOOD_PRESSURE_PLATE = block(MysticGatheringsModBlocks.BOGWOOD_PRESSURE_PLATE);
+		BOGWOOD_BUTTON = block(MysticGatheringsModBlocks.BOGWOOD_BUTTON);
+		FLOWERING_BOGWOOD_LEAVES = block(MysticGatheringsModBlocks.FLOWERING_BOGWOOD_LEAVES);
+		BOGWOOD_SAPLING = block(MysticGatheringsModBlocks.BOGWOOD_SAPLING);
 	}
 
 	// Start of user code block custom items

@@ -1386,213 +1386,6 @@
       "path": "~/Ritual Circles/T1 Ritual"
     },
     {
-      "name": "VerawoodLog",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "verawood_log",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mystic_gatherings/loot_table/blocks/verawood_log.json",
-          "src/main/resources/assets/mystic_gatherings/blockstates/verawood_log.json",
-          "src/main/resources/assets/mystic_gatherings/models/block/verawood_log.json",
-          "src/main/resources/assets/mystic_gatherings/models/item/verawood_log.json",
-          "src/main/java/net/mcreator/mysticgatherings/block/VerawoodLogBlock.java",
-          "src/main/resources/assets/mystic_gatherings/items/verawood_log.json"
-        ]
-      },
-      "path": "~/Building Blocks/Woods/Verawood"
-    },
-    {
-      "name": "StrippedVerawoodLog",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_verawood_log",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mysticgatherings/block/StrippedVerawoodLogBlock.java",
-          "src/main/resources/assets/mystic_gatherings/items/stripped_verawood_log.json",
-          "src/main/resources/assets/mystic_gatherings/models/block/stripped_verawood_log.json",
-          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stripped_verawood_log.json",
-          "src/main/resources/assets/mystic_gatherings/models/item/stripped_verawood_log.json",
-          "src/main/resources/assets/mystic_gatherings/blockstates/stripped_verawood_log.json"
-        ]
-      },
-      "path": "~/Building Blocks/Woods/Verawood"
-    },
-    {
-      "name": "StrippedVerawoodWood",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_verawood_wood",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mystic_gatherings/models/item/stripped_verawood_wood.json",
-          "src/main/resources/assets/mystic_gatherings/models/block/stripped_verawood_wood.json",
-          "src/main/resources/assets/mystic_gatherings/items/stripped_verawood_wood.json",
-          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stripped_verawood_wood.json",
-          "src/main/resources/assets/mystic_gatherings/blockstates/stripped_verawood_wood.json",
-          "src/main/java/net/mcreator/mysticgatherings/block/StrippedVerawoodWoodBlock.java"
-        ]
-      },
-      "path": "~/Building Blocks/Woods/Verawood"
-    },
-    {
-      "name": "VerawoodWood",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "verawood_wood",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mystic_gatherings/models/block/verawood_wood.json",
-          "src/main/java/net/mcreator/mysticgatherings/block/VerawoodWoodBlock.java",
-          "src/main/resources/data/mystic_gatherings/loot_table/blocks/verawood_wood.json",
-          "src/main/resources/assets/mystic_gatherings/models/item/verawood_wood.json",
-          "src/main/resources/assets/mystic_gatherings/items/verawood_wood.json",
-          "src/main/resources/assets/mystic_gatherings/blockstates/verawood_wood.json"
-        ]
-      },
-      "path": "~/Building Blocks/Woods/Verawood"
-    },
-    {
-      "name": "VerawoodPlanks",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "verawood_planks",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mysticgatherings/block/VerawoodPlanksBlock.java",
-          "src/main/resources/data/mystic_gatherings/loot_table/blocks/verawood_planks.json",
-          "src/main/resources/assets/mystic_gatherings/models/item/verawood_planks.json",
-          "src/main/resources/assets/mystic_gatherings/items/verawood_planks.json",
-          "src/main/resources/assets/mystic_gatherings/models/block/verawood_planks.json",
-          "src/main/resources/assets/mystic_gatherings/blockstates/verawood_planks.json"
-        ]
-      },
-      "path": "~/Building Blocks/Woods/Verawood"
-    },
-    {
-      "name": "VerawoodLeaves",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "verawood_leaves",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mystic_gatherings/models/item/verawood_leaves.json",
-          "src/main/resources/data/mystic_gatherings/loot_table/blocks/verawood_leaves.json",
-          "src/main/java/net/mcreator/mysticgatherings/block/VerawoodLeavesBlock.java",
-          "src/main/resources/assets/mystic_gatherings/blockstates/verawood_leaves.json",
-          "src/main/resources/assets/mystic_gatherings/items/verawood_leaves.json",
-          "src/main/resources/assets/mystic_gatherings/models/block/verawood_leaves.json"
-        ]
-      },
-      "path": "~/Building Blocks/Woods/Verawood"
-    },
-    {
-      "name": "VerawoodSapling",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "verawood_sapling",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mystic_gatherings/loot_table/blocks/verawood_sapling.json",
-          "src/main/resources/assets/mystic_gatherings/items/verawood_sapling.json",
-          "src/main/resources/assets/mystic_gatherings/models/block/verawood_sapling.json",
-          "src/main/resources/assets/mystic_gatherings/models/item/verawood_sapling.json",
-          "src/main/resources/assets/mystic_gatherings/blockstates/verawood_sapling.json",
-          "src/main/java/net/mcreator/mysticgatherings/block/VerawoodSaplingBlock.java"
-        ]
-      },
-      "path": "~/Building Blocks/Woods/Verawood"
-    },
-    {
-      "name": "VerawoodTree",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "verawood_tree",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/verawood_tree_biome_modifier.json",
-          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/verawood_tree.json",
-          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/verawood_tree.json"
-        ]
-      },
-      "path": "~/Building Blocks/Woods/Verawood"
-    },
-    {
-      "name": "VerawoodSaplingGrowth",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "verawood_sapling_growth",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/mysticgatherings/procedures/VerawoodSaplingGrowthProcedure.java"
-        ]
-      },
-      "path": "~/Building Blocks/Woods/Verawood"
-    },
-    {
-      "name": "VerawoodSaplingGrowthBonemeal",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "verawood_sapling_growth_bonemeal",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/mysticgatherings/procedures/VerawoodSaplingGrowthBonemealProcedure.java"
-        ]
-      },
-      "path": "~/Building Blocks/Woods/Verawood"
-    },
-    {
       "name": "LeatherSack",
       "type": "item",
       "compiles": true,
@@ -3860,7 +3653,8 @@
           "src/main/resources/assets/mystic_gatherings/models/block/statue_variants_blockstate_1.json",
           "src/main/resources/assets/mystic_gatherings/models/block/statue_variants_blockstate_0.json"
         ]
-      }
+      },
+      "path": "~/Building Blocks/Decorative"
     },
     {
       "name": "SwitchStatueVariant",
@@ -4151,6 +3945,528 @@
         ]
       },
       "path": "~/Building Blocks/Burnstone"
+    },
+    {
+      "name": "BogwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodLogBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_log.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_log.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_log.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_log.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_log.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_wood.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_wood.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodWoodBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "StrippedBogwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_bogwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/stripped_bogwood_log.json",
+          "src/main/resources/assets/mystic_gatherings/items/stripped_bogwood_log.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/stripped_bogwood_log.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/StrippedBogwoodLogBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/stripped_bogwood_log.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stripped_bogwood_log.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "StrippedBogwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_bogwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/stripped_bogwood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/stripped_bogwood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/items/stripped_bogwood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/stripped_bogwood_wood.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/stripped_bogwood_wood.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/StrippedBogwoodWoodBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_planks.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodPlanksBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_planks.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_planks.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_planks.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_planks.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_leaves.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodLeavesBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_leaves.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_stairs_outer.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_stairs.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_stairs_inner.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_stairs.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodStairsBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_stairs.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_slab_top.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_slab.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_slab_full.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_slab.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_slab.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_slab.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodSlabBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_slab.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_fence.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_fence.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_fence_inventory.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_fence.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodFenceBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_fence_post.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_fence.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_fence.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_fence_gate.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_fence_gate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_fence_gate_open.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_fence_gate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodFenceGateBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_fence_gate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_fence_gate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_door_top_left.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_door.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_door.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_door.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_door.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodDoorBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_door_top_right_open.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_door_top_left_open.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_door_bottom_right_open.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_door_bottom_left_open.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_door_bottom_left.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_door_top_right.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_door_bottom_right.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_trapdoor.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_trapdoor_open.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_trapdoor.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_trapdoor_top.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodTrapdoorBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_trapdoor.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_trapdoor.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_trapdoor.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_pressure_plate.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_pressure_plate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_pressure_plate.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_pressure_plate.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_pressure_plate_down.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_pressure_plate.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodPressurePlateBlock.java"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_button.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_button_inventory.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_button.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_button_pressed.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_button.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_button.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodButtonBlock.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_button.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/bogwood_wood_recipe.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/bogwood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "StrippedBogwoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_bogwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/stripped_bogwood_wood_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/stripped_bogwood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/bogwood_planks_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/bogwood_planks_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/bogwood_stairs_recipe.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/bogwood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/bogwood_slab_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/bogwood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/bogwood_fence_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/bogwood_fence_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/bogwood_fence_gate_recipe.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/bogwood_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/bogwood_door_recipe.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/bogwood_door_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/recipe/bogwood_trapdoor_recipe.json",
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/bogwood_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/bogwood_pressure_plate_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/bogwood_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/advancement/recipes/bogwood_button_recipe.json",
+          "src/main/resources/data/mystic_gatherings/recipe/bogwood_button_recipe.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "FloweringBogwoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowering_bogwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/flowering_bogwood_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/items/flowering_bogwood_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/flowering_bogwood_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/flowering_bogwood_leaves.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/FloweringBogwoodLeavesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/flowering_bogwood_leaves.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/bogwood_tree.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/bogwood_tree.json",
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/bogwood_tree_biome_modifier.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "Bog",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bog",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/worldgen/biome/bog.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/BogwoodSaplingBlock.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogwood_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogwood_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogwood_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogwood_sapling.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogwood_sapling.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "BogwoodBonemealSucess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogwood_bonemeal_sucess",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/BogwoodBonemealSucessProcedure.java"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Bogwood"
     }
   ],
   "variable_elements": [
@@ -4296,6 +4612,19 @@
       "~CUSTOM:OrphIngot"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:BogwoodButton",
+      "~CUSTOM:BogwoodPressurePlate",
+      "~CUSTOM:BogwoodTrapdoor",
+      "~CUSTOM:BogwoodDoor",
+      "~CUSTOM:BogwoodFenceGate",
+      "~CUSTOM:BogwoodFence",
+      "~CUSTOM:BogwoodSlab",
+      "~CUSTOM:BogwoodStairs",
+      "~CUSTOM:BogwoodPlanks",
+      "~CUSTOM:StrippedBogwoodWood",
+      "~CUSTOM:StrippedBogwoodLog",
+      "~CUSTOM:BogwoodWood",
+      "~CUSTOM:BogwoodLog",
       "~CUSTOM:FirButton",
       "~CUSTOM:FirPressurePlate",
       "~CUSTOM:FirTrapdoor",
@@ -4308,21 +4637,17 @@
       "~CUSTOM:StrippedFirWood",
       "~CUSTOM:StrippedFirLog",
       "~CUSTOM:FirWood",
-      "~CUSTOM:FirLog",
-      "~CUSTOM:VerawoodPlanks",
-      "~CUSTOM:VerawoodWood",
-      "~CUSTOM:StrippedVerawoodWood",
-      "~CUSTOM:StrippedVerawoodLog",
-      "~CUSTOM:VerawoodLog"
+      "~CUSTOM:FirLog"
     ],
     "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:VerawoodLeaves"
+      "~CUSTOM:FloweringBogwoodLeaves",
+      "~CUSTOM:BogwoodLeaves"
     ],
     "BLOCKS:minecraft:logs": [
-      "CUSTOM:VerawoodLog",
-      "CUSTOM:StrippedVerawoodLog",
-      "CUSTOM:StrippedVerawoodWood",
-      "CUSTOM:VerawoodWood"
+      "CUSTOM:BogwoodLog",
+      "CUSTOM:BogwoodWood",
+      "CUSTOM:StrippedBogwoodLog",
+      "CUSTOM:StrippedBogwoodWood"
     ],
     "ITEMS:mystic_gatherings:polishing_cloth": [
       "CUSTOM:PolishingCloth"
@@ -4418,6 +4743,7 @@
       "Blocks.NETHER_GOLD_ORE"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:BogwoodSlab",
       "~CUSTOM:PolishedBurnstoneBricksSlab",
       "~CUSTOM:PolishedBurnstoneSlab",
       "~CUSTOM:BurnstoneSlab",
@@ -4431,6 +4757,7 @@
       "~CUSTOM:TravertineSlab"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:BogwoodStairs",
       "~CUSTOM:PolishedBurnstoneBricksStairs",
       "~CUSTOM:PolishedBurnstoneStairs",
       "~CUSTOM:BurnstoneStairs",
@@ -4452,18 +4779,23 @@
       "~CUSTOM:TravertineWall"
     ],
     "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:BogwoodFence",
       "~CUSTOM:FirFence"
     ],
     "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:BogwoodDoor",
       "~CUSTOM:FirDoor"
     ],
     "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:BogwoodTrapdoor",
       "~CUSTOM:FirTrapdoor"
     ],
     "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:BogwoodPressurePlate",
       "~CUSTOM:FirPressurePlate"
     ],
     "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:BogwoodButton",
       "~CUSTOM:FirButton"
     ],
     "BLOCKS:mod:fir_logs": [
@@ -4473,10 +4805,12 @@
       "CUSTOM:StrippedFirWood"
     ],
     "BLOCKS:minecraft:logs_that_burn": [
-      "TAG:mod:fir_logs"
+      "TAG:mod:fir_logs",
+      "TAG:mod:bogwood_logs"
     ],
     "BLOCKS:minecraft:planks": [
-      "CUSTOM:FirPlanks"
+      "CUSTOM:FirPlanks",
+      "CUSTOM:BogwoodPlanks"
     ],
     "ITEMS:mod:fir_logs": [
       "CUSTOM:FirLog",
@@ -4485,10 +4819,12 @@
       "CUSTOM:StrippedFirWood"
     ],
     "ITEMS:minecraft:logs_that_burn": [
-      "TAG:mod:fir_logs"
+      "TAG:mod:fir_logs",
+      "TAG:mod:bogwood_logs"
     ],
     "ITEMS:minecraft:planks": [
-      "CUSTOM:FirPlanks"
+      "CUSTOM:FirPlanks",
+      "CUSTOM:BogwoodPlanks"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:PeatSoil",
@@ -4499,6 +4835,23 @@
     ],
     "BLOCKS:minecraft:climbable": [
       "~CUSTOM:SphagnumMossVine"
+    ],
+    "BLOCKS:mod:bogwood_logs": [
+      "CUSTOM:BogwoodLog",
+      "CUSTOM:BogwoodWood",
+      "CUSTOM:StrippedBogwoodLog",
+      "CUSTOM:StrippedBogwoodWood"
+    ],
+    "ITEMS:mod:bogwood_logs": [
+      "CUSTOM:BogwoodLog",
+      "CUSTOM:BogwoodWood",
+      "CUSTOM:StrippedBogwoodLog",
+      "CUSTOM:StrippedBogwoodWood"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:PeatSoil",
+      "CUSTOM:SphagnumMoss",
+      "CUSTOM:SphagnumMossCoveredPeat"
     ]
   },
   "tab_element_order": {
@@ -4574,13 +4927,6 @@
       "item.mystic_gatherings.orph_armor_helmet": "Orph Helmet",
       "key.mystic_gatherings.switch_to_stored_mystia": "Switch to Stored Mystia",
       "gui.mystic_gatherings.tier_1_ritual_circle_gui.button_empty": "",
-      "item.mystic_gatherings.verawood_log": "Verawood Log",
-      "item.mystic_gatherings.stripped_verawood_log": "Verawood Log",
-      "item.mystic_gatherings.stripped_verawood_wood": "Verawood Log",
-      "item.mystic_gatherings.verawood_wood": "Verawood Log",
-      "item.mystic_gatherings.verawood_planks": "Verawood Planks",
-      "item.mystic_gatherings.verawood_leaves": "Verawood Leaves",
-      "item.mystic_gatherings.verawood_sapling": "Verawood Sapling",
       "item.mystic_gatherings.leather_sack": "Leather Sack",
       "key.mystic_gatherings.switch_mystia_bar_orientation": "Switch Mystia Bar Orientation",
       "item.mystic_gatherings.tier_3_ritual_circle": "Tier 3 Ritual Circle",
@@ -4690,11 +5036,30 @@
       "item.mystic_gatherings.polished_burnstone_bricks_stairs": "Polished Burnstone Bricks Stairs",
       "item.mystic_gatherings.burnstone_slab": "Burnstone Slab",
       "item.mystic_gatherings.polished_burnstone_slab": "Polished Burnstone Slab",
-      "item.mystic_gatherings.polished_burnstone_bricks_slab": "Polished Burnstone Bricks Slab"
+      "item.mystic_gatherings.polished_burnstone_bricks_slab": "Polished Burnstone Bricks Slab",
+      "item.mystic_gatherings.bogwood_log": "Bogwood Log",
+      "item.mystic_gatherings.bogwood_wood": "Bogwood Wood",
+      "item.mystic_gatherings.stripped_bogwood_log": "Stripped Bogwood Log",
+      "item.mystic_gatherings.stripped_bogwood_wood": "Stripped Bogwood Wood",
+      "item.mystic_gatherings.bogwood_planks": "Bogwood Planks",
+      "item.mystic_gatherings.bogwood_leaves": "Bogwood Leaves",
+      "item.mystic_gatherings.bogwood_stairs": "Bogwood Stairs",
+      "item.mystic_gatherings.bogwood_slab": "Bogwood Slab",
+      "item.mystic_gatherings.bogwood_fence": "Bogwood Fence",
+      "item.mystic_gatherings.bogwood_fence_gate": "Bogwood Fence Gate",
+      "item.mystic_gatherings.bogwood_door": "Bogwood Door",
+      "item.mystic_gatherings.bogwood_trapdoor": "Bogwood Trapdoor",
+      "item.mystic_gatherings.bogwood_pressure_plate": "Bogwood Pressure Plate",
+      "item.mystic_gatherings.bogwood_button": "Bogwood Button",
+      "item.mystic_gatherings.flowering_bogwood_leaves": "Bogwood Leaves",
+      "biome.mystic_gatherings.bog": "Bog",
+      "item.mystic_gatherings.bogwood_sapling": "Bogwood Sapling"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/mysticgatherings/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModBiomes.java",
       "src/main/java/net/mcreator/mysticgatherings/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModMenus.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModScreens.java",
@@ -4704,6 +5069,7 @@
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModItems.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModEntityRenderers.java",
       "src/main/java/net/mcreator/mysticgatherings/init/MysticGatheringsModEntities.java",
+      "src/main/resources/mystic_gatherings.mixins.json",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/mysticgatherings/MysticGatheringsMod.java",
       "src/main/java/net/mcreator/mysticgatherings/network/MysticGatheringsModVariables.java",
@@ -4816,11 +5182,11 @@
             "name": "Woods",
             "children": [
               {
-                "name": "Verawood",
+                "name": "Fir",
                 "children": []
               },
               {
-                "name": "Fir",
+                "name": "Bogwood",
                 "children": []
               }
             ]

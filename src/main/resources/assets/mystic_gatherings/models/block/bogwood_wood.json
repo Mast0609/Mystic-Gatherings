@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mystic_gatherings:block/bogwoodlogside",
+    "particle": "mystic_gatherings:block/bogwoodlogside"
+  },
+  "render_type": "solid"
+}

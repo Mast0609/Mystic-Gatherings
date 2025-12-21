@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "mystic_gatherings:block/bogwoodtrapdoor",
+    "particle": "mystic_gatherings:block/bogwoodtrapdoor"
+  },
+  "render_type": "cutout"
+}
