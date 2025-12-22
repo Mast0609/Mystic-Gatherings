@@ -10,16 +10,20 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "plantType": "normal",
+    "plantType": "sapling",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
-    "secondaryTreeChance": 0.1,
+    "secondaryTreeChance": 0.0,
     "trees": [
-      null,
+      {
+        "value": "CUSTOM:BogwoodTree"
+      },
       null
     ],
     "flowerTrees": [
-      null,
+      {
+        "value": "CUSTOM:BogwoodTree"
+      },
       null
     ],
     "megaTrees": [

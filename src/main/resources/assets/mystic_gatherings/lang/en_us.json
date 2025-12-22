@@ -157,5 +157,14 @@
   "item.mystic_gatherings.bogwood_button": "Bogwood Button",
   "item.mystic_gatherings.flowering_bogwood_leaves": "Bogwood Leaves",
   "biome.mystic_gatherings.bog": "Bog",
-  "item.mystic_gatherings.bogwood_sapling": "Bogwood Sapling"
+  "item.mystic_gatherings.bogwood_sapling": "Bogwood Sapling",
+  "item.mystic_gatherings.bogberry": "Bogberry",
+  "item.mystic_gatherings.bogberry_stage_0": "Bogberry Seeds",
+  "item.mystic_gatherings.bogberry_stage_1": "Bogberry",
+  "item.mystic_gatherings.bogberry_stage_2": "Bogberry",
+  "item.mystic_gatherings.bogberry_stage_3": "Bogberry",
+  "item.mystic_gatherings.bogberry_stage_4": "Bogberry",
+  "item.mystic_gatherings.bogberry_stage_5": "Bogberry",
+  "item.mystic_gatherings.bogberry_stage_6": "Bogberry",
+  "item.mystic_gatherings.bogberry_stage_7": "Bogberry"
 }

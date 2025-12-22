@@ -131,6 +131,14 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> BOGWOOD_BUTTON;
 	public static final DeferredBlock<Block> FLOWERING_BOGWOOD_LEAVES;
 	public static final DeferredBlock<Block> BOGWOOD_SAPLING;
+	public static final DeferredBlock<Block> BOGBERRY_STAGE_0;
+	public static final DeferredBlock<Block> BOGBERRY_STAGE_1;
+	public static final DeferredBlock<Block> BOGBERRY_STAGE_2;
+	public static final DeferredBlock<Block> BOGBERRY_STAGE_3;
+	public static final DeferredBlock<Block> BOGBERRY_STAGE_4;
+	public static final DeferredBlock<Block> BOGBERRY_STAGE_5;
+	public static final DeferredBlock<Block> BOGBERRY_STAGE_6;
+	public static final DeferredBlock<Block> BOGBERRY_STAGE_7;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -247,6 +255,14 @@ public class MysticGatheringsModBlocks {
 		BOGWOOD_BUTTON = register("bogwood_button", BogwoodButtonBlock::new);
 		FLOWERING_BOGWOOD_LEAVES = register("flowering_bogwood_leaves", FloweringBogwoodLeavesBlock::new);
 		BOGWOOD_SAPLING = register("bogwood_sapling", BogwoodSaplingBlock::new);
+		BOGBERRY_STAGE_0 = register("bogberry_stage_0", BogberryStage0Block::new);
+		BOGBERRY_STAGE_1 = register("bogberry_stage_1", BogberryStage1Block::new);
+		BOGBERRY_STAGE_2 = register("bogberry_stage_2", BogberryStage2Block::new);
+		BOGBERRY_STAGE_3 = register("bogberry_stage_3", BogberryStage3Block::new);
+		BOGBERRY_STAGE_4 = register("bogberry_stage_4", BogberryStage4Block::new);
+		BOGBERRY_STAGE_5 = register("bogberry_stage_5", BogberryStage5Block::new);
+		BOGBERRY_STAGE_6 = register("bogberry_stage_6", BogberryStage6Block::new);
+		BOGBERRY_STAGE_7 = register("bogberry_stage_7", BogberryStage7Block::new);
 	}
 
 	// Start of user code block custom blocks

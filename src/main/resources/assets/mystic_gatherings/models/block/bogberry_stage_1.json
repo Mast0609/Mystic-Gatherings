@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "mystic_gatherings:block/bogberrystage1",
+    "particle": "mystic_gatherings:block/bogberrystage1"
+  },
+  "render_type": "cutout"
+}

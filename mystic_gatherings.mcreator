@@ -4467,6 +4467,414 @@
         ]
       },
       "path": "~/Building Blocks/Woods/Bogwood"
+    },
+    {
+      "name": "Bogberry",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogberry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/item/BogberryItem.java",
+          "src/main/resources/assets/mystic_gatherings/items/bogberry.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogberry.json"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "BogberryStage0",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogberry_stage_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogberry_stage_0.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogberryStage0Block.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogberry_stage_0.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogberry_stage_0.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogberry_stage_0.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogberry_stage_0.json"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "IsFarmland",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_farmland",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/IsFarmlandProcedure.java"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "BogberryStage1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogberry_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogberry_stage_1.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogberry_stage_1.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogberry_stage_1.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogberry_stage_1.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogberry_stage_1.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogberryStage1Block.java"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "BogberryStage2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogberry_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/items/bogberry_stage_2.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogberry_stage_2.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogberry_stage_2.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogberry_stage_2.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogberryStage2Block.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogberry_stage_2.json"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "BogberryStage3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogberry_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/item/bogberry_stage_3.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogberry_stage_3.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogberry_stage_3.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogberryStage3Block.java",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogberry_stage_3.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogberry_stage_3.json"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "BogberryStage4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogberry_stage_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/BogberryStage4Block.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogberry_stage_4.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogberry_stage_4.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogberry_stage_4.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogberry_stage_4.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogberry_stage_4.json"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "BogberryStage5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogberry_stage_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogberry_stage_5.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogberryStage5Block.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogberry_stage_5.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogberry_stage_5.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogberry_stage_5.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogberry_stage_5.json"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "BogberryStage6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogberry_stage_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogberry_stage_6.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogberry_stage_6.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/bogberry_stage_6.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogberryStage6Block.java",
+          "src/main/resources/assets/mystic_gatherings/items/bogberry_stage_6.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogberry_stage_6.json"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "BogberryStage7",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bogberry_stage_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mystic_gatherings/models/block/bogberry_stage_7.json",
+          "src/main/resources/assets/mystic_gatherings/items/bogberry_stage_7.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/bogberry_stage_7.json",
+          "src/main/java/net/mcreator/mysticgatherings/block/BogberryStage7Block.java",
+          "src/main/resources/assets/mystic_gatherings/blockstates/bogberry_stage_7.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/bogberry_stage_7.json"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "Stage0to1Bogberry",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_0to_1_bogberry",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/Stage0to1BogberryProcedure.java"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "Stage1to2Bogberry",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_1to_2_bogberry",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/Stage1to2BogberryProcedure.java"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "Stage2to3Bogberry",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_2to_3_bogberry",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/Stage2to3BogberryProcedure.java"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "Stage3to4Bogberry",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_3to_4_bogberry",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/Stage3to4BogberryProcedure.java"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "Stage4to5Bogberry",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_4to_5_bogberry",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/Stage4to5BogberryProcedure.java"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "Stage5to6Bogberry",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_5to_6_bogberry",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/Stage5to6BogberryProcedure.java"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "Stage6to7Bogberry",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_6to_7_bogberry",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/procedures/Stage6to7BogberryProcedure.java"
+        ]
+      },
+      "path": "~/Crops/Bogberry"
     }
   ],
   "variable_elements": [
@@ -4852,6 +5260,9 @@
       "CUSTOM:PeatSoil",
       "CUSTOM:SphagnumMoss",
       "CUSTOM:SphagnumMossCoveredPeat"
+    ],
+    "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:BogwoodSapling"
     ]
   },
   "tab_element_order": {
@@ -5053,7 +5464,16 @@
       "item.mystic_gatherings.bogwood_button": "Bogwood Button",
       "item.mystic_gatherings.flowering_bogwood_leaves": "Bogwood Leaves",
       "biome.mystic_gatherings.bog": "Bog",
-      "item.mystic_gatherings.bogwood_sapling": "Bogwood Sapling"
+      "item.mystic_gatherings.bogwood_sapling": "Bogwood Sapling",
+      "item.mystic_gatherings.bogberry": "Bogberry",
+      "item.mystic_gatherings.bogberry_stage_0": "Bogberry Seeds",
+      "item.mystic_gatherings.bogberry_stage_1": "Bogberry",
+      "item.mystic_gatherings.bogberry_stage_2": "Bogberry",
+      "item.mystic_gatherings.bogberry_stage_3": "Bogberry",
+      "item.mystic_gatherings.bogberry_stage_4": "Bogberry",
+      "item.mystic_gatherings.bogberry_stage_5": "Bogberry",
+      "item.mystic_gatherings.bogberry_stage_6": "Bogberry",
+      "item.mystic_gatherings.bogberry_stage_7": "Bogberry"
     }
   },
   "metadata": {
@@ -5213,6 +5633,15 @@
           },
           {
             "name": "Indislate",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Crops",
+        "children": [
+          {
+            "name": "Bogberry",
             "children": []
           }
         ]

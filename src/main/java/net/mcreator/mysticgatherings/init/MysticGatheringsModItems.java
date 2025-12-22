@@ -179,6 +179,15 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> BOGWOOD_BUTTON;
 	public static final DeferredItem<Item> FLOWERING_BOGWOOD_LEAVES;
 	public static final DeferredItem<Item> BOGWOOD_SAPLING;
+	public static final DeferredItem<Item> BOGBERRY;
+	public static final DeferredItem<Item> BOGBERRY_STAGE_0;
+	public static final DeferredItem<Item> BOGBERRY_STAGE_1;
+	public static final DeferredItem<Item> BOGBERRY_STAGE_2;
+	public static final DeferredItem<Item> BOGBERRY_STAGE_3;
+	public static final DeferredItem<Item> BOGBERRY_STAGE_4;
+	public static final DeferredItem<Item> BOGBERRY_STAGE_5;
+	public static final DeferredItem<Item> BOGBERRY_STAGE_6;
+	public static final DeferredItem<Item> BOGBERRY_STAGE_7;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -332,6 +341,15 @@ public class MysticGatheringsModItems {
 		BOGWOOD_BUTTON = block(MysticGatheringsModBlocks.BOGWOOD_BUTTON);
 		FLOWERING_BOGWOOD_LEAVES = block(MysticGatheringsModBlocks.FLOWERING_BOGWOOD_LEAVES);
 		BOGWOOD_SAPLING = block(MysticGatheringsModBlocks.BOGWOOD_SAPLING);
+		BOGBERRY = register("bogberry", BogberryItem::new);
+		BOGBERRY_STAGE_0 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_0);
+		BOGBERRY_STAGE_1 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_1);
+		BOGBERRY_STAGE_2 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_2);
+		BOGBERRY_STAGE_3 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_3);
+		BOGBERRY_STAGE_4 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_4);
+		BOGBERRY_STAGE_5 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_5);
+		BOGBERRY_STAGE_6 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_6);
+		BOGBERRY_STAGE_7 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_7);
 	}
 
 	// Start of user code block custom items
