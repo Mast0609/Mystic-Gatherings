@@ -3,20 +3,20 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "bogwoodsapling",
+    "texture": "firsapling",
     "textureBottom": "",
     "customModelName": "Cross model",
-    "itemTexture": "bogwoodsapling",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "sapling",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
-    "secondaryTreeChance": 0.0,
+    "secondaryTreeChance": 0.1,
     "trees": [
       {
-        "value": "CUSTOM:BogwoodTree"
+        "value": "CUSTOM:FirTree"
       },
       null
     ],
@@ -43,13 +43,16 @@
         "subtract": false
       }
     ],
-    "name": "Bogwood Sapling",
+    "name": "Fir Sapling",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
       {
         "value": "DECORATIONS"
+      },
+      {
+        "value": "CUSTOM:MysticGatherings"
       }
     ],
     "hardness": 0.0,
@@ -64,7 +67,7 @@
     "immuneToFire": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "CHERRY_SAPLING"
+      "value": "PLANT"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +99,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "XZ",
+    "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "strippingResult": {
       "value": ""
@@ -106,15 +109,8 @@
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [
-      {
-        "value": "TAG:minecraft:dirt"
-      }
-    ],
-    "isBonemealable": true,
-    "onBonemealSuccess": {
-      "name": "BogwoodBonemealSucess"
-    },
+    "canBePlacedOn": [],
+    "isBonemealable": false,
     "frequencyOnChunks": 5,
     "generateFeature": false,
     "restrictionBiomes": [],

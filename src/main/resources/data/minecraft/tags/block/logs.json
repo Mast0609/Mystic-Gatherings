@@ -1,9 +1,13 @@
 {
   "replace": false,
   "values": [
+    "mystic_gatherings:fir_wood",
     "mystic_gatherings:bogwood_wood",
+    "mystic_gatherings:fir_log",
     "mystic_gatherings:stripped_bogwood_log",
     "mystic_gatherings:bogwood_log",
+    "mystic_gatherings:stripped_fir_log",
+    "mystic_gatherings:stripped_fir_wood",
     "mystic_gatherings:stripped_bogwood_wood"
   ]
 }

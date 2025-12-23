@@ -139,6 +139,8 @@ public class MysticGatheringsModBlocks {
 	public static final DeferredBlock<Block> BOGBERRY_STAGE_5;
 	public static final DeferredBlock<Block> BOGBERRY_STAGE_6;
 	public static final DeferredBlock<Block> BOGBERRY_STAGE_7;
+	public static final DeferredBlock<Block> FIR_LEAVES;
+	public static final DeferredBlock<Block> FIR_SAPLING;
 	static {
 		STONE_ORPH_ORE = register("stone_orph_ore", StoneOrphOreBlock::new);
 		ORPH_BLOCK = register("orph_block", OrphBlockBlock::new);
@@ -263,6 +265,8 @@ public class MysticGatheringsModBlocks {
 		BOGBERRY_STAGE_5 = register("bogberry_stage_5", BogberryStage5Block::new);
 		BOGBERRY_STAGE_6 = register("bogberry_stage_6", BogberryStage6Block::new);
 		BOGBERRY_STAGE_7 = register("bogberry_stage_7", BogberryStage7Block::new);
+		FIR_LEAVES = register("fir_leaves", FirLeavesBlock::new);
+		FIR_SAPLING = register("fir_sapling", FirSaplingBlock::new);
 	}
 
 	// Start of user code block custom blocks

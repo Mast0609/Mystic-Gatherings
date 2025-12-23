@@ -4875,6 +4875,57 @@
         ]
       },
       "path": "~/Crops/Bogberry"
+    },
+    {
+      "name": "FirLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/FirLeavesBlock.java",
+          "src/main/resources/assets/mystic_gatherings/items/fir_leaves.json",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_leaves.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_leaves.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mystic_gatherings/worldgen/placed_feature/fir_tree.json",
+          "src/main/resources/data/mystic_gatherings/worldgen/configured_feature/fir_tree.json",
+          "src/main/resources/data/mystic_gatherings/neoforge/biome_modifier/fir_tree_biome_modifier.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
+    },
+    {
+      "name": "FirSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fir_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mysticgatherings/block/FirSaplingBlock.java",
+          "src/main/resources/data/mystic_gatherings/loot_table/blocks/fir_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/blockstates/fir_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/models/item/fir_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/models/block/fir_sapling.json",
+          "src/main/resources/assets/mystic_gatherings/items/fir_sapling.json"
+        ]
+      },
+      "path": "~/Building Blocks/Woods/Fir"
     }
   ],
   "variable_elements": [
@@ -5048,6 +5099,7 @@
       "~CUSTOM:FirLog"
     ],
     "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:FirLeaves",
       "~CUSTOM:FloweringBogwoodLeaves",
       "~CUSTOM:BogwoodLeaves"
     ],
@@ -5055,7 +5107,11 @@
       "CUSTOM:BogwoodLog",
       "CUSTOM:BogwoodWood",
       "CUSTOM:StrippedBogwoodLog",
-      "CUSTOM:StrippedBogwoodWood"
+      "CUSTOM:StrippedBogwoodWood",
+      "CUSTOM:FirLog",
+      "CUSTOM:FirWood",
+      "CUSTOM:StrippedFirLog",
+      "CUSTOM:StrippedFirWood"
     ],
     "ITEMS:mystic_gatherings:polishing_cloth": [
       "CUSTOM:PolishingCloth"
@@ -5262,6 +5318,7 @@
       "CUSTOM:SphagnumMossCoveredPeat"
     ],
     "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:FirSapling",
       "~CUSTOM:BogwoodSapling"
     ]
   },
@@ -5473,7 +5530,9 @@
       "item.mystic_gatherings.bogberry_stage_4": "Bogberry",
       "item.mystic_gatherings.bogberry_stage_5": "Bogberry",
       "item.mystic_gatherings.bogberry_stage_6": "Bogberry",
-      "item.mystic_gatherings.bogberry_stage_7": "Bogberry"
+      "item.mystic_gatherings.bogberry_stage_7": "Bogberry",
+      "item.mystic_gatherings.fir_leaves": "Fir Leaves",
+      "item.mystic_gatherings.fir_sapling": "Fir Sapling"
     }
   },
   "metadata": {

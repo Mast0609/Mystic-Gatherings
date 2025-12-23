@@ -8,9 +8,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SaplingBlock;
-import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
@@ -19,11 +17,11 @@ import net.minecraft.core.BlockPos;
 
 import java.util.Optional;
 
-public class BogwoodSaplingBlock extends SaplingBlock {
-	public static final TreeGrower TREE_GROWER = new TreeGrower("bogwood_sapling", Optional.empty(), Optional.of(getFeatureKey("mystic_gatherings:bogwood_tree")), Optional.empty());
+public class FirSaplingBlock extends SaplingBlock {
+	public static final TreeGrower TREE_GROWER = new TreeGrower("fir_sapling", Optional.empty(), Optional.of(getFeatureKey("mystic_gatherings:fir_tree")), Optional.empty());
 
-	public BogwoodSaplingBlock(BlockBehaviour.Properties properties) {
-		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.CHERRY_SAPLING).instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+	public FirSaplingBlock(BlockBehaviour.Properties properties) {
+		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noCollission().pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override
@@ -34,18 +32,6 @@ public class BogwoodSaplingBlock extends SaplingBlock {
 	@Override
 	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 60;
-	}
-
-	@Override
-	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(BlockTags.create(ResourceLocation.parse("minecraft:dirt")));
-	}
-
-	@Override
-	public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
-		BlockPos blockpos = pos.below();
-		BlockState groundState = worldIn.getBlockState(blockpos);
-		return this.mayPlaceOn(groundState, worldIn, blockpos);
 	}
 
 	private static ResourceKey<ConfiguredFeature<?, ?>> getFeatureKey(String feature) {

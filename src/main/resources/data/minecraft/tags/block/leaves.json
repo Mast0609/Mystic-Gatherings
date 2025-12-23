@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "mystic_gatherings:fir_leaves",
     "mystic_gatherings:bogwood_leaves",
     "mystic_gatherings:flowering_bogwood_leaves"
   ]

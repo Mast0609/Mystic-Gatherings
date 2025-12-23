@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "firdoorbottom",
-    "textureTop": "firdoortop",
+    "texture": "firleaves",
+    "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -15,9 +15,9 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "firdoor",
+    "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Door",
+    "blockBase": "Leaves",
     "blockSetType": "OAK",
     "pottedPlant": {
       "value": ""
@@ -26,7 +26,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -40,12 +40,12 @@
       }
     ],
     "customProperties": [],
-    "name": "Fir Door",
+    "name": "Fir Leaves",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 4.5,
-    "resistance": 4.5,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
@@ -54,10 +54,13 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "CUSTOM:MysticGatherings"
+      },
+      {
+        "value": "DECORATIONS"
       }
     ],
-    "destroyTool": "axe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -69,7 +72,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 1,
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
@@ -78,7 +81,7 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "bass",
+    "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": ""
     },
@@ -94,11 +97,11 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "AZALEA_LEAVES"
     },
     "breakSound": {
       "value": ""

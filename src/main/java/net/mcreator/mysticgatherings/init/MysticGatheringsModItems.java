@@ -188,6 +188,8 @@ public class MysticGatheringsModItems {
 	public static final DeferredItem<Item> BOGBERRY_STAGE_5;
 	public static final DeferredItem<Item> BOGBERRY_STAGE_6;
 	public static final DeferredItem<Item> BOGBERRY_STAGE_7;
+	public static final DeferredItem<Item> FIR_LEAVES;
+	public static final DeferredItem<Item> FIR_SAPLING;
 	static {
 		RAW_ORPH = register("raw_orph", RawOrphItem::new);
 		STONE_ORPH_ORE = block(MysticGatheringsModBlocks.STONE_ORPH_ORE);
@@ -350,6 +352,8 @@ public class MysticGatheringsModItems {
 		BOGBERRY_STAGE_5 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_5);
 		BOGBERRY_STAGE_6 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_6);
 		BOGBERRY_STAGE_7 = block(MysticGatheringsModBlocks.BOGBERRY_STAGE_7);
+		FIR_LEAVES = block(MysticGatheringsModBlocks.FIR_LEAVES);
+		FIR_SAPLING = block(MysticGatheringsModBlocks.FIR_SAPLING);
 	}
 
 	// Start of user code block custom items

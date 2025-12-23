@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mystic_gatherings:item/firdooritem"
+    "layer0": "mystic_gatherings:item/firdoor"
   },
   "render_type": "translucent"
 }

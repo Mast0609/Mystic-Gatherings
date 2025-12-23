@@ -147,6 +147,8 @@ public class MysticGatheringsModTabs {
 				tabData.accept(MysticGatheringsModBlocks.POLISHED_BURNSTONE_BRICKS_SLAB.get().asItem());
 				tabData.accept(MysticGatheringsModItems.BOGBERRY.get());
 				tabData.accept(MysticGatheringsModBlocks.BOGBERRY_STAGE_0.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FIR_LEAVES.get().asItem());
+				tabData.accept(MysticGatheringsModBlocks.FIR_SAPLING.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -217,6 +219,8 @@ public class MysticGatheringsModTabs {
 			tabData.accept(MysticGatheringsModBlocks.FLOWERING_BOGWOOD_LEAVES.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.BOGWOOD_SAPLING.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.BOGBERRY_STAGE_0.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_LEAVES.get().asItem());
+			tabData.accept(MysticGatheringsModBlocks.FIR_SAPLING.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(MysticGatheringsModBlocks.ORPH_BLOCK.get().asItem());
 			tabData.accept(MysticGatheringsModBlocks.DREAL_BLOCK.get().asItem());
